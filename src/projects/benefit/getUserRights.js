@@ -1,0 +1,45 @@
+module.exports = (req) => ({
+  code: 200,
+  data: {
+    dataList: [],
+    dataMap: {
+      msg: '',
+      rights: [
+        {
+          currentNum: 1,
+          cycleStatus: 0,
+          detailButton: {
+            orderId: '',
+            style: 1,
+            title: '222',
+            type: 3,
+          },
+          detailImgs: [''],
+          frontExtInfo: {
+            displayTitle: '领1G流量',
+            goodsTips: '',
+            displaySubTitle: '每月可领',
+            flex: '',
+            noticeText: '',
+            tips: '',
+          },
+          gainValue: '',
+          headerImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/4578/top-110340852.png',
+          itemId: 100566,
+          linkUrl: '#',
+          listImg: '',
+          operatorName: '山西联通',
+          ranks: 1,
+          skuId: 4578,
+          skuImg: '',
+          title: '联通-集团花18得12G流量日包',
+          totalCycleNum: 12,
+          tradeId: '202105052002869156',
+          valid: true,
+        },
+      ],
+    },
+  },
+  msg: '成功',
+  success: true,
+});
