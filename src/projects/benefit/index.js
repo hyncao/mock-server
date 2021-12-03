@@ -105,4 +105,12 @@ module.exports = [
     description: '领取权益-查询权益领取状态',
     delay: 0,
   },
+  {
+    name: 'decryptUserInfo',
+    method: 'post',
+    url: `${URI}decryptUserInfo`,
+    response: require('./decryptUserInfo'),
+    description: '获取手机号授权',
+    delay: 0,
+  },
 ];

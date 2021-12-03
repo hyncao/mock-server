@@ -81,4 +81,4 @@ module.exports = (req) => ({
 
 ## mockjs 文档
 
-[Mockjs 语法](http://mockjs.com/examples.html)
+[Mockjs 语法](http://mockjs.com/0.1/)
