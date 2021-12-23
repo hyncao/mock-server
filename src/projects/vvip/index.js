@@ -89,4 +89,12 @@ module.exports = [
     description: '退订',
     delay: 0,
   },
+  {
+    name: 'strangeInterface',
+    method: 'post',
+    url: `${URI}strange.interface`,
+    response: require('./strangeInterface'),
+    description: '退订',
+    delay: 0,
+  }
 ];

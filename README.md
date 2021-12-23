@@ -13,7 +13,11 @@ npm start
 
 ### /index.js
 
-服务启动文件, 可以在这里配置 port, 默认端口 159
+服务启动文件
+
+### /src/config/index
+
+可以在这里配置 port, 默认端口 159
 
 ### /src/projects
 

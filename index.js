@@ -2,12 +2,11 @@ const open = require('open');
 const address = require('address');
 const express = require('express');
 const utils = require('./src/utils');
+const { port } = require('./src/config');
 
 const { delay } = utils;
 
 const app = express();
-
-const port = 159;
 
 app.get('/', (req, res) => {
   res.send('Mock server is listening! Happy Mocking!');
@@ -17,6 +16,9 @@ app.get('/', (req, res) => {
 app.use(express.json());
 // 解析 application/x-www-form-urlencoded
 app.use(express.urlencoded({ extended: true }));
+
+// 创建静态文件夹
+app.use('/static', express.static('public'));
 
 const apiList = require('./src/projects');
 

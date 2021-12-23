@@ -3,7 +3,7 @@ module.exports = (req) => ({
   data: {
     dataList: [],
     dataMap: {
-      phoneNum: '15990158853',
+      phoneNum: '159******53',
     },
   },
   msg: '成功',

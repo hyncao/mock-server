@@ -8,13 +8,18 @@ const UserSigningStatusMap = {
   degrading: 4, // 降级中, 退订了尊享版, 办理了免费版
 };
 
+const MemberTypeMap = {
+  vip: 2,
+  basic: 1,
+}
+
 module.exports = (req) => Mock.mock({
   code: 1000,
   msg: '响应信息:调用成功',
   response: {
-    status: 2,
+    status: UserSigningStatusMap.signed,
     msg: '',
-    memberType: 2,
+    memberType: MemberTypeMap.vip,
     tradeId: '@integer(10000000, 30000000)',
   },
 });
