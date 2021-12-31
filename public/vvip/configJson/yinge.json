@@ -1,0 +1,23 @@
+{
+  "bgMap": {
+    "fan": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/fanBg.png",
+    "mobileShell": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/mobileShellBg.png",
+    "eleme": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/eleme.png",
+    "ximalaya": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/ximalaya.png",
+    "handCream": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/handCream.png"
+  },
+  "urlMap": {
+    "fan": "alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Fsongzhaopian.com%2F%3Fchannel%3Dkdzxltfs",
+    "mobileShell": "alipays://platformapi/startapp?appId=2018103161909533&page=pages%2Fhome%2Findex&query=channel%3Dkdzxltsjk",
+    "eleme": "https://m.tb.cn/h.f8yk2nd",
+    "ximalaya": "https://gkzx.jujienet.com/broadband-web/activity/oilCard?type=cover&cn=oppo&serviceNo=10001176&goodsTrdNo=100076",
+    "handCream": "alipays://platformapi/startapp?appId=2018103161909533&page=pages%2Fhome%2Findex&query=channel%3Dkdzxvvhss"
+  },
+  "typeNameMap": {
+    "fan": "风扇",
+    "mobileShell": "手机壳",
+    "eleme": "饿了么",
+    "ximalaya": "喜马拉雅",
+    "handCream": "护手霜"
+  }
+}

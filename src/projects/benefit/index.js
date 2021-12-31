@@ -15,7 +15,7 @@ module.exports = [
     url: `${URI}getMarketingInfo`,
     response: require('./getMarketingInfo'),
     description: '获取营销配置',
-    delay: 0,
+    delay: 1000,
   },
   {
     name: 'getPackages',

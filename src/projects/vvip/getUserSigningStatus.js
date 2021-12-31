@@ -19,7 +19,7 @@ module.exports = (req) => Mock.mock({
   response: {
     status: UserSigningStatusMap.signed,
     msg: '',
-    memberType: MemberTypeMap.vip,
+    memberType: MemberTypeMap.basic,
     tradeId: '@integer(10000000, 30000000)',
   },
 });

@@ -8,7 +8,7 @@ module.exports = (req) =>
       dataMap: {
         'isNew|1': true,
         token: '@word(20)',
-        phoneNumber: "159******53",
+        // phoneNumber: "159******53",
         userId: /\d{5}/,
         userName: '@word(3, 8)',
       },

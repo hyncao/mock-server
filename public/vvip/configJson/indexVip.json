@@ -1,0 +1,7 @@
+{
+  "submitBtn": {
+    "style": {
+      "animation": "beat 1.2s infinite"
+    }
+  }
+}

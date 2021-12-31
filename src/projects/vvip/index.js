@@ -94,7 +94,23 @@ module.exports = [
     method: 'post',
     url: `${URI}strange.interface`,
     response: require('./strangeInterface'),
-    description: '退订',
+    description: '埋点',
     delay: 0,
-  }
+  },
+  {
+    name: 'getMemberBill',
+    method: 'post',
+    url: `${URI}get.member.bill`,
+    response: require('./getMemberBill'),
+    description: '会员账单',
+    delay: 0,
+  },
+  {
+    name: 'getConfigJSON',
+    method: 'post',
+    url: `${URI}get.page.config`,
+    response: require('./getConfigJSON'),
+    description: '获取前端配置',
+    delay: 0,
+  },
 ];

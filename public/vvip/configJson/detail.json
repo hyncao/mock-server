@@ -1,0 +1,68 @@
+{
+  "backgroundColorVip": "#e2aa6a",
+  "backgroundColorBasic": "#1677ff",
+  "navigationBarTitleVip": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/navigationLogoVip.png",
+  "navigationBarTitleBasic": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/navigationLogoBasic.png",
+  "cardVip": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/detailCardVip.png",
+  "cardBasic": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/detailCardBasic.png",
+  "postmarkImg": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/postmark.png",
+  "vipEquityAd": [
+    {
+      "src": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/vipAdMobileShell.png",
+      "link": "/pages/yinge/index?type=mobileShell"
+    },
+    {
+      "src": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/vipAdHandCream.png",
+      "link": "/pages/yinge/index?type=handCream"
+    }
+  ],
+  "basicEquityAd": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/basicEquityAd.png",
+  "detailBasicBottom": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/detailBasicBottom.png",
+  "defaultUserName": "会员用户",
+  "defaultAvatar": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/default-avatar.png",
+  "groupVip": [
+    {
+      "extraText": "领取后话费自动到账 每月仅限领取一张（二选一）",
+      "itemGroup": [
+        {
+          "display": "flex",
+          "displayCount": 3
+        },
+        {
+          "display": "flex",
+          "displayCount": 2
+        }
+      ]
+    },
+    {
+      "itemGroup": [
+        {
+          "display": "flex",
+          "displayCount": 2
+        }
+      ]
+    }
+  ],
+  "groupBasic": [
+    {
+      "itemGroup": [
+        {
+          "display": "flex",
+          "displayCount": 3
+        },
+        {
+          "display": "flex",
+          "displayCount": 2
+        }
+      ]
+    },
+    {
+      "itemGroup": [
+        {
+          "display": "flex",
+          "displayCount": 2
+        }
+      ]
+    }
+  ]
+}

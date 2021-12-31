@@ -22,7 +22,7 @@ module.exports = (req) => {
       currentCycleNum: 1,
       serverTime: '1636454930531',
       memberJoinTitle: '您的会员自2021/11/10日期 已生效2天',
-      memberType: MemberTypeMap.basic,
+      memberType: MemberTypeMap.vip,
       performanceTimes: 1,
       packageInfo: {
         title: '联通VV会员尊享版',

@@ -29,7 +29,7 @@ module.exports = (req) => {
 
   const getFileByEnv = (key, defaultPath) => {
     if (isDevelopment) {
-      const url = `http://${address.ip()}:${port}/static/${FileNameMap[key]}`;
+      const url = `http://${address.ip()}:${port}/static/vvip/${FileNameMap[key]}`;
       return url;
     }
     return defaultPath;
