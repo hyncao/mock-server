@@ -4,6 +4,21 @@ const MemberTypeMap = {
   basic: 1,
 }
 
+const tradeStatusMap = {
+  processing: 0,
+  success: 1,
+  closing: 2,
+  upgrading: 3,
+  degrading: 4,
+  pending: 5,
+  expired: 6,
+  monthFee: 7,
+  fail: -1,
+  cancelled: -2,
+  exited: -3,
+  notFound: -99,
+};
+
 module.exports = (req) => {
   // 如果是开发模式, 则读取public文件夹下的素材
   const isDevelopment = true;
@@ -12,7 +27,7 @@ module.exports = (req) => {
     code: 1000,
     msg: '响应信息:调用成功',
     response: {
-      status: 1,
+      status: tradeStatusMap.success,
       msg: '连续包月，已开通1天',
       tradeId: '202111090000000171',
       tradeTime: '1636450582000',
@@ -22,7 +37,7 @@ module.exports = (req) => {
       currentCycleNum: 1,
       serverTime: '1636454930531',
       memberJoinTitle: '您的会员自2021/11/10日期 已生效2天',
-      memberType: MemberTypeMap.vip,
+      memberType: MemberTypeMap.basic,
       performanceTimes: 1,
       packageInfo: {
         title: '联通VV会员尊享版',

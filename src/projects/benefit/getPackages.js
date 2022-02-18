@@ -63,11 +63,13 @@ module.exports = (req) => {
                 headerImg: '',
                 mutexGroups: '',
                 packageGroup: '',
-                packageId: 1001214,
+                packageId: 1001241, // 电信集团下单按钮文案
+                // packageId: 1001129, // 协议
+                // packageId: 1001214, // 学军
                 priority: 2,
                 quotaLimit: 0,
                 routeGroup: '',
-                sendSms: false,
+                sendSms: true,
                 showItemList: [
                   {
                     detailImg: '',

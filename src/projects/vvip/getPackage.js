@@ -20,6 +20,7 @@ const FileNameMap = {
   group2Item6Img: 'group2Item6Img.png',
   group2Item7Img: 'group2Item7Img.png',
   group2Item8Img: 'group2Item8Img.png',
+  submitMarketingImg: 'submitMarketingImg.png',
 };
 
 module.exports = (req) => {
@@ -67,8 +68,10 @@ module.exports = (req) => {
               'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/package/100001/100001/navigationBarTitle_181536806.png',
             submitBtnImg:
               'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/package/100001/100001/submitBtnImg_150219006.png',
-            submitMarketingImg:
-              'https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/goods/%E6%AC%A1%E6%9C%88%E8%B5%B71.99%E5%85%83%E6%9C%88.png',
+            submitMarketingImg: getFileByEnv(
+              'submitMarketingImg',
+              'https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/goods/%E6%AC%A1%E6%9C%88%E8%B5%B71.99%E5%85%83%E6%9C%88.png'
+            ),
           },
           groupTagList: [
             {

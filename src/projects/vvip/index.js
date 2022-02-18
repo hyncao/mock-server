@@ -113,4 +113,28 @@ module.exports = [
     description: '获取前端配置',
     delay: 0,
   },
+  {
+    name: 'getAdvertisement',
+    method: 'post',
+    url: `${URI}get.advertisement`,
+    response: require('./getAdvertisement'),
+    description: '获取广告位',
+    delay: 0,
+  },
+  {
+    name: 'getMessageTemplate',
+    method: 'post',
+    url: `${URI}get.message.template`,
+    response: require('./getMessageTemplate'),
+    description: '获取订阅消息模板',
+    delay: 0,
+  },
+  {
+    name: 'subscribeMessage',
+    method: 'post',
+    url: `${URI}subscribe.message`,
+    response: require('./subscribeMessage'),
+    description: '订阅消息',
+    delay: 0,
+  },
 ];

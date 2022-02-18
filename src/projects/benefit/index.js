@@ -113,4 +113,28 @@ module.exports = [
     description: '获取手机号授权',
     delay: 0,
   },
+  {
+    name: 'getCategoryPackages',
+    method: 'post',
+    url: `${URI}getCategoryPackages`,
+    response: require('./getCategoryPackages'),
+    description: '主推/更多产品鉴权接口',
+    delay: 0,
+  },
+  {
+    name: 'getCategoryMarketingInfo',
+    method: 'post',
+    url: `${URI}getCategoryMarketingInfo`,
+    response: require('./getCategoryMarketingInfo'),
+    description: '主推/更多产品营销配置接口',
+    delay: 0,
+  },
+  {
+    name: 'strangeInterface',
+    method: 'post',
+    url: `${URI}strangeInterface`,
+    response: require('./strangeInterface'),
+    description: '埋点接口',
+    delay: 0,
+  },
 ];
