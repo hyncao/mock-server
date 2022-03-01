@@ -9,9 +9,13 @@ module.exports = (req) => ({
     msg: '成功',
     messageTemplateMap: {
       tradeReminder: {
+        status: 1,
+        msg: '成功',
         platformMessageTemplateId: Random.string('lower', 10),
       },
       activityStartReminder: {
+        status: 2,
+        msg: '已订阅',
         platformMessageTemplateId: Random.string('lower', 10),
       },
     },

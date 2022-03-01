@@ -3,15 +3,6 @@ module.exports = (req) => {
     code: 200,
     data: {
       dataList: [],
-      dataMap: {},
-    },
-    msg: '成功',
-  };
-
-  return {
-    code: 200,
-    data: {
-      dataList: [],
       dataMap: {
         headImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/enterPackage/100378/1001149/head_img.png',
         holderImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/enterPackage/100378/1001149/holder_img.png',

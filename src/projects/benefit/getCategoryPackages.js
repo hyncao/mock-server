@@ -344,7 +344,7 @@ module.exports = (req) => {
           priority: 1,
           quotaLimit: 1,
           routeGroup: '',
-          sendSms: true,
+          sendSms: false,
           showItemList: [
             {
               detailImg: '',
