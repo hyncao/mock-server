@@ -10,8 +10,8 @@ const FileNameMap = {
 
 module.exports = (req) => {
   // 如果是开发模式, 则读取public文件夹下的素材
-  const isDevelopment = true;
-  // const isDevelopment = false;
+  // const isDevelopment = true;
+  const isDevelopment = false;
 
   const getFileByEnv = (key, defaultPath) => {
     if (isDevelopment) {
@@ -63,13 +63,19 @@ module.exports = (req) => {
                 headerImg: '',
                 mutexGroups: '',
                 packageGroup: '',
-                packageId: 1001241, // 电信集团下单按钮文案
-                // packageId: 1001129, // 协议
+                // packageId: 1001475, // iframe
+                // packageId: 1001241, // 电信集团下单按钮文案
+                // packageId: 1001129, // 电信集团优酷
+                // packageId: 1001470, // 山东电信
+                // packageId: 1001166, // 电信集团喜马拉雅
                 // packageId: 1001214, // 学军
+                // packageId: 1001471, // 广西电信
+                packageId: 1000967, // 电信集团增加协议
                 priority: 2,
                 quotaLimit: 0,
                 routeGroup: '',
-                sendSms: false,
+                sendSms: true,
+                smsLength: 4,
                 showItemList: [
                   {
                     detailImg: '',
@@ -94,11 +100,14 @@ module.exports = (req) => {
                         frontExtInfo: {
                           tips: '',
                         },
-                        headerImg: getFileByEnv('headImg', 'http://placehold.it/750x640/'),
+                        headerImg: getFileByEnv(
+                          'headImg',
+                          'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/5708/5356/top.png'
+                        ),
                         itemId: 100689,
                         listImg: getFileByEnv(
                           'listImg',
-                          'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5531/3559/icon.png'
+                          'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/5708/5356/icon.png'
                         ),
                         pocTitle: '5折抢10G',
                         pocTitleTwo: '5折抢10G',

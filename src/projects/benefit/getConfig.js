@@ -16,22 +16,14 @@ module.exports = (req) => ({
         // timestamp: '1638844469955',
         // version: '1.0.0',
 
-        getTokenUrl: 'http://demo.mall.10010.com:8104/jf-auth/cap/auth',
-        // 不可用的
-        // appId: 'HNYueChgame',
-        // params:
-        //   'EF803F0DB64722CFFE81A60C6B51C9B1F662E0D27D5FE4DF70D0299F6E3AA5ACCAFE7A2050959423AE1AA933499201CA4EC2A026003F33C3D2A266748ECFA565',
-        // serviceCode: 'CAP2021V001',
-        // sign: 'X8XAlicCf8sVmoGfkuhqeKdTlNM=',
-        // time: '20220301101059',
+        getTokenUrl: 'https://m.jf.10010.com/jf-auth/cap/auth',
 
-        // 可用的
-        appId: 'HNYueChgame',
+        appId: 'SHJJ00',
         params:
-          'F0BF483D56F40073DAFBEA8948402481062C71F3FF6C6DE7D5873855AA416016B294D5DD8F4D0A112C74A7E1B6E1D7898FD43ED2AF8527D2594D716294B09918',
+          '6D3BB92ECEDFD6916ACE44197C928034F195CCF821112EABDE48443F151ACB4AD63E71C82A79633B6744367F57EF51A30023773F3BFF535BD80DD0B8534BBF18',
         serviceCode: 'CAP2021V001',
-        time: '20220112110935',
-        sign: 'oDgl9HjGKF8qMZfLh8HkAX06/uk=',
+        sign: 'nEqMtXIE+CTKCcDtr6/Z9cxjyaw=',
+        time: '20220303152420',
       },
     },
   },

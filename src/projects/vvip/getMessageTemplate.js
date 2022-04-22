@@ -18,6 +18,11 @@ module.exports = (req) => ({
         msg: '已订阅',
         platformMessageTemplateId: Random.string('lower', 10),
       },
+      rightsReceiveReminder: {
+        status: 1,
+        msg: '成功',
+        platformMessageTemplateId: Random.string('lower', 10),
+      },
     },
   },
 });

@@ -1,8 +1,7 @@
-
 const MemberTypeMap = {
   vip: 2,
   basic: 1,
-}
+};
 
 const tradeStatusMap = {
   processing: 0,
@@ -13,6 +12,8 @@ const tradeStatusMap = {
   pending: 5,
   expired: 6,
   monthFee: 7,
+  renewal: 9,
+  timeout: 10,
   fail: -1,
   cancelled: -2,
   exited: -3,
@@ -30,11 +31,13 @@ module.exports = (req) => {
       status: tradeStatusMap.success,
       msg: '连续包月，已开通1天',
       tradeId: '202111090000000171',
+      renewalTradeId: '222222222222222222',
       tradeTime: '1636450582000',
       totalCycleNum: 6,
       rental: 0,
       damages: 1.99,
-      currentCycleNum: 1,
+      currentCycleNum: 3,
+      effectiveTotalCycleNum: 4,
       serverTime: '1636454930531',
       memberJoinTitle: '您的会员自2021/11/10日期 已生效2天',
       memberType: MemberTypeMap.basic,
@@ -131,6 +134,7 @@ module.exports = (req) => {
             },
             itemGroupList: [
               {
+                authStatisticType: 1,
                 groupId: 100002,
                 groupName: '5G流量日包',
                 privilegeType: null,
@@ -161,7 +165,7 @@ module.exports = (req) => {
                         itemId: 100002,
                         title: '联通3GB流量日包',
                         ranks: 1,
-                        linkUrl: null,
+                        linkUrl: 'http://www.bing.com',
                         params: {
                           flowBalance: 3,
                           skuImg:
@@ -256,6 +260,7 @@ module.exports = (req) => {
                 },
               },
               {
+                authStatisticType: 1,
                 groupId: 100003,
                 groupName: '充值98折',
                 privilegeType: null,
