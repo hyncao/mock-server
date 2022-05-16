@@ -20,6 +20,8 @@ const tradeStatusMap = {
   notFound: -99,
 };
 
+const renewalTradeId = '222222222';
+
 module.exports = (req) => {
   // 如果是开发模式, 则读取public文件夹下的素材
   const isDevelopment = true;
@@ -28,10 +30,10 @@ module.exports = (req) => {
     code: 1000,
     msg: '响应信息:调用成功',
     response: {
-      status: tradeStatusMap.success,
+      status: req.body.tradeId === renewalTradeId ? tradeStatusMap.success : tradeStatusMap.success,
       msg: '连续包月，已开通1天',
       tradeId: '202111090000000171',
-      renewalTradeId: '222222222222222222',
+      renewalTradeId,
       tradeTime: '1636450582000',
       totalCycleNum: 6,
       rental: 0,

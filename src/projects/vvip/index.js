@@ -177,4 +177,12 @@ module.exports = [
     description: '获取会员任务详情',
     delay: 0,
   },
+  {
+    name: 'getMemberWeekInfo',
+    method: 'post',
+    url: `${URI}get.member.week.info`,
+    response: require('./getMemberWeekInfo'),
+    description: '获取会员周详情',
+    delay: 1000,
+  },
 ];

@@ -645,11 +645,12 @@ module.exports = (req) => {
           headerImg: '',
           mutexGroups: '',
           packageGroup: '',
-          packageId: 1001111, // 正经的商品
+          // packageId: 1001111, // 正经的商品
           // packageId: 1001129, // 电信集团优酷
           // packageId: 1001166, // 电信集团喜马拉雅
           // packageId: 1001129, // 协议
           // packageId: 1001214, // 学军
+          packageId: 1000712, // 河南电信
           priority: 1,
           quotaLimit: 1,
           routeGroup: '',

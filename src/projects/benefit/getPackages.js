@@ -70,7 +70,8 @@ module.exports = (req) => {
                 // packageId: 1001166, // 电信集团喜马拉雅
                 // packageId: 1001214, // 学军
                 // packageId: 1001471, // 广西电信
-                packageId: 1000967, // 电信集团增加协议
+                // packageId: 1000967, // 电信集团增加协议
+                packageId: 1000712, // 河南电信
                 priority: 2,
                 quotaLimit: 0,
                 routeGroup: '',

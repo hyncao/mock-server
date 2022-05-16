@@ -42,11 +42,6 @@
     ],
     [
       {
-        "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconBasic2.png",
-        "text": "会员退订",
-        "url": "exit"
-      },
-      {
         "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconBasic3.png",
         "text": "在线客服",
         "url": "cschat"
