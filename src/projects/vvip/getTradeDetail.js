@@ -30,7 +30,8 @@ module.exports = (req) => {
     code: 1000,
     msg: '响应信息:调用成功',
     response: {
-      status: req.body.tradeId === renewalTradeId ? tradeStatusMap.success : tradeStatusMap.success,
+      status: req.body.tradeId === renewalTradeId ? tradeStatusMap.success : tradeStatusMap.renewal,
+      status: tradeStatusMap.success,
       msg: '连续包月，已开通1天',
       tradeId: '202111090000000171',
       renewalTradeId,
@@ -42,7 +43,7 @@ module.exports = (req) => {
       effectiveTotalCycleNum: 4,
       serverTime: '1636454930531',
       memberJoinTitle: '您的会员自2021/11/10日期 已生效2天',
-      memberType: MemberTypeMap.basic,
+      memberType: MemberTypeMap.vip,
       performanceTimes: 1,
       packageInfo: {
         title: '联通VV会员尊享版',

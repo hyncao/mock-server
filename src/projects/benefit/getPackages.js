@@ -71,11 +71,12 @@ module.exports = (req) => {
                 // packageId: 1001214, // 学军
                 // packageId: 1001471, // 广西电信
                 // packageId: 1000967, // 电信集团增加协议
-                packageId: 1000712, // 河南电信
+                // packageId: 1001183, // 河南电信
+                packageId: 1001589, // 湖北电信
                 priority: 2,
                 quotaLimit: 0,
                 routeGroup: '',
-                sendSms: true,
+                sendSms: false,
                 smsLength: 4,
                 showItemList: [
                   {
@@ -90,6 +91,7 @@ module.exports = (req) => {
                     packagerId: 0,
                     skus: [
                       {
+                        agreementName: '',
                         cnId: 10005,
                         detailImgs: [
                           getFileByEnv(
@@ -122,6 +124,7 @@ module.exports = (req) => {
                         taobaoProductId: '',
                         taobaoProducts: [],
                         title: '电信-集团10G流量包29元/月升5G，升白金会员（畅享）',
+                        tip: '您即将办理 30元10G流量合约包，如需继续办理请仔细阅读以下信息，请点击确认\r\n1. 30元/月  10GB流量合约包\r\n2. 协议期：12个月 。\r\n3. 主副卡分享：仅限订购号码使用，套餐不共享。\r\n4. 退订： 合约期内不可退订，第12个月可以退订。若提前退订，需要到本地自有营业厅办理，并按已享受的权益价值缴纳违约金，即30元*已订购月份。',
                       },
                     ],
                     title: '电信-集团4升5（融升套入口）',

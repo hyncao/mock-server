@@ -12,7 +12,7 @@ const FileNameMap = {
   // group2 头图
   group2HeadImg: 'group2HeadImg.png',
   // group2 产品图
-  group2Item1Img: 'group2Item1Img.png',
+  group2Item1Img: 'empty.png',
   group2Item2Img: 'group2Item2Img.png',
   group2Item3Img: 'group2Item3Img.png',
   group2Item4Img: 'group2Item4Img.png',

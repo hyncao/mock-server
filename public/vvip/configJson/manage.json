@@ -24,7 +24,7 @@
     {
       "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconVip2.png",
       "text": "在线客服",
-      "url": "cschat"
+      "url": "https://cschat.antcloud.com.cn/index.htm?tntInstId=Bdg_Yapf&scene=SCE01218964"
     }
   ],
   "manageListBasic": [
@@ -44,7 +44,7 @@
       {
         "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconBasic3.png",
         "text": "在线客服",
-        "url": "cschat"
+        "url": "https://cschat.antcloud.com.cn/index.htm?tntInstId=Bdg_Yapf&scene=SCE01218963"
       }
     ]
   ]
