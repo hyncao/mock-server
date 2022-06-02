@@ -76,7 +76,7 @@ module.exports = (req) => {
                 priority: 2,
                 quotaLimit: 0,
                 routeGroup: '',
-                sendSms: false,
+                sendSms: true,
                 smsLength: 4,
                 showItemList: [
                   {
