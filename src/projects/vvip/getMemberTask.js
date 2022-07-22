@@ -123,5 +123,6 @@ module.exports = (req) =>
       userStarNum: 4,
       alreadyRenewalTimes: 0,
       allowRenewalTimes: 1,
+      renewalNeedStarNum: 5,
     },
   });

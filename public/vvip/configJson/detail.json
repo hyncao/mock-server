@@ -1,8 +1,9 @@
 {
   "backgroundColorVip": "#e2aa6a",
-  "backgroundColorBasic": "#1677ff",
+  "backgroundColorBasic": "#ebf0f8",
   "navigationBarTitleVip": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/navigationLogoVip.png",
   "navigationBarTitleBasic": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/navigationLogoBasic.png",
+  "navigationBarTitleBasic2": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/navigationLogoBasic2.png",
   "cardVip": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/detailCardVip.png",
   "cardBasic": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/detailCardBasic.png",
   "postmarkImg": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/postmark.png",
@@ -12,8 +13,8 @@
       "link": "/pages/yinge/index?type=mobileShell"
     },
     {
-      "src": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/vipAdMangguo.png",
-      "link": "/pages/yinge/index?type=mangguo"
+      "src": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/vipAdTengxun.png",
+      "link": "/pages/yinge/index?type=tengxun"
     }
   ],
   "basicEquityAd": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/basicEquityAd.png",
@@ -21,8 +22,73 @@
   "defaultUserName": "会员用户",
   "defaultAvatar": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/default-avatar.png",
   "messageAuthDateList": [1, 4, 25, 28],
+  "messageList": {
+    "comments": "===== 注释: 付费和免费分别有自己的数组, 数组的顺序即为展示优先级, 按序遍历, 顺序极其重要 =====",
+    "vip": [
+      {
+        "title": "会员周抽话费",
+        "subTitle": "最高抽666元话费！百分百中奖！",
+        "btn": "去抽奖"
+      },
+      {
+        "title": "月费未支付",
+        "subTitle": "当前您的权益已无法领用，支付会员费继续享权益",
+        "btn": "去支付"
+      },
+      {
+        "title": "会员卡待领取",
+        "subTitle": "加入卡包 快速领取流量话费",
+        "btn": "去领取"
+      },
+      {
+        "title": "关注生活号",
+        "subTitle": "关注生活号，第一时间接收动态资讯",
+        "btn": "去关注"
+      }
+    ],
+    "basic": [
+      {
+        "title": "会员周抽话费",
+        "subTitle": "最高抽666元话费！百分百中奖！",
+        "btn": "去抽奖"
+      },
+      {
+        "title": "0元体验5GB",
+        "subTitle": "2GB流量{n}月后失效，您可0元升级5GB",
+        "btn": "去升级"
+      },
+      {
+        "title": "0元体验5GB",
+        "subTitle": "2GB流量权益已到期失效，您可免费升级5GB",
+        "btn": "去升级"
+      },
+      {
+        "title": "做任务再领2GB",
+        "subTitle": "2GB流量权益已到期失效，您可通过任务再领3GB",
+        "btn": "去延期"
+      },
+      {
+        "title": "下月再领2GB",
+        "subTitle": "您的权益权益将于本月底失效，您可免费延期",
+        "btn": "去延期"
+      },
+      {
+        "title": "会员卡待领取",
+        "subTitle": "加入卡包 快速领取流量话费",
+        "btn": "去领取"
+      },
+      {
+        "title": "关注生活号",
+        "subTitle": "关注生活号，第一时间接收动态资讯",
+        "btn": "去关注"
+      }
+    ]
+  },
   "groupVip": [
     {
+      "comments": "===== 注释: title 为新增字段, 是为该权益组的标题, title 以下字段暂时无用, 考虑到小程序版本更新延迟, 以后再移除 =====",
+      "title": "通信权益",
+
       "extraText": "领取后话费自动到账 每月仅限领取一张（二选一）",
       "itemGroup": [
         {
@@ -36,6 +102,9 @@
       ]
     },
     {
+      "comments": "===== 注释: title 为新增字段, 是为该权益组的标题, title 以下字段暂时无用, 考虑到小程序版本更新延迟, 以后再移除 =====",
+      "title": "生活权益",
+
       "itemGroup": [
         {
           "display": "flex",

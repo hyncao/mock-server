@@ -7,7 +7,8 @@
     "handCream": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/handCream.png",
     "youku8": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/youku8.png",
     "youku6": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/youku6.png",
-    "mangguo": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/middle-mangguo.png"
+    "mangguo": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/middle-mangguo.png",
+    "tengxun": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/tengxunDetail.png"
   },
   "urlMap": {
     "fan": "alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Fsongzhaopian.com%2F%3Fchannel%3Dkdzxltfs",
@@ -17,7 +18,8 @@
     "handCream": "alipays://platformapi/startapp?appId=2018103161909533&page=pages%2Fhome%2Findex&query=channel%3Dkdzxvvhss",
     "youku8": "alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Fgkzx.jujienet.com%2Fbroadband-web%2Factivity%2FoilCard%3Ftype%3Dcover%26cn%3Doppo%26serviceNo%3D10001176%26goodsTrdNo%3D100098",
     "youku6": "https://gkzx.jujienet.com/broadband-web/activity/oilCard?type=cover&cn=oppo&serviceNo=10001176&goodsTrdNo=100099",
-    "mangguo": "https://gkzx.jujienet.com/broadband-web/activity/oilCard?type=cover&cn=oppo&serviceNo=10001176&goodsTrdNo=100025&sourceOrigin=VV"
+    "mangguo": "https://gkzx.jujienet.com/broadband-web/activity/oilCard?type=cover&cn=oppo&serviceNo=10001176&goodsTrdNo=100025&sourceOrigin=VV",
+    "tengxun": "https://gkzx.jujienet.com/broadband-web/activity/oilCard?type=cover&cn=oppo&serviceNo=10001176&goodsTrdNo=100029&sourceOrigin=VV"
   },
   "typeNameMap": {
     "fan": "风扇",
@@ -27,6 +29,7 @@
     "handCream": "护手霜",
     "youku8": "优酷8折",
     "youku6": "优酷6折",
-    "mangguo": "芒果TV"
+    "mangguo": "芒果TV",
+    "tengxun": "腾讯视频"
   }
 }

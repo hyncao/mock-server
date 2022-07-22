@@ -1,4 +1,5 @@
 {
+  "comments": "manageListVip 和 manageListBasic 字段是为了兼容老版本的, 找个时间可以干掉",
   "backgroundColorVip": "#e2aa6a",
   "backgroundColorBasic": "#1677ff",
   "defaultUserName": "会员用户",
@@ -47,5 +48,46 @@
         "url": "https://cschat.antcloud.com.cn/index.htm?tntInstId=Bdg_Yapf&scene=SCE01218963"
       }
     ]
-  ]
+  ],
+  "manageListVip2": [
+    {
+      "id": "service",
+      "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconService.png",
+      "text": "在线客服",
+      "url": "https://cschat.antcloud.com.cn/index.htm?tntInstId=Bdg_Yapf&scene=SCE01218964"
+    },
+    {
+      "id": "billList",
+      "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconBillList.png",
+      "text": "会员账单",
+      "url": ""
+    },
+    {
+      "id": "memberRule",
+      "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconMemberRule.png",
+      "text": "会员规则",
+      "url": ""
+    }
+  ],
+  "manageListBasic2": [
+    {
+      "id": "upgrade",
+      "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconUpgrade.png",
+      "text": "会员升级",
+      "url": ""
+    },
+    {
+      "id": "service",
+      "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconService.png",
+      "text": "在线客服",
+      "url": "https://cschat.antcloud.com.cn/index.htm?tntInstId=Bdg_Yapf&scene=SCE01218963"
+    },
+    {
+      "id": "memberRule",
+      "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconMemberRule.png",
+      "text": "会员规则",
+      "url": ""
+    }
+  ],
+  "lifeSlogan": "关注VV生活号轻松省钱惠生活"
 }

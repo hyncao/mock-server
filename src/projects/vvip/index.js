@@ -31,7 +31,7 @@ module.exports = [
     url: `${URI}get.trade.detail`,
     response: require('./getTradeDetail'),
     description: '查询订单详情',
-    delay: 0,
+    delay: 1000,
   },
   {
     name: 'createTrade',
@@ -184,5 +184,21 @@ module.exports = [
     response: require('./getMemberWeekInfo'),
     description: '获取会员周详情',
     delay: 1000,
+  },
+  {
+    name: 'getBenefitData',
+    method: 'post',
+    url: `${URI}get.benefit.data`,
+    response: require('./getBenefitData'),
+    description: '获取话费宝鉴权',
+    delay: 0,
+  },
+  {
+    name: 'openPublicFollow',
+    method: 'post',
+    url: `${URI}open.public.follow`,
+    response: require('./openPublicFollow'),
+    description: '获取生活号关注情况',
+    delay: 0,
   },
 ];

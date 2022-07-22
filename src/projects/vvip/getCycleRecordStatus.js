@@ -10,7 +10,7 @@ module.exports = (req) => ({
   msg: '响应信息:调用成功',
   response: {
     status: statusMap.success,
-    msg: '错误哦',
+    msg: '这里是可配置文案',
     prizeAmount: 0.6,
   },
 });

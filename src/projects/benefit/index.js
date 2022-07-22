@@ -137,4 +137,12 @@ module.exports = [
     description: '埋点接口',
     delay: 0,
   },
+  {
+    name: 'getAgreement',
+    method: 'post',
+    url: `${URI}getAgreement`,
+    response: require('./getAgreement'),
+    description: '获取协议接口',
+    delay: 0,
+  },
 ];
