@@ -2,6 +2,7 @@
   "backgroundColorVip": "#e2aa6a",
   "backgroundColorBasic": "#ebf0f8",
   "navigationBarTitleVip": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/navigationLogoVip.png",
+  "navigationBarTitleVip2": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/navigationLogoVip2.png",
   "navigationBarTitleBasic": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/navigationLogoBasic.png",
   "navigationBarTitleBasic2": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/navigationLogoBasic2.png",
   "cardVip": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/detailCardVip.png",
@@ -32,7 +33,7 @@
       },
       {
         "title": "月费未支付",
-        "subTitle": "当前您的权益已无法领用，支付会员费继续享权益",
+        "subTitle": "权益已失效，支付会员费继续享权益",
         "btn": "去支付"
       },
       {
@@ -54,22 +55,22 @@
       },
       {
         "title": "0元体验5GB",
-        "subTitle": "2GB流量{n}月后失效，您可0元升级5GB",
+        "subTitle": "2GB流量{n}个月后失效，0元升级5GB",
         "btn": "去升级"
       },
       {
         "title": "0元体验5GB",
-        "subTitle": "2GB流量权益已到期失效，您可免费升级5GB",
+        "subTitle": "2GB流量权益已到期失效，0元升级5GB",
         "btn": "去升级"
       },
       {
         "title": "做任务再领2GB",
-        "subTitle": "2GB流量权益已到期失效，您可通过任务再领3GB",
+        "subTitle": "2GB流量权益已到期失效，做任务再领2GB",
         "btn": "去延期"
       },
       {
         "title": "下月再领2GB",
-        "subTitle": "您的权益权益将于本月底失效，您可免费延期",
+        "subTitle": "权益将于本月底失效，做任务再领2GB",
         "btn": "去延期"
       },
       {

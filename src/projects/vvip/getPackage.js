@@ -50,6 +50,20 @@ module.exports = (req) => {
           packageId: 100001,
           operatorCode: 1,
           templateId: 100004,
+          templateList: [
+            {
+              templateId: 100006,
+              firstMouthDiscountType: 1, // 无折扣
+            },
+            // {
+            //   templateId: 100002,
+            //   firstMouthDiscountType: 2, // 指定折扣
+            // },
+            {
+              templateId: 100004,
+              firstMouthDiscountType: 3, // 免费
+            },
+          ],
           ranks: 1,
           params: {
             agreementName: '会员使用须知',

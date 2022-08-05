@@ -8,8 +8,9 @@ module.exports = (req) => {
     response: {
       status: null,
       msg: '',
-      token: '231c5dd28437cd1a8ba7cad29fb0911f1000000009',
       isNew: false,
+      token: '231c5dd28437cd1a8ba7cad29fb0911f1000000009',
+      tokenValidityTime: moment().add(1, 'days').format('x'),
     },
   };
 };
