@@ -43,7 +43,7 @@ const responseVip = {
   code: 1000,
   msg: '响应信息:调用成功',
   response: {
-    status: 7,
+    status: tradeStatusMap.success,
     msg: '本月会员月费未支付',
     tradeId: '202205190000000297',
     renewalTradeId: null,
