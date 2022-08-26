@@ -78,7 +78,7 @@ module.exports = (req) => {
                 priority: 2,
                 quotaLimit: 0,
                 routeGroup: '',
-                sendSms: false,
+                sendSms: true,
                 smsLength: 4,
                 showItemList: [
                   {
@@ -93,7 +93,7 @@ module.exports = (req) => {
                     packagerId: 0,
                     skus: [
                       {
-                        agreementName: '',
+                        agreementName: '123',
                         cnId: 10005,
                         detailImgs: [
                           getFileByEnv(

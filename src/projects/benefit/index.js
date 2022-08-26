@@ -145,4 +145,12 @@ module.exports = [
     description: '获取协议接口',
     delay: 0,
   },
+  {
+    name: 'getAdList',
+    method: 'post',
+    url: `${URI}getAdList`,
+    response: require('./getAdList'),
+    description: '获取广告接口',
+    delay: 0,
+  },
 ];
