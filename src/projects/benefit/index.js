@@ -153,4 +153,12 @@ module.exports = [
     description: '获取广告接口',
     delay: 0,
   },
+  {
+    name: 'getUserTradeIds',
+    method: 'post',
+    url: `${URI}getUserTradeIds`,
+    response: require('./getUserTradeIds'),
+    description: '根据packageId查单子',
+    delay: 0,
+  },
 ];

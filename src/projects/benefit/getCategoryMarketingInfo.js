@@ -1,5 +1,23 @@
 const moment = require('moment');
 
+const extInfo = {
+  cornerIcon: '推荐',
+
+  feeRechargePrice: 50,
+  feeName: '充50送20',
+  feePrice: '售价 50元',
+
+  // flowNum: '2GB',
+  // flowName: '7天流量包',
+  // flowPrice: '售价 50元',
+
+  // equityTitle: 'VV移动会员',
+  // equityIcon: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconBasic1.png',
+  // equityPrice: '20.88',
+  // equityDel: '30',
+  // equityTips: '我的字数比较多',
+};
+
 module.exports = (req) => {
   // return {
   //   code: 200,
@@ -16,13 +34,14 @@ module.exports = (req) => {
       dataMap: {
         tabPackageList: [
           {
-            id: 6,
+            id: 18,
             sort: 1,
-            tabName: '充值送',
+            tabName: '话费充值',
             categoryPackageList: [
               {
-                categoryName: '限时特惠',
+                categoryName: '爆款流量',
                 id: 1,
+                backgroundColor: 1,
                 packageInfoList: [],
                 skuItemList: [
                   {
@@ -32,7 +51,7 @@ module.exports = (req) => {
                       'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5769/3789/rule.png',
                     ],
                     failurePrompt: '请仔细核对下单号码',
-                    frontExtInfo: { tips: '' },
+                    frontExtInfo: { tips: '', ...extInfo },
                     headerImg: 'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5769/3789/top.png',
                     iconImg: 'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5769/3789/iconImg.png',
                     itemId: 100767,
@@ -78,7 +97,6 @@ module.exports = (req) => {
                       'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5769/3789/rule.png',
                     ],
                     failurePrompt: '请仔细核对下单号码',
-                    frontExtInfo: { tips: '' },
                     headerImg: 'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5769/3789/top.png',
                     iconImg: 'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5769/3789/iconImg.png',
                     itemId: 100769,
@@ -100,13 +118,14 @@ module.exports = (req) => {
             ],
           },
           {
-            id: 7,
+            id: 19,
             sort: 1,
-            tabName: '流量',
+            tabName: '流量充值',
             categoryPackageList: [
               {
-                categoryName: '流量月包',
+                categoryName: '流量充值',
                 id: 3,
+                backgroundColor: 2,
                 packageInfoList: [],
                 skuItemList: [
                   {
@@ -116,7 +135,46 @@ module.exports = (req) => {
                       'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5769/3789/rule.png',
                     ],
                     failurePrompt: '请仔细核对下单号码',
-                    frontExtInfo: { tips: '' },
+                    frontExtInfo: { tips: '', ...extInfo },
+                    headerImg: 'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5769/3789/top.png',
+                    iconImg: 'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5769/3789/iconImg.png',
+                    itemId: 100766,
+                    listImg: 'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5769/3789/icon.png',
+                    pocTitle: '',
+                    pocTitleTwo: '',
+                    price: 10.0,
+                    ranks: 1,
+                    skuId: 5769,
+                    skuImg: '',
+                    skuProps: { 合约: '1' },
+                    taobaoProductId: '',
+                    taobaoProducts: [],
+                    title: '测试',
+                  },
+                ],
+                sort: 3,
+              },
+            ],
+          },
+          {
+            id: 20,
+            sort: 1,
+            tabName: '会员权益',
+            categoryPackageList: [
+              {
+                categoryName: '会员权益',
+                id: 3,
+                backgroundColor: 1,
+                packageInfoList: [],
+                skuItemList: [
+                  {
+                    categoryId: 3,
+                    cnId: 10015,
+                    detailImgs: [
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5769/3789/rule.png',
+                    ],
+                    failurePrompt: '请仔细核对下单号码',
+                    frontExtInfo: { tips: '', ...extInfo },
                     headerImg: 'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5769/3789/top.png',
                     iconImg: 'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5769/3789/iconImg.png',
                     itemId: 100766,

@@ -201,4 +201,28 @@ module.exports = [
     description: '获取生活号关注情况',
     delay: 0,
   },
+  {
+    name: 'sendSmsCode',
+    method: 'post',
+    url: `${URI}send.sms.code`,
+    response: require('./sendSmsCode'),
+    description: '获取生活号关注情况',
+    delay: 0,
+  },
+  {
+    name: 'verifySmsCode',
+    method: 'post',
+    url: `${URI}verify.sms.code`,
+    response: require('./verifySmsCode'),
+    description: '获取生活号关注情况',
+    delay: 0,
+  },
+  {
+    name: 'bindUser',
+    method: 'post',
+    url: `${URI}bind.user`,
+    response: require('./bindUser'),
+    description: '绑定用户',
+    delay: 0,
+  },
 ];

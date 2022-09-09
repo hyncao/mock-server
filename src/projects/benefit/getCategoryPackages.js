@@ -1,5 +1,37 @@
 const moment = require('moment');
 
+const extInfo = {
+  // 弹窗中的信息
+  mainTitle: '10GB',
+  subTitle: '全国通用',
+
+  enableTime: '一个月',
+  enableType: '立即生效',
+  range: '全国通用',
+  exit: '不可退订',
+  remarks: '我是一些备注, 而且字数还有点多的, 我是一些备注, 而且字数还有点多的, 我是一些备注, 而且字数还有点多的',
+  rechargeType: '自动充值',
+  rechargeAccount: '以手机号为准',
+  detail:
+    '我是详细说明, 字数就跟多了, 我是详细说明, 字数就跟多了, 我是详细说明, 字数就跟多了, 我是详细说明, 字数就跟多了, 我是详细说明, 字数就跟多了',
+
+  cornerIcon: '推荐',
+
+  // feeRechargePrice: 50,
+  // feeName: '充50送20',
+  // feePrice: '售价 50元',
+
+  flowNum: '2GB',
+  flowName: '7天流量包',
+  flowPrice: '售价 50元',
+
+  // equityTitle: 'VV移动会员',
+  // equityIcon: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconBasic1.png',
+  // equityPrice: '20.88',
+  // equityDel: '30',
+  // equityTips: '我的字数比较多',
+};
+
 module.exports = (req) => {
   if (req.body.phoneNumber === '18888888888' || req.body.phoneNumber === '18900000000' || req.body.direction === true) {
     return {
@@ -32,6 +64,7 @@ module.exports = (req) => {
               {
                 categoryName: '充值送的',
                 id: 1,
+                backgroundColor: 1,
                 packageInfoList: [
                   {
                     categoryId: 4,
@@ -66,13 +99,14 @@ module.exports = (req) => {
                         packagerId: 0,
                         skus: [
                           {
+                            agreementName: '123',
                             categoryId: 0,
                             cnId: 10015,
                             detailImgs: [
                               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/5772/5363/rule.png',
                             ],
                             failurePrompt: '请仔细核对下单号码',
-                            frontExtInfo: { tips: '' },
+                            frontExtInfo: { tips: '', ...extInfo },
                             headerImg:
                               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/5772/5363/top.png',
                             iconImg:
@@ -132,6 +166,7 @@ module.exports = (req) => {
                         packagerId: 0,
                         skus: [
                           {
+                            agreementName: '12344',
                             categoryId: 0,
                             cnId: 10015,
                             detailImgs: [
@@ -179,6 +214,7 @@ module.exports = (req) => {
               {
                 categoryName: '流量的',
                 id: 2,
+                backgroundColor: 2,
                 packageInfoList: [
                   {
                     categoryId: 4,
@@ -378,7 +414,7 @@ module.exports = (req) => {
                             pocTitleTwo: '再送会员周卡',
                             price: 0.0,
                             ranks: 1,
-                            skuId: 5772,
+                            skuId: 5775,
                             skuImg: '',
                             skuProps: { 合约: '合约1' },
                             tabId: 0,
@@ -604,7 +640,7 @@ module.exports = (req) => {
                             pocTitleTwo: '再送会员周卡',
                             price: 0.0,
                             ranks: 1,
-                            skuId: 5992,
+                            skuId: 5995,
                             skuImg: '',
                             skuProps: { 合约: '合约1' },
                             tabId: 0,

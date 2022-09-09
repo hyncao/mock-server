@@ -117,7 +117,7 @@ module.exports = (req) => {
                         pocTitle: '5折抢10G',
                         pocTitleTwo: '5折抢10G',
                         price: 0.0,
-                        ranks: 30,
+                        ranks: 31,
                         skuId: 5818,
                         skuImg: '',
                         skuProps: {

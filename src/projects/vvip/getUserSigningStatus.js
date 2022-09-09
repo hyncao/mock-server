@@ -17,7 +17,7 @@ module.exports = (req) => Mock.mock({
   code: 1000,
   msg: '响应信息:调用成功',
   response: {
-    status: UserSigningStatusMap.signed,
+    status: UserSigningStatusMap.notSign,
     msg: '',
     memberType: MemberTypeMap.basic,
     tradeId: '@integer(10000000, 30000000)',
