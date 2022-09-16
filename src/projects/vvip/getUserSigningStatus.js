@@ -21,5 +21,6 @@ module.exports = (req) => Mock.mock({
     msg: '',
     memberType: MemberTypeMap.basic,
     tradeId: '@integer(10000000, 30000000)',
+    hasBindUser: false,
   },
 });

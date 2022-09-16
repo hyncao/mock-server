@@ -161,4 +161,20 @@ module.exports = [
     description: '根据packageId查单子',
     delay: 0,
   },
+  {
+    name: 'getProductMarketingInfo',
+    method: 'post',
+    url: `${URI}getProductMarketingInfo`,
+    response: require('./getProductMarketingInfo'),
+    description: '',
+    delay: 0,
+  },
+  {
+    name: 'getProduct',
+    method: 'post',
+    url: `${URI}getProduct`,
+    response: require('./getProduct'),
+    description: '',
+    delay: 0,
+  },
 ];
