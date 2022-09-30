@@ -8,7 +8,7 @@ module.exports = (req) =>
         adList: [
           {
             adId: 100058,
-            adImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/advertisement/100058/100058-20220722135718.png',
+            adImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/advertisement/100065/100065-20220916114218.png',
             adSize: '620*200',
             adUrl: 'https://litevip.jujienet.com/apsu-api/index/100067',
             align: 'R',
@@ -36,7 +36,7 @@ module.exports = (req) =>
         adList: [
           {
             adId: 100057,
-            adImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/advertisement/100057/100057-20220721183506.png',
+            adImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/advertisement/100063/100063-20220915135540.png',
             adSize: '620*200',
             adUrl: 'https://songzhaopian.com/?channel=kdzxflzxtx',
             align: 'M',

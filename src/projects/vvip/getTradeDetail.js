@@ -179,7 +179,7 @@ const responseVip = {
                         skuImg:
                           'https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/th/3GB%E6%B5%81%E9%87%8F%E6%97%A5%E5%8C%85.png',
                       },
-                      detailButton: { type: 1, title: '激活中', style: 2, orderId: null },
+                      detailButton: { type: 3, title: '去领取', style: 1, orderId: null },
                     },
                   ],
                 },
@@ -211,7 +211,7 @@ const responseVip = {
                         skuImg:
                           'https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/goods/1GB%E6%B5%81%E9%87%8F%E6%97%A5%E5%8C%85.png',
                       },
-                      detailButton: { type: 1, title: '激活中', style: 2, orderId: null },
+                      detailButton: { type: 3, title: '去领取', style: 1, orderId: null },
                     },
                   ],
                 },
@@ -243,7 +243,7 @@ const responseVip = {
                         skuImg:
                           'https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/goods/1GB%E6%B5%81%E9%87%8F%E6%97%A5%E5%8C%85.png',
                       },
-                      detailButton: { type: 1, title: '激活中', style: 2, orderId: null },
+                      detailButton: { type: 3, title: '去领取', style: 1, orderId: null },
                     },
                   ],
                 },
@@ -293,7 +293,7 @@ const responseVip = {
                         skuImg:
                           'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100005/100001/skuImg_193613078.png',
                       },
-                      detailButton: { type: 1, title: '激活中', style: 2, orderId: null },
+                      detailButton: { type: 3, title: '去领取', style: 1, orderId: null },
                     },
                   ],
                 },
@@ -324,7 +324,7 @@ const responseVip = {
                         skuImg:
                           'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100006/100001/skuImg_193629257.png',
                       },
-                      detailButton: { type: 1, title: '激活中', style: 2, orderId: null },
+                      detailButton: { type: 3, title: '去领取', style: 1, orderId: null },
                     },
                   ],
                 },
@@ -391,7 +391,7 @@ const responseVip = {
                         skuImg:
                           'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100007/10/100001/skuImg_144823063.png',
                       },
-                      detailButton: { type: 1, title: '激活中', style: 2, orderId: null },
+                      detailButton: { type: 3, title: '去领取', style: 1, orderId: null },
                     },
                   ],
                 },
@@ -425,7 +425,7 @@ const responseVip = {
                         skuImg:
                           'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100028/10/100001/skuImg_145205684.png',
                       },
-                      detailButton: { type: 1, title: '激活中', style: 2, orderId: null },
+                      detailButton: { type: 3, title: '去领取', style: 1, orderId: null },
                     },
                   ],
                 },
@@ -461,7 +461,7 @@ const responseVip = {
                         skuImg:
                           'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100016/10/100001/skuImg_145036082.png',
                       },
-                      detailButton: { type: 1, title: '激活中', style: 2, orderId: null },
+                      detailButton: { type: 3, title: '去领取', style: 1, orderId: null },
                     },
                   ],
                 },
@@ -495,7 +495,7 @@ const responseVip = {
                         skuImg:
                           'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100017/10/100001/skuImg_145054104.png',
                       },
-                      detailButton: { type: 1, title: '激活中', style: 2, orderId: null },
+                      detailButton: { type: 3, title: '去领取', style: 1, orderId: null },
                     },
                   ],
                 },
@@ -529,7 +529,7 @@ const responseVip = {
                         skuImg:
                           'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100013/10/100001/skuImg_144946160.png',
                       },
-                      detailButton: { type: 1, title: '激活中', style: 2, orderId: null },
+                      detailButton: { type: 3, title: '去领取', style: 1, orderId: null },
                     },
                   ],
                 },
@@ -565,7 +565,7 @@ const responseVip = {
                         skuImg:
                           'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100018/10/100001/skuImg_145116017.png',
                       },
-                      detailButton: { type: 1, title: '激活中', style: 2, orderId: null },
+                      detailButton: { type: 3, title: '去领取', style: 1, orderId: null },
                     },
                   ],
                 },
@@ -599,7 +599,7 @@ const responseVip = {
                         skuImg:
                           'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100019/10/100001/skuImg_145143768.png',
                       },
-                      detailButton: { type: 1, title: '激活中', style: 2, orderId: null },
+                      detailButton: { type: 3, title: '去领取', style: 1, orderId: null },
                     },
                   ],
                 },
@@ -633,7 +633,7 @@ const responseVip = {
                         skuImg:
                           'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100015/10/100001/skuImg_145009560.png',
                       },
-                      detailButton: { type: 1, title: '激活中', style: 2, orderId: null },
+                      detailButton: { type: 3, title: '去领取', style: 1, orderId: null },
                     },
                   ],
                 },

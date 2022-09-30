@@ -73,8 +73,8 @@ module.exports = (req) => {
                 // packageId: 1000967, // 电信集团增加协议
                 // packageId: 1001183, // 河南电信
                 packageId: 1001589, // 湖北电信
-                packageId: 1001737, // 改变按钮文案
-                packageId: 1000967, // 电信优酷
+                // packageId: 1001737, // 改变按钮文案
+                // packageId: 1000967, // 电信优酷
                 priority: 2,
                 quotaLimit: 0,
                 routeGroup: '',
@@ -104,6 +104,9 @@ module.exports = (req) => {
                         failurePrompt: '如有欠费将不能办理',
                         frontExtInfo: {
                           tips: '',
+                          flowName: '当月有效',
+                          feeName: '100 话费',
+                          equityTitle: '芒果会员',
                         },
                         headerImg: getFileByEnv(
                           'headImg',
@@ -116,7 +119,7 @@ module.exports = (req) => {
                         ),
                         pocTitle: '5折抢10G',
                         pocTitleTwo: '5折抢10G',
-                        price: 0.0,
+                        price: 15,
                         ranks: 31,
                         skuId: 5818,
                         skuImg: '',
@@ -127,7 +130,6 @@ module.exports = (req) => {
                         taobaoProducts: [],
                         title: '电信-集团10G流量包29元/月升5G，升白金会员（畅享）',
                         tip: '您即将办理 30元10G流量合约包，如需继续办理请仔细阅读以下信息，请点击确认\r\n1. 30元/月  10GB流量合约包\r\n2. 协议期：12个月 。\r\n3. 主副卡分享：仅限订购号码使用，套餐不共享。\r\n4. 退订： 合约期内不可退订，第12个月可以退订。若提前退订，需要到本地自有营业厅办理，并按已享受的权益价值缴纳违约金，即30元*已订购月份。',
-                        tip: ''
                       },
                     ],
                     title: '电信-集团4升5（融升套入口）',
@@ -168,13 +170,16 @@ module.exports = (req) => {
                         failurePrompt: '如有欠费将不能办理',
                         frontExtInfo: {
                           tips: '',
+                          flowName: '当月有效',
+                          feeName: '100 话费',
+                          equityTitle: '芒果会员',
                         },
                         headerImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5531/3559/top.png',
                         itemId: 100690,
                         listImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5531/3559/icon.png',
                         pocTitle: '5折抢10G',
                         pocTitleTwo: '5折抢10G',
-                        price: 0.0,
+                        price: 24,
                         ranks: 30,
                         skuId: 5819,
                         skuImg: '',
@@ -224,13 +229,16 @@ module.exports = (req) => {
                         failurePrompt: '如有欠费将不能办理',
                         frontExtInfo: {
                           tips: '',
+                          flowName: '当月有效',
+                          feeName: '100 话费',
+                          equityTitle: '芒果会员',
                         },
                         headerImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5531/3559/top.png',
                         itemId: 100691,
                         listImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5531/3559/icon.png',
                         pocTitle: '5折抢10G',
                         pocTitleTwo: '5折抢10G',
-                        price: 0.0,
+                        price: 34,
                         ranks: 30,
                         skuId: 5820,
                         skuImg: '',

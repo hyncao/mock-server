@@ -13,6 +13,6 @@ module.exports = (req) => ({
   response: {
     status: statusMap.success,
     msg: '',
-    orderId: '12123',
+    cycleOrderId: '12123',
   },
 });

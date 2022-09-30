@@ -17,10 +17,11 @@ module.exports = (req) => Mock.mock({
   code: 1000,
   msg: '响应信息:调用成功',
   response: {
-    status: UserSigningStatusMap.notSign,
+    status: UserSigningStatusMap.signed,
     msg: '',
     memberType: MemberTypeMap.basic,
     tradeId: '@integer(10000000, 30000000)',
     hasBindUser: false,
+    toBindUserUrl: 'http://www.bing.com'
   },
 });
