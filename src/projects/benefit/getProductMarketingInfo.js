@@ -163,12 +163,12 @@ module.exports = (req) => {
             categoryPackageList: [
               {
                 categoryName: '会员权益',
-                id: 3,
+                id: 4,
                 backgroundColor: 1,
                 packageInfoList: [],
                 skuItemList: [
                   {
-                    categoryId: 3,
+                    categoryId: 4,
                     cnId: 10015,
                     detailImgs: [
                       'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5769/3789/rule.png',
@@ -203,7 +203,7 @@ module.exports = (req) => {
         ruleImg: 'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketing/100186/rule_img.png',
         skuItemList: [
           {
-            categoryId: 3,
+            categoryId: 5,
             cnId: 10015,
             detailImgs: ['https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5769/3789/rule.png'],
             failurePrompt: '请仔细核对下单号码',

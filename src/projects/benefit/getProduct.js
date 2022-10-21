@@ -102,6 +102,7 @@ module.exports = (req) => {
                             headerImg:
                               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/6151/7783/top.png',
                             iconImg: '',
+                            isReadOnly: 1,
                             itemId: 100933,
                             listImg:
                               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/6151/7783/icon.png',
@@ -194,6 +195,7 @@ module.exports = (req) => {
                             productEntryId: 24,
                             ranks: 25,
                             skuId: 6427,
+                            payType: 1,
                             skuImg: '',
                             skuProps: { 合约: '1' },
                             tabId: 0,
@@ -211,7 +213,7 @@ module.exports = (req) => {
                     tabId: 0,
                   },
                   {
-                    categoryId: 3,
+                    categoryId: 4,
                     detailImg: '',
                     firstPriority: 99999999,
                     frontExtInfo: {},
@@ -301,7 +303,7 @@ module.exports = (req) => {
                 id: 25,
                 packageInfoList: [
                   {
-                    categoryId: 3,
+                    categoryId: 5,
                     detailImg: '',
                     firstPriority: 99999999,
                     frontExtInfo: {},
@@ -382,7 +384,7 @@ module.exports = (req) => {
                     tabId: 7,
                   },
                   {
-                    categoryId: 3,
+                    categoryId: 33,
                     detailImg: '',
                     firstPriority: 99999999,
                     frontExtInfo: {},
@@ -464,7 +466,7 @@ module.exports = (req) => {
                     tabId: 7,
                   },
                   {
-                    categoryId: 3,
+                    categoryId: 6,
                     detailImg: '',
                     firstPriority: 99999999,
                     frontExtInfo: {},
@@ -546,7 +548,7 @@ module.exports = (req) => {
                     tabId: 7,
                   },
                   {
-                    categoryId: 3,
+                    categoryId: 7,
                     detailImg: '',
                     firstPriority: 99999999,
                     frontExtInfo: {},
@@ -628,7 +630,7 @@ module.exports = (req) => {
                     tabId: 7,
                   },
                   {
-                    categoryId: 3,
+                    categoryId: 8,
                     detailImg: '',
                     firstPriority: 99999999,
                     frontExtInfo: {},
@@ -1719,7 +1721,7 @@ module.exports = (req) => {
               {
                 backgroundColor: 1,
                 categoryName: '爆款流量',
-                id: 1001,
+                id: 10011,
                 packageInfoList: [
                   {
                     categoryId: 1,
@@ -1884,7 +1886,7 @@ module.exports = (req) => {
                     tabId: 0,
                   },
                   {
-                    categoryId: 3,
+                    categoryId: 9,
                     detailImg: '',
                     firstPriority: 99999999,
                     frontExtInfo: {},
@@ -2209,7 +2211,7 @@ module.exports = (req) => {
                   },
                 ],
                 skuItemList: [],
-                sort: 3,
+                sort: 4,
               },
             ],
             id: 18,
@@ -2221,7 +2223,7 @@ module.exports = (req) => {
               {
                 backgroundColor: 2,
                 categoryName: '热门权益',
-                id: 1002,
+                id: 10022,
                 packageInfoList: [
                   {
                     categoryId: 0,
@@ -2550,7 +2552,7 @@ module.exports = (req) => {
               },
             ],
             id: 20,
-            sort: 3,
+            sort: 5,
             tabName: '会员权益',
           },
         ],
