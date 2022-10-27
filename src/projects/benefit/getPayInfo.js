@@ -3,14 +3,15 @@ module.exports = (req) => ({
   data: {
     dataList: [],
     dataMap: {
+      linkeUrl: '',
       msg: '请支付',
-      openMode: 'nopay',
-      payRequestInfo:
-        '{"totalAmount":100,"dealId":"1812344665","tpOrderId":"202104150200000209","dealTitle":"联通-广东存费送费(小瀑)百度测试","appKey":"MMUR4V","rsaSign":"Cks4A7rNH1xqkAbJo/f8MF9zzj4lcSK0Ytv0UuARIj4zR108mGvp+wRdYwrHmHRGgch0U6AVjsqeC94ko/9/ofHbEUEXgMPvmwH7trfU0JBq3VBHqtyH5RnnWrQLul0ob+2rxesOB/kaGt+8ai8TY54J63Vq48bVZd0Fv06fSqk=","signFieldsRange":"1"}',
-      // 2 3: '订单不存在',
-      // 4': '不符合办理条件',
+      openMode: 'redirect',
+      payRequestInfo: '',
       status: 1,
+      urlParam:
+        'https://oms.flow.wostore.cn/web/qudao/validate/middle.html?appid=30682&appname=null&channelid=91630&kftelnum=null&phone=18600000004&pid=2100187601&price=null&spid=92173&subchannelid=iOS&sporderid=202210252007472270&uppoint=null&redirecturl=https://benefit.jujienet.com/benefit-app/payResult?payChannel=other&phoneNumber=18600000004&payAmount=12.00&servicePhoneNumber=10010&provinceOperatorName=北京联通',
     },
   },
   msg: '成功',
+  success: true,
 });
