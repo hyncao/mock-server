@@ -67,6 +67,12 @@
       "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconMemberRule.png",
       "text": "会员规则",
       "url": ""
+    },
+    {
+      "id": "exit",
+      "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconExit.png",
+      "text": "会员退订",
+      "url": ""
     }
   ],
   "manageListBasic2": [
