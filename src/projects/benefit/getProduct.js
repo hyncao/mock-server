@@ -102,7 +102,7 @@ module.exports = (req) => {
                             headerImg:
                               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/6151/7783/top.png',
                             iconImg: '',
-                            isReadOnly: 1,
+                            // isReadOnly: 1,
                             itemId: 100933,
                             listImg:
                               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/6151/7783/icon.png',
@@ -202,7 +202,7 @@ module.exports = (req) => {
                             tabId: 0,
                             taobaoProductId: '',
                             taobaoProducts: [],
-                            tip: '',
+                            tip: '您好，您正在办理四川电信视听会员包，如需继续办理请点击确认',
                             title: '电信-四川9.9元10G 暖心包-支付宝',
                           },
                         ],

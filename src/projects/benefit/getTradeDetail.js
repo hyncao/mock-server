@@ -11,9 +11,11 @@ module.exports = (req) => Mock.mock({
       servicePhoneNumber: /\d{9}/,
       skuTitle: '@province@pick(["联通", "电信", "移动"])@cword(3, 5)',
       tradeCreateTime: '@datetime',
-      'tradeStatus|1': [0, 1, 2, -2],
+      // 'tradeStatus|1': [0, 1, 2, -2],
+      tradeStatus: 2,
       'tradeStatusMsg|1': ['受理中', '生效中', '已退款'],
       packageId: 1000967,
+      outBenefitUrl: 'https://www.bing.com'
     },
   },
   msg: '成功',
