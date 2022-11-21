@@ -177,4 +177,20 @@ module.exports = [
     description: '',
     delay: 0,
   },
+  {
+    name: 'getTradeStatus',
+    method: 'post',
+    url: `${URI}getTradeStatus`,
+    response: require('./getTradeStatus'),
+    description: '',
+    delay: 0,
+  },
+  {
+    name: 'getLotteryResult',
+    method: 'post',
+    url: `${URI}getLotteryResult`,
+    response: require('./getLotteryResult'),
+    description: '',
+    delay: 0,
+  },
 ];

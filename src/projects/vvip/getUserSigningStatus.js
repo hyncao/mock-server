@@ -22,6 +22,7 @@ module.exports = (req) => Mock.mock({
     memberType: MemberTypeMap.basic,
     tradeId: '@integer(10000000, 30000000)',
     hasBindUser: false,
+    phoneNumber: '13888888888',
     toBindUserUrl: 'http://www.bing.com'
   },
 });

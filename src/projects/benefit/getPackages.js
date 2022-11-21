@@ -107,6 +107,9 @@ module.exports = (req) => {
                           flowName: '当月有效',
                           feeName: '100 话费',
                           equityTitle: '芒果会员',
+                          cornerIcon: '啊啊',
+                          subTitle: '送视频会员',
+                          mainTitle: '15GB',
                         },
                         headerImg: getFileByEnv(
                           'headImg',
@@ -117,6 +120,7 @@ module.exports = (req) => {
                           'listImg',
                           'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/5708/5356/icon.png'
                         ),
+                        payType: 1,
                         pocTitle: '5折抢10G',
                         pocTitleTwo: '5折抢10G',
                         price: 15,
@@ -149,7 +153,7 @@ module.exports = (req) => {
                 priority: 2,
                 quotaLimit: 0,
                 routeGroup: '',
-                sendSms: false,
+                sendSms: true,
                 showItemList: [
                   {
                     detailImg: '',
@@ -163,6 +167,7 @@ module.exports = (req) => {
                     packagerId: 0,
                     skus: [
                       {
+                        agreementName: '12333',
                         cnId: 10005,
                         detailImgs: [
                           'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5531/3559/rule.png',
@@ -173,10 +178,14 @@ module.exports = (req) => {
                           flowName: '当月有效',
                           feeName: '100 话费',
                           equityTitle: '芒果会员',
+                          cornerIcon: '啊啊啊啊',
+                          subTitle: '送视频会员',
+                          mainTitle: '15GB',
                         },
                         headerImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5531/3559/top.png',
                         itemId: 100690,
                         listImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5531/3559/icon.png',
+                        payType: 0,
                         pocTitle: '5折抢10G',
                         pocTitleTwo: '5折抢10G',
                         price: 24,
@@ -189,6 +198,7 @@ module.exports = (req) => {
                         taobaoProductId: '',
                         taobaoProducts: [],
                         title: '电信-集团10G流量包29元/月升5G，升白金会员（畅享）',
+                        tip: '您即将办理 30元10G流量合约包，如需继续办理请仔细阅读以下信息，请点击确认\r\n1. 30元/月  10GB流量合约包\r\n2. 协议期：12个月 。\r\n3. 主副卡分享：仅限订购号码使用，套餐不共享。\r\n4. 退订： 合约期内不可退订，第12个月可以退订。若提前退订，需要到本地自有营业厅办理，并按已享受的权益价值缴纳违约金，即30元*已订购月份。',
                       },
                     ],
                     title: '电信-集团4升5（融升套入口）',
@@ -232,10 +242,14 @@ module.exports = (req) => {
                           flowName: '当月有效',
                           feeName: '100 话费',
                           equityTitle: '芒果会员',
+                          cornerIcon: '啊啊啊啊啊啊',
+                          subTitle: '送视频会员',
+                          mainTitle: '15GB',
                         },
                         headerImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5531/3559/top.png',
                         itemId: 100691,
                         listImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5531/3559/icon.png',
+                        payType: 1,
                         pocTitle: '5折抢10G',
                         pocTitleTwo: '5折抢10G',
                         price: 34,

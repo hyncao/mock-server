@@ -1,11 +1,20 @@
+const address = require('address');
+const { port } = require('../../config');
+
+const getFileByEnv = (key) => {
+  const fileName = `${key}.png`;
+  const url = `http://${address.ip()}:${port}/static/benefit/${fileName}`;
+  return url;
+};
+
 module.exports = (req) => {
   return {
     code: 200,
     data: {
       dataList: [],
       dataMap: {
-        headImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/enterPackage/100378/1001149/head_img.png',
-        holderImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/enterPackage/100378/1001149/holder_img.png',
+        headImg: getFileByEnv('headImg'),
+        holderImg: getFileByEnv('holderImg'),
         marketingTitle: '广东联通畅享包',
         msg: '获取成功',
         ruleImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/enterPackage/100378/1001149/rule_img.png',

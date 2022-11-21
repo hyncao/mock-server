@@ -37,6 +37,8 @@ module.exports = (req) => {
     return defaultPath;
   };
 
+  return {"code":1000,"msg":"响应信息:调用成功","response":{"status":1,"msg":"有商品","phoneNumber":"13621028129","packages":[{"title":"联通VV会员基础版","packageId":100002,"operatorCode":1,"templateId":100002,"templateList":[{"templateId":100002,"firstMouthDiscountType":3}],"templateGroupMap":{"default":[{"templateId":100002,"firstMouthDiscountType":3}]},"ranks":2,"params":{"agreementName":"会员使用须知","agreements":[{"name":"会员使用须知","src":"https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/package/100002/100002/memberRule_155539704.png"}],"headImg":"https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/package/100002/10/100002/headImg_151415581.png","memberRule":"https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/package/100002/10/100002/memberRule_144808313.png","navigationBarTitle":"https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/package/100002/10/100002/navigationBarTitle_154416302.png","submitBtnImg":"https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/package/100002/10/100002/submitBtnImg_154451331.png"},"groupTagList":[{"groupTagId":100001,"name":"订购的主商品(隐藏)","ranks":1,"hide":true,"params":{},"itemGroupList":[{"groupId":100005,"groupName":"订购主商品(隐藏)","privilegeType":null,"groupType":1,"groupSort":1,"groupTagId":100001,"hide":true,"equityValue":"","itemList":[{"itemId":100011,"title":"联通VV会员普通版","showTitle":"联通VV会员普通版","subtitle":"","operatorCode":1,"isValidatecode":false,"onlineCycle":"","showSort":1,"cycleType":null,"autoCycleOrder":1,"totalCycleNum":1,"takeMode":1,"linkUrl":null,"params":{},"skuList":[{"skuId":100011,"itemId":100011,"title":"联通VV会员基础版","ranks":1,"parValue":null,"linkUrl":null,"params":{},"detailButton":null}]}],"params":{},"authStatisticType":null}]},{"groupTagId":100002,"name":"通信权益","ranks":2,"hide":false,"params":{"detailHeadImg":"https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/goods/%E6%88%91%E7%9A%84%E9%80%9A%E4%BF%A1%E6%9D%83%E7%9B%8A%20(2).png"},"itemGroupList":[{"groupId":100006,"groupName":"2G流量日包","privilegeType":null,"groupType":3,"groupSort":2,"groupTagId":100002,"hide":false,"equityValue":"","itemList":[{"itemId":100009,"title":"联通1GB流量日包(3)","showTitle":"联通1GB流量日包","subtitle":"","operatorCode":1,"isValidatecode":false,"onlineCycle":"","showSort":1,"cycleType":null,"autoCycleOrder":0,"totalCycleNum":12,"takeMode":2,"linkUrl":null,"params":{},"skuList":[{"skuId":100009,"itemId":100009,"title":"1GB流量日包","ranks":1,"parValue":1.00,"linkUrl":null,"params":{"flowBalance":1,"skuImg":"https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100009/10/100002/skuImg_160002570.png"},"detailButton":null}]},{"itemId":100010,"title":"联通1GB流量日包(4)","showTitle":"联通1GB流量日包","subtitle":"","operatorCode":1,"isValidatecode":false,"onlineCycle":"","showSort":2,"cycleType":null,"autoCycleOrder":0,"totalCycleNum":12,"takeMode":2,"linkUrl":null,"params":{},"skuList":[{"skuId":100010,"itemId":100010,"title":"1GB流量日包","ranks":1,"parValue":1.00,"linkUrl":null,"params":{"flowBalance":1,"skuImg":"https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100010/10/100002/skuImg_155955731.png"},"detailButton":null}]}],"params":{"detailHeadImg":"https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/goods/2GB%E6%B5%81%E9%87%8F%E6%97%A5%E5%8C%85.png","listImg":"https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/itemGroup/100006/10/100002/listImg_151908446.png"},"authStatisticType":1}]},{"groupTagId":100003,"name":"生活权益","ranks":3,"hide":false,"params":{"detailHeadImg":"https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/goods/%E6%88%91%E7%9A%84%E7%94%9F%E6%B4%BB%E6%9D%83%E7%9B%8A%20(2).png"},"itemGroupList":[{"groupId":100007,"groupName":"生活权益","privilegeType":null,"groupType":3,"groupSort":3,"groupTagId":100003,"hide":false,"equityValue":"","itemList":[{"itemId":100012,"title":"优酷视频8折月卡","showTitle":"优酷视频8折月卡","subtitle":"","operatorCode":0,"isValidatecode":false,"onlineCycle":"","showSort":1,"cycleType":null,"autoCycleOrder":0,"totalCycleNum":12,"takeMode":3,"linkUrl":"/pages/yinge/index?type=youku8","params":{"listImg":"https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/item/100012/10/100002/listImg_110007257.png"},"skuList":[{"skuId":100012,"itemId":100012,"title":"优酷月卡8折","ranks":1,"parValue":null,"linkUrl":"/pages/yinge/index?type=youku8","params":{"skuImg":"https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100012/10/100002/skuImg_154005470.png"},"detailButton":null}]},{"itemId":100019,"title":"饿了么最高66元","showTitle":"饿了么最高66元","subtitle":"","operatorCode":0,"isValidatecode":false,"onlineCycle":"","showSort":2,"cycleType":null,"autoCycleOrder":0,"totalCycleNum":12,"takeMode":3,"linkUrl":"/pages/yinge/index?type=eleme","params":{"listImg":"https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/th/28%E5%85%8D%E8%B4%B9%E7%89%88%E7%B4%A0%E6%9D%90%E6%9B%BF%E6%8D%A2.png"},"skuList":[{"skuId":100019,"itemId":100019,"title":"饿了么红包","ranks":1,"parValue":null,"linkUrl":"/pages/yinge/index?type=eleme","params":{"skuImg":"https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100019/10/100002/skuImg_153951834.png"},"detailButton":null}]},{"itemId":100014,"title":"天猫超市7折起优惠券","showTitle":"天猫超市7折起优惠券","subtitle":"","operatorCode":0,"isValidatecode":false,"onlineCycle":"","showSort":3,"cycleType":null,"autoCycleOrder":0,"totalCycleNum":12,"takeMode":2,"linkUrl":"alipays://platformapi/startapp?appId=20000021","params":{"listImg":"https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/goods/%E6%B7%98%E5%AE%9D%E5%BF%83%E9%80%89.png"},"skuList":[{"skuId":100014,"itemId":100014,"title":"天猫超市指定快消品7折起","ranks":1,"parValue":null,"linkUrl":"alipays://platformapi/startapp?appId=20000021","params":{"skuImg":"https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100014/10/100002/skuImg_153941897.png"},"detailButton":null}]},{"itemId":100015,"title":"淘宝心选10包抽纸","showTitle":"淘宝心选10包抽纸","subtitle":"","operatorCode":0,"isValidatecode":false,"onlineCycle":"","showSort":4,"cycleType":null,"autoCycleOrder":0,"totalCycleNum":12,"takeMode":2,"linkUrl":"alipays://platformapi/startapp?appId=20000021","params":{"listImg":"https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/goods/%E5%A4%A9%E7%8C%AB%E8%B6%85%E5%B8%82.png"},"skuList":[{"skuId":100015,"itemId":100015,"title":"10包抽纸","ranks":1,"parValue":null,"linkUrl":"alipays://platformapi/startapp?appId=20000021","params":{"skuImg":"https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100015/10/100002/skuImg_153926054.png"},"detailButton":null}]}],"params":{"listImg":"https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/itemGroup/100007/10/100002/listImg_180427347.png"},"authStatisticType":2}]}]}]}}
+
   return {
     code: 1000,
     msg: '响应信息:调用成功',
@@ -51,45 +53,16 @@ module.exports = (req) => {
           operatorCode: 1,
           templateId: 100004,
           templateList: [
-            {
-              templateId: 100006,
-              firstMouthDiscountType: 1, // 无折扣
-            },
-            // {
-            //   templateId: 100002,
-            //   firstMouthDiscountType: 2, // 指定折扣
-            // },
-            {
-              templateId: 100004,
-              firstMouthDiscountType: 3, // 免费
-            },
+            { templateId: 100004, firstMouthDiscountType: 3 },
+            { templateId: 100006, firstMouthDiscountType: 1 },
           ],
           templateGroupMap: {
-            // 免费版
-            default: [
-              {
-                templateId: 100004,
-                firstMouthDiscountType: 3,
-              },
-            ],
-            // 尊享版
+            default: [{ templateId: 100004, firstMouthDiscountType: 3 }],
             exy: [
-              {
-                templateId: 100004,
-                firstMouthDiscountType: 3,
-              },
-              {
-                templateId: 100006,
-                firstMouthDiscountType: 1,
-              },
+              { templateId: 100004, firstMouthDiscountType: 3 },
+              { templateId: 100006, firstMouthDiscountType: 1 },
             ],
-            // h5
-            ycx: [
-              {
-                templateId: 100007,
-                firstMouthDiscountType: 1,
-              },
-            ],
+            ycx: [{ templateId: 100007, firstMouthDiscountType: 1 }],
           },
           ranks: 1,
           params: {
@@ -100,26 +73,16 @@ module.exports = (req) => {
                 src: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/package/100001/100001/memberRule_155519887.png',
               },
             ],
-            headImg: getFileByEnv(
-              'headImg',
-              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/package/100001/100001/headImg_164437677.png'
-            ),
+            headImg:
+              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/package/100001/100001/headImg_201359900.png',
             memberRule:
-              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/package/100001/100001/memberRule_155519887.png',
-            navigationBarTitle: getFileByEnv(
-              'navigationBarTitle',
-              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/package/100001/100001/navigationBarTitle_181536806.png'
-            ),
-            submitBtnImg: getFileByEnv(
-              'submitBtnImg',
-              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/package/100001/100001/submitBtnImg_150219006.png'
-            ),
-            submitMarketingImg: getFileByEnv(
-              'submitMarketingImg',
-              'https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/goods/%E6%AC%A1%E6%9C%88%E8%B5%B71.99%E5%85%83%E6%9C%88.png'
-            ),
-            memberRule2:
-              'https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/goods/%E6%AC%A1%E6%9C%88%E8%B5%B71.99%E5%85%83%E6%9C%88.png',
+              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/package/100001/10/100001/memberRule_134149008.png',
+            navigationBarTitle:
+              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/package/100001/100001/navigationBarTitle_181536806.png',
+            submitBtnImg:
+              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/package/100001/10/100001/submitBtnImg_160004590.png',
+            submitMarketingImg:
+              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/package/100001/10/100001/submitMarketingImg_134125315.png',
           },
           groupTagList: [
             {
@@ -160,6 +123,7 @@ module.exports = (req) => {
                           itemId: 100001,
                           title: '联通VV会员尊享版',
                           ranks: 1,
+                          parValue: null,
                           linkUrl: null,
                           params: {},
                           detailButton: null,
@@ -168,6 +132,7 @@ module.exports = (req) => {
                     },
                   ],
                   params: {},
+                  authStatisticType: null,
                 },
               ],
             },
@@ -179,10 +144,8 @@ module.exports = (req) => {
               params: {
                 detailHeadImg:
                   'https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/goods/%E6%88%91%E7%9A%84%E9%80%9A%E4%BF%A1%E6%9D%83%E7%9B%8A.png',
-                headImg: getFileByEnv(
-                  'group1HeadImg',
-                  'https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/goods/%E9%80%9A%E4%BF%A1%E6%9D%83%E7%9B%8A%20%E6%AF%8F%E6%9C%88%E5%BF%85%E5%BE%97.png'
-                ),
+                headImg:
+                  'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/groupTag/100002/100001/headImg_201524447.png',
               },
               itemGroupList: [
                 {
@@ -216,11 +179,12 @@ module.exports = (req) => {
                           itemId: 100002,
                           title: '3GB流量日包',
                           ranks: 1,
+                          parValue: 3.0,
                           linkUrl: null,
                           params: {
                             flowBalance: 3,
                             skuImg:
-                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/th/3GB%E6%B5%81%E9%87%8F%E6%97%A5%E5%8C%85.png',
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100002/10/100001/skuImg_160039159.png',
                           },
                           detailButton: null,
                         },
@@ -247,11 +211,12 @@ module.exports = (req) => {
                           itemId: 100003,
                           title: '1GB流量日包',
                           ranks: 1,
+                          parValue: 1.0,
                           linkUrl: null,
                           params: {
                             flowBalance: 1,
                             skuImg:
-                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/goods/1GB%E6%B5%81%E9%87%8F%E6%97%A5%E5%8C%85.png',
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100003/10/100001/skuImg_160029914.png',
                           },
                           detailButton: null,
                         },
@@ -278,11 +243,12 @@ module.exports = (req) => {
                           itemId: 100004,
                           title: '1GB流量日包',
                           ranks: 1,
+                          parValue: 1.0,
                           linkUrl: null,
                           params: {
                             flowBalance: 1,
                             skuImg:
-                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/goods/1GB%E6%B5%81%E9%87%8F%E6%97%A5%E5%8C%85.png',
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100004/10/100001/skuImg_160023148.png',
                           },
                           detailButton: null,
                         },
@@ -291,12 +257,11 @@ module.exports = (req) => {
                   ],
                   params: {
                     detailHeadImg:
-                      'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/itemGroup/100002/100001/detailHeadImg_193428216.png',
-                    listImg: getFileByEnv(
-                      'group1Item1Img',
-                      'https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/bc/l5.png'
-                    ),
+                      'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/itemGroup/100002/10/100001/detailHeadImg_150439964.png',
+                    listImg:
+                      'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/itemGroup/100002/100001/listImg_201453154.png',
                   },
+                  authStatisticType: 1,
                 },
                 {
                   groupId: 100003,
@@ -329,10 +294,11 @@ module.exports = (req) => {
                           itemId: 100005,
                           title: '0.6元话费',
                           ranks: 1,
+                          parValue: 0.6,
                           linkUrl: null,
                           params: {
                             skuImg:
-                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100005/100001/skuImg_193613078.png',
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100005/10/100001/skuImg_160118284.png',
                           },
                           detailButton: null,
                         },
@@ -359,10 +325,11 @@ module.exports = (req) => {
                           itemId: 100006,
                           title: '1元话费',
                           ranks: 1,
+                          parValue: 1.0,
                           linkUrl: null,
                           params: {
                             skuImg:
-                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100006/100001/skuImg_193629257.png',
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100006/10/100001/skuImg_160109212.png',
                           },
                           detailButton: null,
                         },
@@ -371,12 +338,11 @@ module.exports = (req) => {
                   ],
                   params: {
                     detailHeadImg:
-                      'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/itemGroup/100003/100001/detailHeadImg_194306079.png',
-                    listImg: getFileByEnv(
-                      'group1Item2Img',
-                      'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/itemGroup/100003/100001/listImg_183352375.png'
-                    ),
+                      'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/itemGroup/100003/10/100001/detailHeadImg_150451741.png',
+                    listImg:
+                      'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/itemGroup/100003/100001/listImg_201514526.png',
                   },
+                  authStatisticType: 3,
                 },
               ],
             },
@@ -388,10 +354,8 @@ module.exports = (req) => {
               params: {
                 detailHeadImg:
                   'https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/goods/%E6%88%91%E7%9A%84%E7%94%9F%E6%B4%BB%E6%9D%83%E7%9B%8A.png',
-                headImg: getFileByEnv(
-                  'group2HeadImg',
-                  'https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/20211106/%E4%BB%98%E8%B4%B9%E7%89%88-%E7%94%9F%E6%B4%BB%E6%9D%83%E7%9B%8A%E4%BB%B7%E5%80%BC.png'
-                ),
+                headImg:
+                  'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/groupTag/100003/100001/headImg_220231666.png',
               },
               itemGroupList: [
                 {
@@ -419,10 +383,8 @@ module.exports = (req) => {
                       takeMode: 2,
                       linkUrl: 'alipays://platformapi/startapp?appId=20000021',
                       params: {
-                        listImg: getFileByEnv(
-                          'group2Item1Img',
-                          'https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/goods/%E7%BC%B4%E8%B4%B9%E7%BA%A2%E5%8C%85%E6%9C%80%E9%AB%98%E4%B8%89%E5%85%83.png'
-                        ),
+                        listImg:
+                          'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/item/100007/10/100001/listImg_114528848.png',
                       },
                       skuList: [
                         {
@@ -430,45 +392,11 @@ module.exports = (req) => {
                           itemId: 100007,
                           title: '缴费红包',
                           ranks: 1,
+                          parValue: null,
                           linkUrl: 'alipays://platformapi/startapp?appId=20000021',
                           params: {
                             skuImg:
-                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/goods/%E7%BC%B4%E8%B4%B9%E7%BA%A2%E5%8C%85.png',
-                          },
-                          detailButton: null,
-                        },
-                      ],
-                    },
-                    {
-                      itemId: 100008,
-                      title: '最高5元加油红包',
-                      showTitle: '最高5元加油红包',
-                      subtitle: '',
-                      operatorCode: 0,
-                      isValidatecode: false,
-                      onlineCycle: '',
-                      showSort: 2,
-                      cycleType: null,
-                      autoCycleOrder: 0,
-                      totalCycleNum: 6,
-                      takeMode: 2,
-                      linkUrl: 'alipays://platformapi/startapp?appId=20000021',
-                      params: {
-                        listImg: getFileByEnv(
-                          'group2Item2Img',
-                          'https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/goods/%E5%8A%A0%E6%B2%B9%E7%BA%A2%E5%8C%85%E6%9C%80%E9%AB%985%E5%85%83.png'
-                        ),
-                      },
-                      skuList: [
-                        {
-                          skuId: 100008,
-                          itemId: 100008,
-                          title: '加油红包',
-                          ranks: 1,
-                          linkUrl: 'alipays://platformapi/startapp?appId=20000021',
-                          params: {
-                            skuImg:
-                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/goods/%E5%8A%A0%E6%B2%B9%E7%BA%A2%E5%8C%85.png',
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100007/10/100001/skuImg_144823063.png',
                           },
                           detailButton: null,
                         },
@@ -488,12 +416,10 @@ module.exports = (req) => {
                       totalCycleNum: 6,
                       takeMode: 3,
                       linkUrl:
-                        'alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Frender.alipay.com%2Fp%2Fc%2F18f1xa6z24ao',
+                        'alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Frender.alipay.com%2Fp%2Fc%2F18f1xa6z24ao&startMultApp=YES&appClearTop=false',
                       params: {
-                        listImg: getFileByEnv(
-                          'group2Item3Img',
-                          'https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/goods/%E5%87%BA%E8%A1%8C%E7%BA%A2%E5%8C%85%E6%9C%80%E9%AB%9810%E5%85%83%20(2).png'
-                        ),
+                        listImg:
+                          'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/item/100016/10/100001/listImg_114227299.png',
                       },
                       skuList: [
                         {
@@ -501,11 +427,12 @@ module.exports = (req) => {
                           itemId: 100016,
                           title: '出行红包',
                           ranks: 1,
+                          parValue: null,
                           linkUrl:
-                            'alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Frender.alipay.com%2Fp%2Fc%2F18f1xa6z24ao',
+                            'alipays://platformapi/startapp?appId=20000067&url=https%3A%2F%2Frender.alipay.com%2Fp%2Fc%2F18f1xa6z24ao&startMultApp=YES&appClearTop=false',
                           params: {
                             skuImg:
-                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/goods/%E5%87%BA%E8%A1%8C%E7%BA%A2%E5%8C%85%E6%9C%80%E9%AB%9810%E5%85%83.png',
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100016/10/100001/skuImg_153711135.png',
                           },
                           detailButton: null,
                         },
@@ -526,10 +453,8 @@ module.exports = (req) => {
                       takeMode: 2,
                       linkUrl: 'alipays://platformapi/startapp?appId=20000021',
                       params: {
-                        listImg: getFileByEnv(
-                          'group2Item4Img',
-                          'https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/ffb/item/4.png'
-                        ),
+                        listImg:
+                          'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/item/100017/100001/listImg_201720631.png',
                       },
                       skuList: [
                         {
@@ -537,10 +462,11 @@ module.exports = (req) => {
                           itemId: 100017,
                           title: '天猫超市指定快消品5折起',
                           ranks: 1,
+                          parValue: null,
                           linkUrl: 'alipays://platformapi/startapp?appId=20000021',
                           params: {
                             skuImg:
-                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/goods/%E5%A4%A9%E7%8C%AB%E8%B6%85%E5%B8%82%E4%BA%94%E6%8A%98%E8%B5%B7.png',
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100017/10/100001/skuImg_153657429.png',
                           },
                           detailButton: null,
                         },
@@ -561,10 +487,8 @@ module.exports = (req) => {
                       takeMode: 3,
                       linkUrl: '/pages/yinge/index?type=ximalaya',
                       params: {
-                        listImg: getFileByEnv(
-                          'group2Item5Img',
-                          'https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/th/47%E7%B4%A0%E6%9D%90%E6%9B%BF%E6%8D%A2.png'
-                        ),
+                        listImg:
+                          'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/item/100013/10/100001/listImg_111249674.png',
                       },
                       skuList: [
                         {
@@ -572,10 +496,11 @@ module.exports = (req) => {
                           itemId: 100013,
                           title: '喜马拉雅月卡5折',
                           ranks: 1,
+                          parValue: null,
                           linkUrl: '/pages/yinge/index?type=ximalaya',
                           params: {
                             skuImg:
-                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/th/53%E7%B4%A0%E6%9D%90%E6%9B%BF%E6%8D%A2.png',
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100013/10/100001/skuImg_153800274.png',
                           },
                           detailButton: null,
                         },
@@ -593,13 +518,11 @@ module.exports = (req) => {
                       cycleType: null,
                       autoCycleOrder: 0,
                       totalCycleNum: 6,
-                      takeMode: 2,
-                      linkUrl: 'alipays://platformapi/startapp?appId=20000021',
+                      takeMode: 3,
+                      linkUrl: '/pages/yinge/index?type=youku6',
                       params: {
-                        listImg: getFileByEnv(
-                          'group2Item6Img',
-                          'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/item/100018/100001/listImg_165120436.png'
-                        ),
+                        listImg:
+                          'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/item/100018/10/100001/listImg_110840641.png',
                       },
                       skuList: [
                         {
@@ -607,10 +530,11 @@ module.exports = (req) => {
                           itemId: 100018,
                           title: '优酷月卡6折',
                           ranks: 1,
-                          linkUrl: 'alipays://platformapi/startapp?appId=20000021',
+                          parValue: null,
+                          linkUrl: '/pages/yinge/index?type=youku6',
                           params: {
                             skuImg:
-                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100018/100001/skuImg_165346068.png',
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100018/10/100001/skuImg_153809628.png',
                           },
                           detailButton: null,
                         },
@@ -631,10 +555,8 @@ module.exports = (req) => {
                       takeMode: 3,
                       linkUrl: '/pages/yinge/index?type=eleme',
                       params: {
-                        listImg: getFileByEnv(
-                          'group2Item7Img',
-                          'https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/th/49%E7%B4%A0%E6%9D%90%E6%9B%BF%E6%8D%A2.png'
-                        ),
+                        listImg:
+                          'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/item/100019/100001/listImg_201813302.png',
                       },
                       skuList: [
                         {
@@ -642,10 +564,11 @@ module.exports = (req) => {
                           itemId: 100019,
                           title: '饿了么红包',
                           ranks: 1,
+                          parValue: null,
                           linkUrl: '/pages/yinge/index?type=eleme',
                           params: {
                             skuImg:
-                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/th/55%E7%B4%A0%E6%9D%90%E6%9B%BF%E6%8D%A2.png',
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100019/10/100001/skuImg_153818100.png',
                           },
                           detailButton: null,
                         },
@@ -666,10 +589,8 @@ module.exports = (req) => {
                       takeMode: 2,
                       linkUrl: 'alipays://platformapi/startapp?appId=20000021',
                       params: {
-                        listImg: getFileByEnv(
-                          'group2Item8Img',
-                          'https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/ffb/item/8.png'
-                        ),
+                        listImg:
+                          'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/item/100015/100001/listImg_201827271.png',
                       },
                       skuList: [
                         {
@@ -677,22 +598,53 @@ module.exports = (req) => {
                           itemId: 100015,
                           title: '10包抽纸',
                           ranks: 1,
+                          parValue: null,
                           linkUrl: 'alipays://platformapi/startapp?appId=20000021',
                           params: {
                             skuImg:
-                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/test/apsu/th/%E6%B7%98%E5%AE%9D%E5%BF%83%E9%80%8910%E5%8C%85%E6%8A%BD%E7%BA%B8.png',
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100015/10/100001/skuImg_153829928.png',
+                          },
+                          detailButton: null,
+                        },
+                      ],
+                    },
+                    {
+                      itemId: 100028,
+                      title: '芒果TV(普通权益)',
+                      showTitle: '芒果TV',
+                      subtitle: '',
+                      operatorCode: 0,
+                      isValidatecode: false,
+                      onlineCycle: '',
+                      showSort: 9,
+                      cycleType: null,
+                      autoCycleOrder: 0,
+                      totalCycleNum: 6,
+                      takeMode: 3,
+                      linkUrl: '/pages/yinge/index?type=mangguo',
+                      params: {
+                        listImg:
+                          'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/item/100028/10/100001/listImg_154345440.png',
+                      },
+                      skuList: [
+                        {
+                          skuId: 100028,
+                          itemId: 100028,
+                          title: '芒果TV(普通权益)',
+                          ranks: 1,
+                          parValue: null,
+                          linkUrl: '/pages/yinge/index?type=mangguo',
+                          params: {
+                            skuImg:
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/sku/100028/10/100001/skuImg_153850833.png',
                           },
                           detailButton: null,
                         },
                       ],
                     },
                   ],
-                  params: {
-                    listImg: getFileByEnv(
-                      'group2Item1Img',
-                      'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/itemGroup/100003/100001/listImg_183352375.png'
-                    ),
-                  },
+                  params: {},
+                  authStatisticType: 2,
                 },
               ],
             },

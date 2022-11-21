@@ -41,6 +41,16 @@ const getList = (column) => {
       },
     ];
   }
+  if (column == 5) {
+    return [
+      {
+        adId: 5,
+        adImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/advertisement/100055/100055-20220721183616.png',
+        adUrl: 'https://songzhaopian.com/?channel=kdzxrmsjzj',
+        title: '0元领手机支架',
+      },
+    ];
+  }
   return [
     {
       adId: 2,
