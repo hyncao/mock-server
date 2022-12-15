@@ -23,6 +23,11 @@ module.exports = (req) => ({
         msg: '成功',
         platformMessageTemplateId: Random.string('lower', 10),
       },
+      withholdReminter: {
+        status: 1,
+        msg: '成功',
+        platformMessageTemplateId: Random.string('lower', 10),
+      },
     },
   },
 });

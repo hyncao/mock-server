@@ -193,4 +193,28 @@ module.exports = [
     description: '',
     delay: 0,
   },
+  {
+    name: 'getTradeListByPhone',
+    method: 'post',
+    url: `${URI}getTradeListByPhone`,
+    response: require('./getTradeListByPhone'),
+    description: '',
+    delay: 0,
+  },
+  {
+    name: 'getTradeDetailByPhoneNumber',
+    method: 'post',
+    url: `${URI}getTradeDetailByPhoneNumber`,
+    response: require('./getTradeDetailByPhoneNumber'),
+    description: '',
+    delay: 0,
+  },
+  {
+    name: 'getUserCardsAndVouchers',
+    method: 'post',
+    url: `${URI}getUserCardsAndVouchers`,
+    response: require('./getUserCardsAndVouchers'),
+    description: '',
+    delay: 0,
+  },
 ];

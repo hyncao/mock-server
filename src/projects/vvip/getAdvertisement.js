@@ -76,5 +76,6 @@ module.exports = (req) => ({
     columnId: 1,
     showType: null,
     adEntityList: getList(req.body.column),
+    adEntityList: []
   },
 });

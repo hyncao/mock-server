@@ -93,6 +93,7 @@ module.exports = (req) => {
                     packagerId: 0,
                     skus: [
                       {
+                        externalLinkUrl: 'https://www.bing.com',
                         agreementName: '123',
                         cnId: 10005,
                         detailImgs: [
