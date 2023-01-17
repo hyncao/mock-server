@@ -1,7 +1,7 @@
 const Mock = require('mockjs');
 
 module.exports = (req) => Mock.mock({
-  code: 200,
+  code: 500,
   data: {
     dataList: [],
     dataMap: {
