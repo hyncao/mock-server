@@ -217,4 +217,12 @@ module.exports = [
     description: '',
     delay: 0,
   },
+  {
+    name: 'encryptPhoneNumber',
+    method: 'post',
+    url: `${URI}encryptPhoneNumber`,
+    response: require('./encryptPhoneNumber'),
+    description: '',
+    delay: 0,
+  },
 ];
