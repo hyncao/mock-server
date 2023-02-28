@@ -185,6 +185,7 @@ module.exports = (req) => {
                 quotaLimit: 0,
                 routeGroup: '',
                 sendSms: true,
+                smsLength: 4,
                 showItemList: [
                   {
                     detailImg: '',
@@ -250,6 +251,7 @@ module.exports = (req) => {
                 quotaLimit: 0,
                 routeGroup: '',
                 sendSms: true,
+                smsLength: 4,
                 showItemList: [
                   {
                     detailImg: '',
