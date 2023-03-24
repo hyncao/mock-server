@@ -51,7 +51,9 @@ module.exports = (req) => {
                     categoryId: 0,
                     detailImg: '',
                     firstPriority: 99999999,
-                    frontExtInfo: {},
+                    frontExtInfo: {
+                      isIframe: 1,
+                    },
                     headerImg: '',
                     mutexGroups: '',
                     packageGroup: '',
@@ -321,7 +323,9 @@ module.exports = (req) => {
                     categoryId: 0,
                     detailImg: '',
                     firstPriority: 99999999,
-                    frontExtInfo: {},
+                    frontExtInfo: {
+                      isIframe: 1,
+                    },
                     headerImg: '',
                     mutexGroups: '',
                     packageGroup: '',

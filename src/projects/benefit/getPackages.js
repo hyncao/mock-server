@@ -59,6 +59,7 @@ module.exports = (req) => {
                 detailImg: '',
                 frontExtInfo: {
                   bookUrl: 'https://benefit.jujienet.com/benefit/INDEX/20188',
+                  isIframe: 1,
                 },
                 headerImg: '',
                 mutexGroups: '',
@@ -93,6 +94,8 @@ module.exports = (req) => {
                     packagerId: 0,
                     skus: [
                       {
+                        productEntryName: '话费',
+                        pluginProductImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/5708/5356/icon.png',
                         externalLinkUrl: 'https://www.bing.com',
                         agreementName: '123',
                         cnId: 10005,
@@ -199,6 +202,8 @@ module.exports = (req) => {
                     packagerId: 0,
                     skus: [
                       {
+                        productEntryName: '话费1',
+                        pluginProductImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/5708/5356/icon.png',
                         agreementName: '12333',
                         cnId: 10005,
                         detailImgs: [
@@ -265,6 +270,8 @@ module.exports = (req) => {
                     packagerId: 0,
                     skus: [
                       {
+                        productEntryName: '话费2',
+                        pluginProductImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/5708/5356/icon.png',
                         agreementName: '12333飒飒',
                         cnId: 10005,
                         detailImgs: [
