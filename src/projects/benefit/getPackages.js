@@ -59,6 +59,7 @@ module.exports = (req) => {
                 detailImg: '',
                 frontExtInfo: {
                   bookUrl: 'https://benefit.jujienet.com/benefit/INDEX/20188',
+                  isIframe: 1,
                 },
                 headerImg: '',
                 mutexGroups: '',
@@ -93,6 +94,9 @@ module.exports = (req) => {
                     packagerId: 0,
                     skus: [
                       {
+                        productEntryName: '话费',
+                        pluginProductImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/5708/5356/icon.png',
+                        externalLinkUrl: 'https://www.bing.com',
                         agreementName: '123',
                         cnId: 10005,
                         detailImgs: [
@@ -121,6 +125,36 @@ module.exports = (req) => {
                           'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/5708/5356/icon.png'
                         ),
                         payType: 1,
+                        payChannelList: [
+                          {
+                            cnId: 10042,
+                            cnName: '微信支付',
+                            createTime: '2022-10-28 10:53:16',
+                            dateParams: null,
+                            delFlag: false,
+                            extendData: {},
+                            iconImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/comm/logo/wechat.png',
+                            id: 64,
+                            searchValue: '',
+                            showName: '微信',
+                            timeParams: null,
+                            updateTime: '2022-10-28 11:03:46',
+                          },
+                          {
+                            cnId: 10005,
+                            cnName: '支付宝话费宝',
+                            createTime: '2022-10-28 10:53:16',
+                            dateParams: null,
+                            delFlag: false,
+                            extendData: {},
+                            iconImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/comm/logo/alipay.png',
+                            id: 47,
+                            searchValue: '',
+                            showName: '支付宝',
+                            timeParams: null,
+                            updateTime: '2022-10-28 11:03:31',
+                          },
+                        ],
                         pocTitle: '5折抢10G',
                         pocTitleTwo: '5折抢10G',
                         price: 15,
@@ -154,6 +188,7 @@ module.exports = (req) => {
                 quotaLimit: 0,
                 routeGroup: '',
                 sendSms: true,
+                smsLength: 4,
                 showItemList: [
                   {
                     detailImg: '',
@@ -167,6 +202,8 @@ module.exports = (req) => {
                     packagerId: 0,
                     skus: [
                       {
+                        productEntryName: '话费1',
+                        pluginProductImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/5708/5356/icon.png',
                         agreementName: '12333',
                         cnId: 10005,
                         detailImgs: [
@@ -219,6 +256,7 @@ module.exports = (req) => {
                 quotaLimit: 0,
                 routeGroup: '',
                 sendSms: true,
+                smsLength: 4,
                 showItemList: [
                   {
                     detailImg: '',
@@ -232,6 +270,9 @@ module.exports = (req) => {
                     packagerId: 0,
                     skus: [
                       {
+                        productEntryName: '话费2',
+                        pluginProductImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/5708/5356/icon.png',
+                        agreementName: '12333飒飒',
                         cnId: 10005,
                         detailImgs: [
                           'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5531/3559/rule.png',
@@ -250,6 +291,36 @@ module.exports = (req) => {
                         itemId: 100691,
                         listImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5531/3559/icon.png',
                         payType: 1,
+                        payChannelList: [
+                          {
+                            cnId: 10042,
+                            cnName: '微信支付',
+                            createTime: '2022-10-28 10:53:16',
+                            dateParams: null,
+                            delFlag: false,
+                            extendData: {},
+                            iconImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/comm/logo/wechat.png',
+                            id: 64,
+                            searchValue: '',
+                            showName: '微信',
+                            timeParams: null,
+                            updateTime: '2022-10-28 11:03:46',
+                          },
+                          {
+                            cnId: 10005,
+                            cnName: '支付宝话费宝',
+                            createTime: '2022-10-28 10:53:16',
+                            dateParams: null,
+                            delFlag: false,
+                            extendData: {},
+                            iconImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/comm/logo/alipay.png',
+                            id: 47,
+                            searchValue: '',
+                            showName: '支付宝',
+                            timeParams: null,
+                            updateTime: '2022-10-28 11:03:31',
+                          },
+                        ],
                         pocTitle: '5折抢10G',
                         pocTitleTwo: '5折抢10G',
                         price: 34,

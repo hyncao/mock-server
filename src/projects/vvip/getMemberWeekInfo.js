@@ -13,9 +13,9 @@ module.exports = (req) => {
               groupId: 100004,
               itemId: 100022,
               skuId: 100022,
-              // detailButton: { type: 3, title: '开始抽奖', style: 1, orderId: null }, // 抽奖前
+              detailButton: { type: 3, title: '开始抽奖', style: 1, orderId: null }, // 抽奖前
               // detailButton: { type: 4, title: '抽奖中', style: 2, orderId: null }, // 抽奖中
-              detailButton: { type: 6, title: '去卡包使用', style: 1, orderId: null }, // 中奖后
+              // detailButton: { type: 6, title: '去卡包使用', style: 1, orderId: null }, // 中奖后
               takeMode: 2,
               linkUrl: 'alipays://platformapi/startapp?appId=20000021',
               welfareGroup: 1,

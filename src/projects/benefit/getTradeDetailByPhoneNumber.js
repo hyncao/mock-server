@@ -1,7 +1,7 @@
 const Mock = require('mockjs');
 
 module.exports = (req) => Mock.mock({
-  code: 500,
+  code: 200,
   data: {
     dataList: [],
     dataMap: {
@@ -15,7 +15,7 @@ module.exports = (req) => Mock.mock({
       tradeStatus: 2,
       'tradeStatusMsg|1': ['受理中', '生效中', '已退款'],
       packageId: 1000967,
-      // outBenefitUrl: 'https://www.bing.com'
+      outBenefitUrl: 'https://www.bing.com'
     },
   },
   msg: '成功',
