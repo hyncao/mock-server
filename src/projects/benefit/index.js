@@ -225,4 +225,12 @@ module.exports = [
     description: '',
     delay: 0,
   },
+  {
+    name: 'sync',
+    method: 'post',
+    url: `${URI}sync`,
+    response: require('./sync'),
+    description: '',
+    delay: 0,
+  },
 ];

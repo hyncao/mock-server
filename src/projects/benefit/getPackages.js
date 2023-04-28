@@ -56,10 +56,9 @@ module.exports = (req) => {
             provinceOperatorName: '安徽电信',
             showPackageList: [
               {
-                detailImg: '',
                 frontExtInfo: {
                   bookUrl: 'https://benefit.jujienet.com/benefit/INDEX/20188',
-                  isIframe: 1,
+                  isIframe: 0,
                 },
                 headerImg: '',
                 mutexGroups: '',
@@ -96,7 +95,7 @@ module.exports = (req) => {
                       {
                         productEntryName: '话费',
                         pluginProductImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/5708/5356/icon.png',
-                        externalLinkUrl: 'https://www.bing.com',
+                        // externalLinkUrl: 'https://www.bing.com',
                         agreementName: '123',
                         cnId: 10005,
                         detailImgs: [
@@ -176,7 +175,6 @@ module.exports = (req) => {
                 success: true,
               },
               {
-                detailImg: '',
                 frontExtInfo: {
                   bookUrl: 'https://benefit.jujienet.com/benefit/INDEX/20188',
                 },
@@ -244,7 +242,6 @@ module.exports = (req) => {
                 success: true,
               },
               {
-                detailImg: '',
                 frontExtInfo: {
                   bookUrl: 'https://benefit.jujienet.com/benefit/INDEX/20188',
                 },
