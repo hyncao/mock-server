@@ -1,0 +1,69 @@
+{
+  "resultBadImg": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/lottery/bad.png",
+  "resultFailImg": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/lottery/fail.png",
+  "resultSuccessImg": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/lottery/success.png",
+  "myPrizeImg": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/lottery/my-prize.png",
+  "arrowImg": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/lottery/arrow.png",
+  "beltImg": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/lottery/belt.png",
+  "bgImg": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/lottery/bg.png",
+  "btnImg": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/lottery/btn.png",
+  "lightImg": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/lottery/light.png",
+  "plateImg": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/lottery/plate.png",
+  "pointImg": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/lottery/point.png",
+  "ruleBgImg": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/lottery/rule-bg.png",
+  "ruleBtnImg": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/lottery/rule-btn.png",
+  "turnImg": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/lottery/turn.png",
+  "ruleText": "1.活动时间：2023年5月22日-2023年5月30日；\\n2.抽奖资格：活动期间开通VV会员可得1次抽奖机会，本月领取过任意流量日包权益（1GB日包、3GB日包）可得1次抽奖机会，每人活动期间至多可得2次抽奖机会；\\n3.奖品发放:所有奖品有效期为3天，话费红包请至您的支付宝-卡包查看并使用，实物奖品请在抽奖活动页底部-我的奖品点击相应奖品前往领取;\\n4.若有疑问可联系客服电话4006660993。",
+  "basicTurns": 5,
+  "animateDuring": 3,
+  "prizeMap": {
+    "100030": {
+      "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/lottery/redbag.png",
+      "popTitle": "666元话费红包",
+      "itemTitle": "3天有效期，前往支付宝卡包查看",
+      "rotate": 0
+    },
+    "100034": {
+      "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/lottery/youku.png",
+      "popTitle": "优酷月卡",
+      "itemTitle": "自动发放至VV会员办理手机号对应的优酷账号",
+      "rotate": 1
+    },
+    "100032": {
+      "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/lottery/redbag.png",
+      "popTitle": "6.6元话费红包",
+      "itemTitle": "3天有效期，前往支付宝卡包查看",
+      "rotate": 2
+    },
+    "100043": {
+      "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/lottery/bag.png",
+      "popTitle": "免费领帆布包",
+      "itemTitle": "3天有效期，前往领奖页面领取",
+      "rotate": 3
+    },
+    "100033": {
+      "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/lottery/redbag.png",
+      "popTitle": "0.6元话费红包",
+      "itemTitle": "3天有效期，前往支付宝卡包查看",
+      "rotate": 4
+    },
+    "100044": {
+      "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/lottery/glass.png",
+      "popTitle": "免费领水杯",
+      "itemTitle": "3天有效期，前往领奖页面领取",
+      "rotate": 5
+    },
+    "100031": {
+      "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/lottery/redbag.png",
+      "popTitle": "66元话费红包",
+      "itemTitle": "3天有效期，前往支付宝卡包查看",
+      "rotate": 6
+    },
+    "100035": {
+      "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/lottery/brush.png",
+      "popTitle": "免费领电动牙刷(送3个刷头)1个",
+      "itemTitle": "3天有效期，前往领奖页面领取",
+      "rotate": 7
+    }
+  }
+}

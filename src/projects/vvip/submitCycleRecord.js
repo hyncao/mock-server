@@ -11,8 +11,11 @@ module.exports = (req) => ({
   code: 1000,
   msg: '响应信息:调用成功',
   response: {
-    status: statusMap.pending,
-    msg: '',
+    status: statusMap.fail,
+    msg: `我要换行了
+换好了
+好了
+了`,
     cycleOrderId: '12123',
     cycleOrderFailType: 7,
   },

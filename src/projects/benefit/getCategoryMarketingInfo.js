@@ -124,7 +124,7 @@ module.exports = (req) => {
             categoryPackageList: [
               {
                 categoryName: '流量充值',
-                id: 3,
+                id: 2,
                 backgroundColor: 2,
                 packageInfoList: [],
                 skuItemList: [

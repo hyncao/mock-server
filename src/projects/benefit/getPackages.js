@@ -63,7 +63,7 @@ module.exports = (req) => {
                 headerImg: '',
                 mutexGroups: '',
                 packageGroup: '',
-                // packageId: 1001475, // iframe
+                packageId: 1001475, // iframe
                 // packageId: 1001241, // 电信集团下单按钮文案
                 // packageId: 1001129, // 电信集团优酷
                 // packageId: 1001470, // 山东电信
@@ -72,7 +72,7 @@ module.exports = (req) => {
                 // packageId: 1001471, // 广西电信
                 // packageId: 1000967, // 电信集团增加协议
                 // packageId: 1001183, // 河南电信
-                packageId: 1001589, // 湖北电信
+                // packageId: 1001589, // 湖北电信
                 // packageId: 1001737, // 改变按钮文案
                 // packageId: 1000967, // 电信优酷
                 priority: 2,
@@ -96,7 +96,7 @@ module.exports = (req) => {
                         productEntryName: '话费',
                         pluginProductImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/5708/5356/icon.png',
                         // externalLinkUrl: 'https://www.bing.com',
-                        agreementName: '123',
+                        agreementName: '',
                         cnId: 10005,
                         detailImgs: [
                           getFileByEnv(

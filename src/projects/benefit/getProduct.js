@@ -520,7 +520,7 @@ module.exports = (req) => {
                             productEntryId: 24,
                             productEntryName: '短期包',
                             ranks: 7,
-                            skuId: 9443,
+                            skuId: 7868,
                             skuImg: '',
                             skuProps: { 合约: '1' },
                             tabId: 0,
