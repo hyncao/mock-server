@@ -828,7 +828,7 @@ const responseVip = {
         },
       ],
     },
-    phoneNumber: '13082822945',
+    phoneNumber: '131******11',
     nickName: null,
     avatar: null,
     memberJoinTitle: '2022年05月19日起生效，已享受65天',

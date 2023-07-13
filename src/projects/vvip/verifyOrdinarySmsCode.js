@@ -1,9 +1,6 @@
-const moment = require('moment');
-
 const statusMap = {
   success: 1,
   fail: -1,
-  tooClose: -2,
 };
 
 module.exports = (req) => {
@@ -12,7 +9,7 @@ module.exports = (req) => {
     msg: '响应信息:调用成功',
     response: {
       status: statusMap.success,
-      msg: '2',
+      msg: 'ok',
     },
   };
 };

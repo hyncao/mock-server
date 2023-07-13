@@ -257,4 +257,28 @@ module.exports = [
     description: '获取抽奖结果',
     delay: 0,
   },
+  {
+    name: 'getMemberList',
+    method: 'post',
+    url: `${URI}get.member.list`,
+    response: require('./getMemberList'),
+    description: '获取会员列表',
+    delay: 0,
+  },
+  {
+    name: 'sendOrdinarySmsCode',
+    method: 'post',
+    url: `${URI}send.ordinary.sms.code`,
+    response: require('./sendOrdinarySmsCode'),
+    description: '发送普通验证码',
+    delay: 0,
+  },
+  {
+    name: 'verifyOrdinarySmsCode',
+    method: 'post',
+    url: `${URI}verify.ordinary.sms.code`,
+    response: require('./verifyOrdinarySmsCode'),
+    description: '发送普通验证码',
+    delay: 0,
+  },
 ];

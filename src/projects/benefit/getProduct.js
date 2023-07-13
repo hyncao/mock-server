@@ -578,7 +578,7 @@ module.exports = (req) => {
                             frontExtInfo: {
                               flowNum: '10GB',
                               enableType: '订购立即生效',
-                              cornerIcon: '可用券',
+                              cornerIcon: '可用券11',
                               enableTime: '订购7日内有效',
                               range: '全国通用，不含港澳台',
                               flowName: '7天包',
@@ -632,7 +632,7 @@ module.exports = (req) => {
                             tabId: 0,
                             taobaoProductId: '',
                             taobaoProducts: [],
-                            tip: '',
+                            tip: '您即将办理 99元10G流量合约包，如需继续办理请仔细阅读以下信息，请点击确认\r\n<RED>1. 30元/月  10GB流</RED>量合约包\r\n2. 协议期：12个月 。\r\n3. 主副卡分享：仅限订购号码使用，套餐不共享。\r\n4. 退订： 合约期内不可退订，第12个月可以退订。若提前退订，需要到本地自有营业厅办理，并按已享受的权益价值缴纳违约金，即30元*已订购月份。',
                             title: '联通-全国30元10GB7天包（HT）',
                           },
                         ],
