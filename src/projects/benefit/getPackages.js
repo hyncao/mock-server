@@ -50,7 +50,7 @@ module.exports = (req) => {
             msg: '有商品',
             noProduct: false,
             operatorCode: 3,
-            phoneNumber: '189******28',
+            phoneNumber: req.body.phoneNumber.replace(/^(\d{3})\d{6}(\d{2})$/, '$1******$2'),
             provinceId: 34,
             provinceName: '安徽',
             provinceOperatorName: '安徽电信',
@@ -93,17 +93,14 @@ module.exports = (req) => {
                     packagerId: 0,
                     skus: [
                       {
+                        buttonText: '下单啊！',
                         productEntryName: '话费',
-                        pluginProductImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/5708/5356/icon.png',
+                        pluginProductImg:
+                          'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/5708/5356/icon.png',
                         // externalLinkUrl: 'https://www.bing.com',
                         agreementName: '',
                         cnId: 10005,
-                        detailImgs: [
-                          getFileByEnv(
-                            'ruleImg',
-                            'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5531/3559/rule.png'
-                          ),
-                        ],
+                        detailImgs: [getFileByEnv('ruleImg', 'https://img.temp.im/750x400/AAA/EEE')],
                         failurePrompt: '如有欠费将不能办理',
                         frontExtInfo: {
                           tips: '',
@@ -113,16 +110,11 @@ module.exports = (req) => {
                           cornerIcon: '啊啊',
                           subTitle: '送视频会员',
                           mainTitle: '15GB',
+                          range: '这是什么'
                         },
-                        headerImg: getFileByEnv(
-                          'headImg',
-                          'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/5708/5356/top.png'
-                        ),
+                        headerImg: getFileByEnv('headImg', 'https://img.temp.im/750x400/666/EEE'),
                         itemId: 100689,
-                        listImg: getFileByEnv(
-                          'listImg',
-                          'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/5708/5356/icon.png'
-                        ),
+                        listImg: getFileByEnv('listImg', 'https://img.temp.im/700x320/888/EEE'),
                         payType: 1,
                         payChannelList: [
                           {
@@ -157,7 +149,7 @@ module.exports = (req) => {
                         pocTitle: '5折抢10G',
                         pocTitleTwo: '5折抢10G',
                         price: 15,
-                        ranks: 31,
+                        ranks: 1,
                         skuId: 5818,
                         skuImg: '',
                         skuProps: {
@@ -166,7 +158,7 @@ module.exports = (req) => {
                         taobaoProductId: '',
                         taobaoProducts: [],
                         title: '电信-集团10G流量包29元/月升5G，升白金会员（畅享）',
-                        tip: '您即将办理 30元10G流量合约包，如需继续办理请仔细阅读以下信息，请点击确认\r\n1. 30元/月  10GB流量合约包\r\n2. 协议期：12个月 。\r\n3. 主副卡分享：仅限订购号码使用，套餐不共享。\r\n4. 退订： 合约期内不可退订，第12个月可以退订。若提前退订，需要到本地自有营业厅办理，并按已享受的权益价值缴纳违约金，即30元*已订购月份。',
+                        // tip: '您即将办理 30元10G流量合约包，如需继续办理请仔细阅读以下信息，请点击确认\r\n1. 30元/月  10GB流量合约包\r\n2. 协议期：12个月 。\r\n3. 主副卡分享：仅限订购号码使用，套餐不共享。\r\n4. 退订： 合约期内不可退订，第12个月可以退订。若提前退订，需要到本地自有营业厅办理，并按已享受的权益价值缴纳违约金，即30元*已订购月份。',
                       },
                     ],
                     title: '电信-集团4升5（融升套入口）',
@@ -201,7 +193,8 @@ module.exports = (req) => {
                     skus: [
                       {
                         productEntryName: '话费1',
-                        pluginProductImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/5708/5356/icon.png',
+                        pluginProductImg:
+                          'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/5708/5356/icon.png',
                         agreementName: '12333',
                         cnId: 10005,
                         detailImgs: [
@@ -216,6 +209,7 @@ module.exports = (req) => {
                           cornerIcon: '啊啊啊啊',
                           subTitle: '送视频会员',
                           mainTitle: '15GB',
+                          range: '这是什么'
                         },
                         headerImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5531/3559/top.png',
                         itemId: 100690,
@@ -269,7 +263,8 @@ module.exports = (req) => {
                     skus: [
                       {
                         productEntryName: '话费2',
-                        pluginProductImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/5708/5356/icon.png',
+                        pluginProductImg:
+                          'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/5708/5356/icon.png',
                         agreementName: '12333飒飒',
                         cnId: 10005,
                         detailImgs: [
@@ -284,6 +279,7 @@ module.exports = (req) => {
                           cornerIcon: '啊啊啊啊啊啊',
                           subTitle: '送视频会员',
                           mainTitle: '15GB',
+                          range: '这是什么'
                         },
                         headerImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5531/3559/top.png',
                         itemId: 100691,

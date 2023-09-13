@@ -24,7 +24,7 @@ module.exports = (req) =>
       hasBindUser: true,
       toBindUserUrl: null,
       phoneNumber: '176******14',
-      enterPhoneNumber: '15990158888',
+      enterPhoneNumber: null,
       signed: false,
     },
   });

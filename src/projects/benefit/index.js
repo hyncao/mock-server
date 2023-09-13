@@ -257,4 +257,12 @@ module.exports = [
     description: '查询该商品是否显示确认弹窗',
     delay: 0,
   },
+  {
+    name: 'getMarketingInfoBy',
+    method: 'post',
+    url: `${URI}getMarketingInfoBy`,
+    response: require('./getMarketingInfoBy'),
+    description: '获取营销配置',
+    delay: 0,
+  },
 ];

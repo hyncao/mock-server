@@ -6,6 +6,6 @@ module.exports = (req) => ({
     msg: '获取成功',
     page: 'pages/index/index',
     pageUrl: 'pages/index/index?enterParamsId=0IS2UUEi4Ge88Gy6gyUe22&enterId=100001',
-    pageParams: { enterParamsId: '0IS2UUEi4Ge88Gy6gyUe22', enterId: '100001', anchor: 'life' },
+    pageParams: { enterParamsId: '0IS2UUEi4Ge88Gy6gyUe22', enterId: '100001' },
   },
 });
