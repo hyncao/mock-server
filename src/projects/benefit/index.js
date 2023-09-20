@@ -265,4 +265,12 @@ module.exports = [
     description: '获取营销配置',
     delay: 0,
   },
+  {
+    name: 'closeTrade',
+    method: 'post',
+    url: `${URI}closeTrade`,
+    response: require('./closeTrade'),
+    description: '退订订单',
+    delay: 0,
+  },
 ];

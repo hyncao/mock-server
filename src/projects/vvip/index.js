@@ -274,11 +274,19 @@ module.exports = [
     delay: 0,
   },
   {
-    name: 'verifyOrdinarySmsCode',
+    name: 'activityShow',
     method: 'post',
     url: `${URI}verify.ordinary.sms.code`,
     response: require('./verifyOrdinarySmsCode'),
     description: '发送普通验证码',
+    delay: 0,
+  },
+  {
+    name: 'activityShow',
+    method: 'post',
+    url: `${URI}activity.show`,
+    response: require('./activityShow'),
+    description: '根据入口ID查询弹窗信息',
     delay: 0,
   },
 ];

@@ -16,6 +16,7 @@ module.exports = (req) => Mock.mock({
       'tradeStatusMsg|1': ['受理中', '生效中', '已退款'],
       packageId: 1000967,
       // outBenefitUrl: 'https://www.bing.com'
+      unsubscribe: 'true'
     },
   },
   msg: '成功',
