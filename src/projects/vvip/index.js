@@ -289,4 +289,12 @@ module.exports = [
     description: '根据入口ID查询弹窗信息',
     delay: 0,
   },
+  {
+    name: 'getH5ToAppletsOrderUrl',
+    method: 'post',
+    url: `${URI}get.h5.to.applets.order.url`,
+    response: require('./getH5ToAppletsOrderUrl'),
+    description: '获取H5到小程序下单url',
+    delay: 0,
+  },
 ];
