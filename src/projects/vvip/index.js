@@ -297,4 +297,12 @@ module.exports = [
     description: '获取H5到小程序下单url',
     delay: 0,
   },
+  {
+    name: 'joinCloseActivity',
+    method: 'post',
+    url: `${URI}join.close.activity`,
+    response: require('./joinCloseActivity'),
+    description: '参加解约活动',
+    delay: 0,
+  },
 ];

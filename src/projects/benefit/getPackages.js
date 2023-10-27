@@ -100,7 +100,8 @@ module.exports = (req) => {
                         // externalLinkUrl: 'https://www.bing.com',
                         agreementName: '',
                         cnId: 10005,
-                        detailImgs: [getFileByEnv('ruleImg', 'https://img.temp.im/750x400/AAA/EEE')],
+                        // detailImgs: [getFileByEnv('ruleImg', 'https://img.temp.im/750x400/AAA/EEE')],
+                        detailImgs: ['https://img.temp.im/750x1500/ff935b/ff935b'],
                         failurePrompt: '如有欠费将不能办理',
                         frontExtInfo: {
                           tips: '',
@@ -112,9 +113,11 @@ module.exports = (req) => {
                           mainTitle: '15GB',
                           range: '这是什么'
                         },
-                        headerImg: getFileByEnv('headImg', 'https://img.temp.im/750x400/666/EEE'),
+                        // headerImg: getFileByEnv('headImg', 'https://img.temp.im/750x400/666/EEE'),
+                        headerImg: 'https://img.temp.im/750x1200/fe5039/fe5039',
                         itemId: 100689,
-                        listImg: getFileByEnv('listImg', 'https://img.temp.im/700x320/888/EEE'),
+                        // listImg: getFileByEnv('listImg', 'https://img.temp.im/700x320/888/EEE'),
+                        listImg: 'https://img.temp.im/700x610/ffad66/ffad66',
                         payType: 1,
                         payChannelList: [
                           {

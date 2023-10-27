@@ -14,24 +14,11 @@ module.exports = (req) => {
       msg: '',
       memberTradeInfoList: [
         {
-          tradeId: '10001',
-          phoneNumber: '131******11',
-          joinDays: '1',
+          tradeId: '202310260000000596',
+          phoneNumber: '132******54',
+          joinDays: 1,
           memberTitle: '尊享会员',
-          memberType: MemberTypeMap.vip,
-        },
-        {
-          tradeId: '10002',
-          phoneNumber: '159******89',
-          joinDays: '2',
-          memberTitle: '视频版',
-          memberType: MemberTypeMap.basic,
-        },
-        {
-          tradeId: '10003',
-          phoneNumber: '159******53',
-          joinDays: '3',
-          memberTitle: '基础版',
+          memberType: 2,
         },
       ],
     },
