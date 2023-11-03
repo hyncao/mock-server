@@ -250,6 +250,14 @@ module.exports = [
     delay: 0,
   },
   {
+    name: 'checkSmsCode',
+    method: 'post',
+    url: `${URI}checkSmsCode`,
+    response: require('./checkSmsCode'),
+    description: '登录',
+    delay: 0,
+  },
+  {
     name: 'getUserConfirmInfo',
     method: 'post',
     url: `${URI}getUserConfirmInfo`,

@@ -1,5 +1,8 @@
 {
   "VipSingle": {
     "itemList": [100007, 100016, 100017]
-  }
+  },
+  "noticeFlag": true,
+  "noticeText": "VV会员正在系统升级，暂无法为您办理会员业务，7日后完成升级，敬请谅解",
+  "noticeToast": "业务升级中，暂无法办理！敬请谅解"
 }

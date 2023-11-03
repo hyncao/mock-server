@@ -5,5 +5,6 @@ module.exports = (req) => ({
     status: 1,
     msg: '解约申请成功',
     closeActivityAwardType: 1,    
+    closeActivityRaffleId: 12312321,
   },
 });

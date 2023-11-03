@@ -305,4 +305,12 @@ module.exports = [
     description: '参加解约活动',
     delay: 0,
   },
+  {
+    name: 'takeCloseActivityAward',
+    method: 'post',
+    url: `${URI}take.close.activity.award`,
+    response: require('./takeCloseActivityAward'),
+    description: '领取解约活动奖品',
+    delay: 0,
+  },
 ];
