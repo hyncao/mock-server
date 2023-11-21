@@ -51,7 +51,7 @@ const responseVip = {
     tradeId: '202205190000000297',
     renewalTradeId: null,
     damages: 1.99,
-    currentCycleNum: 3,
+    currentCycleNum: 5,
     effectiveTotalCycleNum: 6,
     memberType: 2,
     packageInfo: {

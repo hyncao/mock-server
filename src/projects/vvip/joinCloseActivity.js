@@ -4,7 +4,7 @@ module.exports = (req) => ({
   response: {
     status: 1,
     msg: '解约申请成功',
-    closeActivityAwardType: 1,    
+    closeActivityAwardType: 3,    
     closeActivityRaffleId: 12312321,
   },
 });

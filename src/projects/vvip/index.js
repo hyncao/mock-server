@@ -31,7 +31,7 @@ module.exports = [
     url: `${URI}get.trade.detail`,
     response: require('./getTradeDetail'),
     description: '查询订单详情',
-    delay: 1000,
+    delay: 3000,
   },
   {
     name: 'createTrade',
@@ -311,6 +311,14 @@ module.exports = [
     url: `${URI}take.close.activity.award`,
     response: require('./takeCloseActivityAward'),
     description: '领取解约活动奖品',
+    delay: 0,
+  },
+  {
+    name: 'getBenefitGroupData',
+    method: 'post',
+    url: `${URI}get.benefit.group.data`,
+    response: require('./getBenefitGroupData'),
+    description: '获取权益分组数据',
     delay: 0,
   },
 ];

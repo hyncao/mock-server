@@ -52,7 +52,7 @@ module.exports = (req) => {
                     detailImg: '',
                     firstPriority: 99999999,
                     frontExtInfo: {
-                      isIframe: 1,
+                      isIframe: 0,
                     },
                     headerImg: '',
                     mutexGroups: '',
@@ -324,7 +324,7 @@ module.exports = (req) => {
                     detailImg: '',
                     firstPriority: 99999999,
                     frontExtInfo: {
-                      isIframe: 1,
+                      isIframe: 0,
                     },
                     headerImg: '',
                     mutexGroups: '',
@@ -415,7 +415,8 @@ module.exports = (req) => {
                             tabId: 0,
                             taobaoProductId: '',
                             taobaoProducts: [],
-                            tip: '您正在订购5G升级包，首月1元，次月19元，订购立即生效，自动续订，首月不可退订，次月可退订，退订次次月生效',
+                            // tip: '您正在订购5G升级包，首月1元，次月19元，订购立即生效，自动续订，首月不可退订，次月可退订，退订次次月生效',
+                            tip: '',
                             title: '联通-全国19元5GB流量月包（首月1元）',
                           },
                         ],

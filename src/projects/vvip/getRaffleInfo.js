@@ -8,5 +8,13 @@ module.exports = (req) => ({
     // 3 活动下线，关闭所有入口，抽奖页不可见
     status: 1,
     msg: '获取成功',
+    params: {
+      banner: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/banner_181003832.png',
+      bigImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/bigImg_102449318.png',
+      detailBigImg:
+        'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/detailBigImg_102506754.png',
+      smallImg:
+        'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/smallImg_180949341.gif',
+    },
   },
 });
