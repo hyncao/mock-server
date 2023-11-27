@@ -5,6 +5,10 @@ module.exports = (req) => ({
     // 1:抽奖成功, -1:抽奖失败
     status: 1,
     msg: '获取成功',
-    itemId: 100051,
+    itemId: 100047,
+    params: {
+      raffleListImg:
+        'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/item/100049/0/0/raffleListImg_161838621.png',
+    },
   },
 });
