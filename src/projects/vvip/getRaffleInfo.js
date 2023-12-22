@@ -10,11 +10,11 @@ module.exports = (req) => ({
     msg: '获取成功',
     params: {
       banner: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/banner_181003832.png',
-      bigImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/bigImg_102449318.png',
+      bigImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/bigImg_163222491.png',
       detailBigImg:
-        'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/detailBigImg_102506754.png',
+        'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/detailBigImg_163243946.png',
       smallImg:
-        'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/smallImg_180949341.gif',
+        'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/smallImg_163302435.gif',
     },
   },
 });

@@ -62,6 +62,8 @@ module.exports = (req) => {
             recall: [{ templateId: 100010, firstMouthDiscountType: 3 }],
             clzf: [{ templateId: 100009, firstMouthDiscountType: 3 }],
             ycx: [{ templateId: 100007, firstMouthDiscountType: 1 }],
+            xjchzx: [{ templateId: 100009, firstMouthDiscountType: 1 }],
+            zx1gy: [{ templateId: 100010, firstMouthDiscountType: 1 }],
           },
           ranks: 1,
           params: {

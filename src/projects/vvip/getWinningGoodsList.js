@@ -8,7 +8,7 @@ module.exports = (req) => ({
     // 3 活动下线，关闭所有入口，抽奖页不可见
     status: 1,
     msg: '获取成功',
-    raffleCount: 1, // 剩余抽奖次数
+    raffleCount: 0, // 剩余抽奖次数
     openOpportunity: 1,
     flowOpportunity: 0,
     welfareInfoList: [
