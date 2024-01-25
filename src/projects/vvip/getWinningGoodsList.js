@@ -11,37 +11,6 @@ module.exports = (req) => ({
     raffleCount: 0, // 剩余抽奖次数
     openOpportunity: 1,
     flowOpportunity: 0,
-    welfareInfoList: [
-      {
-        skuId: 3828,
-        itemId: 100045,
-        prizeAmount: 0,
-        title: '免月租',
-        showTitle: '免月租',
-        subtitle: '免月租2',
-        takeMode: 1,
-        params: {
-          raffleListImg:
-            'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/item/100049/0/0/raffleListImg_161838621.png',
-        },
-        linkUrl: 'http://www.bing.com',
-        detailButton: { type: 3, title: '去领取', style: 1, orderId: null },
-      },
-      {
-        skuId: 3828,
-        itemId: 100049,
-        prizeAmount: 0,
-        title: '免费领手机支架',
-        showTitle: '免费领手机支架',
-        subtitle: '免费领手机支架2',
-        takeMode: 1,
-        params: {
-          raffleListImg:
-            'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/item/100049/0/0/raffleListImg_161838621.png',
-        },
-        linkUrl: 'http://www.bing.com',
-        detailButton: { type: 3, title: '去领取', style: 1, orderId: null },
-      },
-    ],
+    welfareInfoList: [],
   },
 });
