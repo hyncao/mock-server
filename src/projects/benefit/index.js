@@ -281,4 +281,12 @@ module.exports = [
     description: '退订订单',
     delay: 0,
   },
+  {
+    name: 'getSubscribeMessageId',
+    method: 'post',
+    url: `${URI}getSubscribeMessageId`,
+    response: require('./getSubscribeMessageId'),
+    description: '获取订阅消息模板',
+    delay: 0,
+  },
 ];
