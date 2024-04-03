@@ -7,6 +7,7 @@ module.exports = (req) =>
       dataList: [],
       dataMap: {
         'operatorCode|1': [1, 2, 3],
+        provinceId: 31,
         'payment|1-2.2': 99.0,
         phoneNumber: /1\d{2}\*{4}\d{4}/,
         provinceOperatorName: '@province@pick(["联通", "电信", "移动"])',

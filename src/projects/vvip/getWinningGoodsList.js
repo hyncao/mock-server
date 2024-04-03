@@ -8,9 +8,54 @@ module.exports = (req) => ({
     // 3 活动下线，关闭所有入口，抽奖页不可见
     status: 1,
     msg: '获取成功',
-    raffleCount: 0, // 剩余抽奖次数
+    raffleCount: 2, // 剩余抽奖次数
     openOpportunity: 1,
     flowOpportunity: 0,
-    welfareInfoList: [],
+    welfareInfoList: [
+      {
+        skuId: 1001,
+        title: '免费领限量优酷月卡',
+        linkUrl: '',
+        detailButton: {
+          type: 6,
+          style: 1,
+          title: '去使用',
+        },
+        params: { raffleListImg: '' },
+      },
+      {
+        skuId: 1002,
+        title: '免费领限量优酷月卡',
+        linkUrl: '',
+        detailButton: {
+          type: 6,
+          style: 1,
+          title: '去使用',
+        },
+        params: { raffleListImg: '' },
+      },
+      {
+        skuId: 1003,
+        title: '免费领限量优酷月卡',
+        linkUrl: '',
+        detailButton: {
+          type: 6,
+          style: 1,
+          title: '去使用',
+        },
+        params: { raffleListImg: '' },
+      },
+      // {
+      //   skuId: 1004,
+      //   title: '免费领限量优酷月卡',
+      //   linkUrl: '',
+      //   detailButton: {
+      //     type: 6,
+      //     style: 1,
+      //     title: '去使用',
+      //   },
+      //   params: { raffleListImg: '' },
+      // },
+    ],
   },
 });

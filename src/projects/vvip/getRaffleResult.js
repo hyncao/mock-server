@@ -8,7 +8,7 @@ module.exports = (req) => ({
     itemId: 100047,
     params: {
       raffleListImg:
-        'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/item/100049/0/0/raffleListImg_161838621.png',
+        'https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/2023-11-20/88.png',
     },
   },
 });
