@@ -835,7 +835,8 @@ const responseVip = {
     avatar: null,
     memberJoinTitle: '2022年05月19日起生效，已享受65天',
     showDeductionType: 2,
-    isAllowClose: false,
+    isAllowClose: true,
+    isAllowRenewal: true,
   },
 };
 

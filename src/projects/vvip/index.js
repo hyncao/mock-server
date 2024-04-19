@@ -321,4 +321,12 @@ module.exports = [
     description: '获取权益分组数据',
     delay: 0,
   },
+  {
+    name: 'getSingleMonthMemberRenewalUrl',
+    method: 'post',
+    url: `${URI}get.single.month.member.renewal.url`,
+    response: require('./getSingleMonthMemberRenewalUrl'),
+    description: '获取单月会员续约url',
+    delay: 0,
+  },
 ];
