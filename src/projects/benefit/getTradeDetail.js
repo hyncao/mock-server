@@ -15,8 +15,9 @@ module.exports = (req) =>
         skuTitle: '@province@pick(["联通", "电信", "移动"])@cword(3, 5)',
         tradeCreateTime: '@datetime',
         // 'tradeStatus|1': [0, 1, 2, -2],
-        tradeStatus: 2,
-        'tradeStatusMsg|1': ['受理中', '生效中', '已退款'],
+        tradeStatus: 0,
+        // 'tradeStatusMsg|1': ['受理中', '生效中', '已退款'],
+        tradeStatusMsg: '受理中',
         packageId: 1000967,
         // outBenefitUrl: 'https://www.bing.com'
         unsubscribe: 'true',
