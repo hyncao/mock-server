@@ -6,6 +6,85 @@ module.exports = (req) => {
       status: 1,
       msg: '抽奖活动开始且显示',
       params: {
+        banner: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/banner_103130997.png',
+        bg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/bg_154148539.png',
+        bigImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/bigImg_154008290.png',
+        bottom: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/bottom_154022532.png',
+        btn: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/btn_154034647.png',
+        center: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/center_154053834.png',
+        detailBigImg:
+          'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/detailBigImg_153959815.png',
+        gif: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/gif_161637067.gif',
+        icon1: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/icon1_161650461.png',
+        icon2: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/icon2_161705789.png',
+        landingBg:
+          'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/landingBg_153842046.png',
+        picked: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/picked_161756422.png',
+        'prize-title':
+          'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/prize-title_161807958.png',
+        'rule-title':
+          'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/rule-title_161828474.png',
+        smallImg:
+          'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/smallImg_155112158.gif',
+        success:
+          'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/success_161836349.png',
+      },
+      raffleItemList: [
+        {
+          itemId: 100035,
+          title: '免费领电动牙刷（送3个刷头）',
+          subTitle: '魔哒熊电动牙刷1个（送3个刷头）',
+          params: {
+            raffleListImg:
+              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/item/100035/0/0/raffleListImg_162410150.png',
+            raffleTurntableImg:
+              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/item/100035/0/0/raffleTurntableImg_184340692.png',
+          },
+        },
+        {
+          itemId: 100052,
+          title: '免费领鼠标垫',
+          subTitle: '可DIY定制大号鼠标垫',
+          params: {
+            raffleListImg:
+              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/item/100052/0/0/raffleListImg_113835212.png',
+            raffleTurntableImg:
+              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/item/100052/0/0/raffleTurntableImg_113425319.png',
+          },
+        },
+        {
+          itemId: 100057,
+          title: '优酷月卡4.6折',
+          subTitle: '优酷月卡4.6折',
+          params: {
+            raffleListImg:
+              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/item/100057/0/0/raffleListImg_174923530.png',
+            raffleTurntableImg:
+              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/item/100057/0/0/raffleTurntableImg_174019292.png',
+          },
+        },
+        {
+          itemId: 100049,
+          title: '免费领手机支架',
+          subTitle: '可伸缩折叠手机支架1个',
+          params: {
+            raffleListImg:
+              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/item/100049/0/0/raffleListImg_113846771.png',
+            raffleTurntableImg:
+              'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/item/100049/0/0/raffleTurntableImg_113444126.png',
+          },
+        },
+      ],
+      rule: '一、活动玩法\\n1.活动时间: 2024.5.10 10:00-2024.5.16 23:59;\\n2.参与用户: 开通了VV会员的联通用户；\\n3.活动期间，保持VV会员开通状态可得1次抽奖机会；或完成任务列表中的任务，可得相应的抽奖机会，目前每人活动期间至多可得4次抽奖机会。\\n二、活动注意事项：\\n1.同一用户在活动期间最多可获得4次抽奖机会，同一身份证号、同一支付宝账号、同一手机号码、同一设备终端，满足以上任一条件均视为同一用户；\\n2.如出现不可抗力或情势变更的情况，如自然灾害等，活动承办方可免于承担责任;\\n3.本活动承办方为上海聚杰网络科技有限公司，如对本活动有疑问，可联系客服电话：4006660993。\\n三、奖品内容及说明\\n1.视频会员月卡：\\n（1）视频会员分为爱奇艺、腾讯、优酷、哔哩哔哩4种类型。\\n（2）共计666份，限时7天，活动期间每日均有机会抽中。\\n（3）若已开通所抽中的视频会员，权益有效期自动延长1个月。\\n（4）仅支持手机号作为账号办理，一旦提交无法修改，请在办理前再次确认无误。\\n2.实物奖品：\\n（1)有效期3天，领取后请至抽奖活动页底部-我的奖品查看并使用;\\n（2)奖品使用规则可在奖品详情页查看，若有疑问可咨询页面-在线客服咨询。\\n请用户务必慎审阅读以上规则条款，请在确保已经清楚了解并认可相关活动规则定义、内容以及法律后果后自行决定是否参与本活动。如你不同意本规则的任意内容，或无法准确理解规则条款，请勿参加规则对应页面的活动。如用户实际参与了活动，则视为同意并认可本规则。',
+    },
+  };
+  return {
+    code: 1000,
+    msg: '响应信息:调用成功',
+    response: {
+      status: 1,
+      msg: '抽奖活动开始且显示',
+      params: {
         banner: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/banner_181003832.png',
         bg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/bg_153951221.png',
         bigImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/newMemberWeek/1002/0/0/bigImg_154829795.png',

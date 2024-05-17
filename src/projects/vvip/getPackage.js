@@ -45,7 +45,7 @@ module.exports = (req) => {
     response: {
       status: 1,
       msg: '有商品',
-      phoneNumber: '',
+      phoneNumber: '15990158853',
       packages: [
         {
           title: '尊享会员',
