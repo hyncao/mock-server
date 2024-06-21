@@ -12,6 +12,7 @@ module.exports = (req) => ({
       // payRequestInfo: 'http://www.bing.com',
       status: 1,
       urlParam: '',
+      confirmUrl: 'http://www.bing.com',
     },
   },
   msg: '成功',

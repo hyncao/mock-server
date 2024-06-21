@@ -46,7 +46,7 @@ const responseVip = {
   response: {
     closeActivitySwitch: true,
     toBindUserUrl: 'https://litevip.jujienet.com/apsu-api-test/index/100078',
-    status: tradeStatusMap.success,
+    status: tradeStatusMap.pending,
     msg: '本月会员月费未支付',
     tradeId: '202205190000000297',
     renewalTradeId: null,
@@ -1441,7 +1441,7 @@ module.exports = (req) => {
   // const isDevelopment = false;
 
   // 在这里切换尊享版还是免费版
-  const memberType = MemberTypeMap.vip;
+  const memberType = MemberTypeMap.basic;
   return memberType === MemberTypeMap.vip ? responseVip : responseBasic;
   // return error;
 };

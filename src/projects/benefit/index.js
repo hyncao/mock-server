@@ -167,7 +167,7 @@ module.exports = [
     url: `${URI}getProductMarketingInfo`,
     response: require('./getProductMarketingInfo'),
     description: '',
-    delay: 0,
+    delay: 20000,
   },
   {
     name: 'getProduct',
@@ -287,6 +287,14 @@ module.exports = [
     url: `${URI}getSubscribeMessageId`,
     response: require('./getSubscribeMessageId'),
     description: '获取订阅消息模板',
+    delay: 0,
+  },
+  {
+    name: 'getRingInfo',
+    method: 'post',
+    url: `${URI}ayy/getRingInfo`,
+    response: require('./getRingInfo'),
+    description: '获取彩铃信息',
     delay: 0,
   },
 ];

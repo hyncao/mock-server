@@ -329,4 +329,12 @@ module.exports = [
     description: '获取单月会员续约url',
     delay: 0,
   },
+  {
+    name: 'getRaffleList',
+    method: 'post',
+    url: `${URI}get.raffle.list`,
+    response: require('./getRaffleList'),
+    description: '获取参与抽奖用户列表',
+    delay: 1000,
+  },
 ];

@@ -45,17 +45,17 @@ module.exports = (req) => ({
         },
         params: { raffleListImg: '' },
       },
-      // {
-      //   skuId: 1004,
-      //   title: '免费领限量优酷月卡',
-      //   linkUrl: '',
-      //   detailButton: {
-      //     type: 6,
-      //     style: 1,
-      //     title: '去使用',
-      //   },
-      //   params: { raffleListImg: '' },
-      // },
+      {
+        skuId: 1004,
+        title: '免费领限量优酷月卡',
+        linkUrl: '',
+        detailButton: {
+          type: 6,
+          style: 1,
+          title: '去使用',
+        },
+        params: { raffleListImg: '' },
+      },
     ],
   },
 });
