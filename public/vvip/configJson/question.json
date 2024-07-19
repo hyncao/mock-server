@@ -6,5 +6,5 @@
   "textareaPlaceholder": "如有其他退订原因，请在这里告诉我们",
   "exitPop": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/exitPop.png",
   "basic": ["不需要流量", "权益价值不高", "需要携号转网", "不会使用权益", "其他原因"],
-  "vip": ["不需要流量", "权益价值不高", "需要携号转网", "不会使用权益", "月费太贵", "其他原因"]
+  "vip": ["权益价值不高", "需要携号转网", "不会使用权益", "月费太贵", "其他原因"]
 }

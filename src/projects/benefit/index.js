@@ -167,7 +167,7 @@ module.exports = [
     url: `${URI}getProductMarketingInfo`,
     response: require('./getProductMarketingInfo'),
     description: '',
-    delay: 20000,
+    delay: 0,
   },
   {
     name: 'getProduct',
