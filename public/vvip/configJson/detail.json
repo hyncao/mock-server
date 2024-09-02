@@ -1,117 +1,67 @@
 {
-  "code": 1000,
-  "msg": "响应信息:调用成功",
-  "response": {
-    "status": 1,
-    "msg": "获取成功",
-    "pageName": "详情页",
-    "config": {
-      "cardVip": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/detailCardVip.png",
-      "groupVip": [
-        {
-          "title": "通信权益",
-          "comments": "===== 注释: title 为新增字段, 是为该权益组的标题, title 以下字段暂时无用, 考虑到小程序版本更新延迟, 以后再移除 =====",
-          "extraText": "领取后话费自动到账 每月仅限领取一张（二选一）",
-          "itemGroup": [
-            { "display": "flex", "displayCount": 3 },
-            { "display": "flex", "displayCount": 2 }
-          ]
-        },
-        {
-          "title": "生活权益",
-          "comments": "===== 注释: title 为新增字段, 是为该权益组的标题, title 以下字段暂时无用, 考虑到小程序版本更新延迟, 以后再移除 =====",
-          "itemGroup": [{ "display": "flex", "displayCount": 2 }]
-        }
-      ],
-      "cardBasic": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/detailCardBasic.png",
-      "groupBasic": [
-        {
-          "itemGroup": [
-            { "display": "flex", "displayCount": 3 },
-            { "display": "flex", "displayCount": 2 }
-          ]
-        },
-        { "itemGroup": [{ "display": "flex", "displayCount": 2 }] }
-      ],
-      "messageList": {
-        "vip": [
-          {
-            "btn": "去支付",
-            "title": "月费未支付",
-            "subTitle": "权益已失效，支付会员费继续享权益"
-          },
-          {
-            "btn": "去领取",
-            "title": "会员卡待领取",
-            "subTitle": "加入卡包 快速领取话费"
-          },
-          {
-            "btn": "去关注",
-            "title": "关注生活号",
-            "subTitle": "关注生活号，第一时间接收动态资讯"
-          }
-        ],
-        "basic": [
-          {
-            "btn": "去抽奖",
-            "title": "会员周抽话费",
-            "subTitle": "最高抽666元话费！百分百中奖！"
-          },
-          {
-            "btn": "去升级",
-            "title": "1.99元享5GB",
-            "subTitle": "2GB流量{n}个月后失效，1.99元升级5GB"
-          },
-          {
-            "btn": "去升级",
-            "title": "1.99元享5GB",
-            "subTitle": "2GB流量权益已到期，1.99元升级5GB"
-          },
-          {
-            "btn": "去延期",
-            "title": "做任务再领2GB",
-            "subTitle": "2GB流量权益已到期，做任务再领2GB"
-          },
-          {
-            "btn": "去延期",
-            "title": "下月再领2GB",
-            "subTitle": "权益将于本月底失效，做任务再领2GB"
-          },
-          {
-            "btn": "去领取",
-            "title": "会员卡待领取",
-            "subTitle": "加入卡包 快速领取流量话费"
-          },
-          {
-            "btn": "去关注",
-            "title": "关注生活号",
-            "subTitle": "关注生活号，第一时间接收动态资讯"
-          }
-        ],
-        "comments": "===== 注释: 付费和免费分别有自己的数组, 数组的顺序即为展示优先级, 按序遍历, 顺序极其重要 ====="
-      },
-      "postmarkImg": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/postmark.png",
-      "vipEquityAd": [
-        {
-          "src": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/vipAdMobileShell.png",
-          "link": "/pages/yinge/index?type=mobileShell"
-        },
-        {
-          "src": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/vipAdTengxun.png",
-          "link": "/pages/yinge/index?type=tengxun"
-        }
-      ],
-      "basicEquityAd": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/basicEquityAd.png",
-      "defaultAvatar": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/default-avatar.png",
-      "defaultUserName": "会员用户",
-      "detailBasicBottom": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/detailBasicBottom.png",
-      "backgroundColorVip": "#e2aa6a",
-      "messageAuthDateList": [1, 4, 25, 28],
-      "backgroundColorBasic": "#ebf0f8",
-      "navigationBarTitleVip": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/navigationLogoVip.png",
-      "navigationBarTitleVip2": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/navigationLogoVip2.png",
-      "navigationBarTitleBasic": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/navigationLogoBasic.png",
-      "navigationBarTitleBasic2": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/navigationLogoBasic2.png"
+  "cardVip": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/detailCardVip.png",
+  "groupVip": [
+    {
+      "title": "通信权益",
+      "comments": "===== 注释: title 为新增字段, 是为该权益组的标题, title 以下字段暂时无用, 考虑到小程序版本更新延迟, 以后再移除 =====",
+      "extraText": "领取后话费自动到账 每月仅限领取一张（二选一）",
+      "itemGroup": [
+        { "display": "flex", "displayCount": 3 },
+        { "display": "flex", "displayCount": 2 }
+      ]
+    },
+    {
+      "title": "生活权益",
+      "comments": "===== 注释: title 为新增字段, 是为该权益组的标题, title 以下字段暂时无用, 考虑到小程序版本更新延迟, 以后再移除 =====",
+      "itemGroup": [{ "display": "flex", "displayCount": 2 }]
     }
-  }
+  ],
+  "cardBasic": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/detailCardBasic.png",
+  "groupBasic": [
+    {
+      "itemGroup": [
+        { "display": "flex", "displayCount": 3 },
+        { "display": "flex", "displayCount": 2 }
+      ]
+    },
+    { "itemGroup": [{ "display": "flex", "displayCount": 2 }] }
+  ],
+  "messageList": {
+    "vip": [
+      { "btn": "去支付", "title": "月费未支付", "subTitle": "权益已失效，支付会员费继续享权益" },
+      { "btn": "去领取", "title": "会员卡待领取", "subTitle": "加入卡包 快速领取话费" },
+      { "btn": "去关注", "title": "关注生活号", "subTitle": "关注生活号，第一时间接收动态资讯" }
+    ],
+    "basic": [
+      { "btn": "去升级", "title": "1.99元享5GB", "subTitle": "2GB流量{n}个月后失效，1.99元升级5GB" },
+      { "btn": "去升级", "title": "1.99元享5GB", "subTitle": "2GB流量权益已到期，1.99元升级5GB" },
+      { "btn": "去延期", "title": "做任务再领2GB", "subTitle": "2GB流量权益已到期，做任务再领2GB" },
+      { "btn": "去延期", "title": "下月再领2GB", "subTitle": "权益将于本月底失效，做任务再领2GB" },
+      { "btn": "去领取", "title": "会员卡待领取", "subTitle": "加入卡包 快速领取流量话费" },
+      { "btn": "去关注", "title": "关注生活号", "subTitle": "关注生活号，第一时间接收动态资讯" }
+    ],
+    "comments": "===== 注释: 付费和免费分别有自己的数组, 数组的顺序即为展示优先级, 按序遍历, 顺序极其重要 ====="
+  },
+  "postmarkImg": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/postmark.png",
+  "vipEquityAd": [
+    {
+      "src": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/vipAdMobileShell.png",
+      "link": "/pages/yinge/index?type=mobileShell"
+    },
+    {
+      "src": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/vipAdTengxun.png",
+      "link": "/pages/yinge/index?type=tengxun"
+    }
+  ],
+  "basicEquityAd": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/basicEquityAd.png",
+  "defaultAvatar": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/default-avatar.png",
+  "defaultUserName": "会员用户",
+  "detailBasicBottom": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/detailBasicBottom.png",
+  "backgroundColorVip": "#e2aa6a",
+  "messageAuthDateList": [1, 4, 25, 28],
+  "backgroundColorBasic": "#ebf0f8",
+  "navigationBarTitleVip": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/navigationLogoVip.png",
+  "navigationBarTitleVip2": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/navigationLogoVip2.png",
+  "navigationBarTitleBasic": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/navigationLogoBasic.png",
+  "navigationBarTitleBasic2": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/navigationLogoBasic2.png"
 }

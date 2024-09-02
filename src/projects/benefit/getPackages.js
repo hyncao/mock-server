@@ -116,7 +116,7 @@ module.exports = (req) => {
                           range: '这是什么'
                         },
                         // headerImg: getFileByEnv('headImg', 'https://img.temp.im/750x400/666/EEE'),
-                        headerImg: 'https://img.temp.im/750x1200/fe5039/fe5039',
+                        headerImg: 'https://img.temp.im/750x500/fe5039/fe5039',
                         itemId: 100689,
                         // listImg: getFileByEnv('listImg', 'https://img.temp.im/700x320/888/EEE'),
                         listImg: 'https://img.temp.im/700x460/ffad66/ffad66',

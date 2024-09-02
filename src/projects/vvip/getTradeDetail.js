@@ -844,13 +844,13 @@ const responseBasic = {
   code: 1000,
   msg: '响应信息:调用成功',
   response: {
-    status: tradeStatusMap.success,
+    status: tradeStatusMap.timeout,
     // status: tradeStatusMap.monthFee,
     msg: '连续包月，已开通7天',
     tradeId: '202207010000000305',
     renewalTradeId,
     damages: 1.99,
-    currentCycleNum: 1,
+    currentCycleNum: 5,
     effectiveTotalCycleNum: 6,
     memberType: MemberTypeMap.basic,
     packageInfo: {

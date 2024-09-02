@@ -14,7 +14,7 @@ module.exports = (req) => {
       dataList: [],
       dataMap: {
         // headImg: getFileByEnv('headImg'),
-        headerImg: 'https://img.temp.im/750x1200/fe5039/fe5039',
+        headerImg: 'https://img.temp.im/750x500/fe5039/fe5039',
         // holderImg: getFileByEnv('holderImg'),
         holderImg: 'https://img.temp.im/700x610/ffad66/ffad66',
         marketingTitle: '广东联通畅享包',
