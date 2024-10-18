@@ -31,7 +31,7 @@ module.exports = [
     url: `${URI}get.trade.detail`,
     response: require('./getTradeDetail'),
     description: '查询订单详情',
-    delay: 3000,
+    delay: 0,
   },
   {
     name: 'createTrade',
@@ -359,6 +359,14 @@ module.exports = [
     url: `${URI}finish.raffle.task`,
     response: require('./finishRaffleTask'),
     description: '强制任务完成',
+    delay: 0,
+  },
+  {
+    name: 'getPhoneNumber',
+    method: 'post',
+    url: `${URI}get.phone.number`,
+    response: require('./getPhoneNumber'),
+    description: '获取手机号',
     delay: 0,
   },
 ];

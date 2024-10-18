@@ -17,7 +17,7 @@ module.exports = (req) =>
     code: 1000,
     msg: '响应信息:调用成功',
     response: {
-      status: UserSigningStatusMap.notSign,
+      status: UserSigningStatusMap.signed,
       msg: '被其他用户签约',
       tradeId: 123,
       memberType: MemberTypeMap.basic,

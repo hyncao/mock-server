@@ -112,5 +112,6 @@ module.exports = (req) =>
         title: '移动5GB',
       },
     ],
+    data: [],
     msg: '成功',
   });
