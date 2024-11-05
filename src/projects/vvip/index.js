@@ -369,4 +369,12 @@ module.exports = [
     description: '获取手机号',
     delay: 0,
   },
+  {
+    name: 'getChanelEnterInfo',
+    method: 'post',
+    url: `${URI}get.Chanel.enter.info`,
+    response: require('./getChanelEnterInfo'),
+    description: '获取手机号',
+    delay: 0,
+  },
 ];

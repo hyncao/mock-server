@@ -61,6 +61,7 @@ module.exports = (req) => {
                 frontExtInfo: {
                   bookUrl: 'https://benefit.jujienet.com/benefit/INDEX/20188',
                   isIframe: 0,
+                  reportEvent: 0,
                 },
                 headerImg: '',
                 mutexGroups: '',
