@@ -21,6 +21,7 @@ module.exports = (req) =>
         packageId: 1000967,
         // outBenefitUrl: 'https://www.bing.com'
         unsubscribe: 'true',
+        providerOrderId: '1e994ecf872442f4bc192efc34b91e1f',
       },
     },
     msg: '成功',
