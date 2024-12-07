@@ -6,27 +6,13 @@ module.exports = (req) => ({
   msg: '响应信息:调用成功',
   response: {
     status: 1,
-    msg: '成功',
+    msg: '获取成功',
     messageTemplateMap: {
-      tradeReminder: {
-        status: 1,
-        msg: '成功',
-        platformMessageTemplateId: Random.string('lower', 10),
-      },
+      memberStatusNotify: { status: 2, msg: '已订阅', platformMessageTemplateId: 'b4dc23c732054d5aa931623252c7cf9a' },
       activityStartReminder: {
         status: 2,
         msg: '已订阅',
-        platformMessageTemplateId: Random.string('lower', 10),
-      },
-      rightsReceiveReminder: {
-        status: 1,
-        msg: '成功',
-        platformMessageTemplateId: Random.string('lower', 10),
-      },
-      withholdReminter: {
-        status: 1,
-        msg: '成功',
-        platformMessageTemplateId: Random.string('lower', 10),
+        platformMessageTemplateId: 'c3eeb1273fca4cea8f8f3c7404ff52f2',
       },
     },
   },

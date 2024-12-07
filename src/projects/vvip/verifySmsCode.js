@@ -11,7 +11,7 @@ module.exports = (req) => {
     msg: '响应信息:调用成功',
     response: {
       status: statusMap.success,
-      msg: '',
+      msg: '错误了',
     },
   };
 };

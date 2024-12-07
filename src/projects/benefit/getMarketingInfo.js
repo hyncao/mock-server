@@ -13,11 +13,14 @@ module.exports = (req) => {
     data: {
       dataList: [],
       dataMap: {
-        headImg: getFileByEnv('headImg'),
-        holderImg: getFileByEnv('holderImg'),
+        // headImg: getFileByEnv('headImg'),
+        headerImg: 'https://img.temp.im/750x500/fe5039/fe5039',
+        // holderImg: getFileByEnv('holderImg'),
+        holderImg: 'https://img.temp.im/700x610/ffad66/ffad66',
         marketingTitle: '广东联通畅享包',
         msg: '获取成功',
-        ruleImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/enterPackage/100378/1001149/rule_img.png',
+        // ruleImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/enterPackage/100378/1001149/rule_img.png',
+        ruleImg: 'https://img.temp.im/750x1500/ff935b/ff935b',
         skuItemList: [
           {
             cnId: 10005,
