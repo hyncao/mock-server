@@ -23,7 +23,7 @@ module.exports = [
     url: `${URI}getPackages`,
     response: require('./getPackages'),
     description: '鉴权接口',
-    delay: 2000,
+    delay: 0,
   },
   {
     name: 'sendSkuSmsCode',

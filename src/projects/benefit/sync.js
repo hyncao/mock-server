@@ -1,3 +1,3 @@
 module.exports = (req) => ({
-  code: 500,
+  code: 200,
 });
