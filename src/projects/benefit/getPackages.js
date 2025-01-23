@@ -96,6 +96,7 @@ module.exports = (req) => {
                     packagerId: 0,
                     skus: [
                       {
+                        submitOrderLinkConfigLinkType: 0,
                         buttonText: '下单啊！',
                         productEntryName: '话费',
                         pluginProductImg:
