@@ -18,7 +18,7 @@ module.exports = (req) =>
         tradeStatus: 0,
         // 'tradeStatusMsg|1': ['受理中', '生效中', '已退款'],
         tradeStatusMsg: '受理中',
-        packageId: 1000967,
+        packageId: 1004503,
         // outBenefitUrl: 'https://www.bing.com'
         unsubscribe: 'true',
         providerOrderId: '1e994ecf872442f4bc192efc34b91e1f',

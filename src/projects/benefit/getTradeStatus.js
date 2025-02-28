@@ -4,7 +4,7 @@ module.exports = (req) => {
       code: 200,
       data: {
         msg: '说点什么呢',
-        status: 1,
+        status: 0,
       },
       msg: '成功',
     };

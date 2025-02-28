@@ -65,6 +65,7 @@ module.exports = (req) => {
           listImg:
             'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/marketing/100001/skus/11926/101049/productImg.png',
           logoImg: '',
+          marketingSkuTitle: '新标题1',
           packageItemGroupId: 0,
           packageItemGroupName: '',
           payChannelList: [
@@ -164,6 +165,7 @@ module.exports = (req) => {
             listImg:
               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/marketing/100001/skus/11926/101049/productImg.png',
             logoImg: '',
+            marketingSkuTitle: '新标题2',
             packageItemGroupId: 0,
             packageItemGroupName: '',
             payChannelList: [
@@ -280,6 +282,7 @@ module.exports = (req) => {
             listImg:
               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/10693/18309/productImg.png',
             logoImg: '',
+            marketingSkuTitle: '新标题',
             packageItemGroupId: 100033,
             packageItemGroupName: '视听会员5选1',
             payChannelList: [
@@ -356,6 +359,7 @@ module.exports = (req) => {
             listImg:
               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/10695/18312/productImg.png',
             logoImg: '',
+            marketingSkuTitle: '新标题',
             packageItemGroupId: 100033,
             packageItemGroupName: '视听会员5选1',
             payChannelList: [
@@ -432,6 +436,7 @@ module.exports = (req) => {
             listImg:
               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/10694/18311/productImg.png',
             logoImg: '',
+            marketingSkuTitle: '新标题',
             packageItemGroupId: 100033,
             packageItemGroupName: '视听会员5选1',
             payChannelList: [
@@ -508,6 +513,7 @@ module.exports = (req) => {
             listImg:
               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/10690/18308/productImg.png',
             logoImg: '',
+            marketingSkuTitle: '新标题',
             packageItemGroupId: 100033,
             packageItemGroupName: '视听会员5选1',
             payChannelList: [
@@ -584,6 +590,7 @@ module.exports = (req) => {
             listImg:
               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/10689/18307/productImg.png',
             logoImg: '',
+            marketingSkuTitle: '新标题',
             packageItemGroupId: 100033,
             packageItemGroupName: '视听会员5选1',
             payChannelList: [
@@ -660,6 +667,7 @@ module.exports = (req) => {
             listImg:
               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/10688/18306/productImg.png',
             logoImg: '',
+            marketingSkuTitle: '新标题',
             packageItemGroupId: 100033,
             packageItemGroupName: '视听会员5选1',
             payChannelList: [
@@ -736,6 +744,7 @@ module.exports = (req) => {
             listImg:
               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/10686/18304/productImg.png',
             logoImg: '',
+            marketingSkuTitle: '新标题',
             packageItemGroupId: 100033,
             packageItemGroupName: '视听会员5选1',
             payChannelList: [
@@ -808,6 +817,7 @@ module.exports = (req) => {
             listImg:
               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/10760/18869/productImg.png',
             logoImg: '',
+            marketingSkuTitle: '新标题',
             packageItemGroupId: 100033,
             packageItemGroupName: '视听会员5选1',
             payChannelList: [
@@ -880,6 +890,7 @@ module.exports = (req) => {
             listImg:
               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/10759/18868/productImg.png',
             logoImg: '',
+            marketingSkuTitle: '新标题',
             packageItemGroupId: 100033,
             packageItemGroupName: '视听会员5选1',
             payChannelList: [
@@ -952,6 +963,7 @@ module.exports = (req) => {
             listImg:
               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/10758/18867/productImg.png',
             logoImg: '',
+            marketingSkuTitle: '新标题',
             packageItemGroupId: 100033,
             packageItemGroupName: '视听会员5选1',
             payChannelList: [
@@ -1024,6 +1036,7 @@ module.exports = (req) => {
             listImg:
               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/10757/18866/productImg.png',
             logoImg: '',
+            marketingSkuTitle: '新标题',
             packageItemGroupId: 100033,
             packageItemGroupName: '视听会员5选1',
             payChannelList: [
@@ -1096,6 +1109,7 @@ module.exports = (req) => {
             listImg:
               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/10756/18865/productImg.png',
             logoImg: '',
+            marketingSkuTitle: '新标题',
             packageItemGroupId: 100033,
             packageItemGroupName: '视听会员5选1',
             payChannelList: [
@@ -1168,6 +1182,7 @@ module.exports = (req) => {
             listImg:
               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/10754/18863/productImg.png',
             logoImg: '',
+            marketingSkuTitle: '新标题',
             packageItemGroupId: 100033,
             packageItemGroupName: '视听会员5选1',
             payChannelList: [
@@ -1244,6 +1259,7 @@ module.exports = (req) => {
             listImg:
               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/10687/18305/productImg.png',
             logoImg: '',
+            marketingSkuTitle: '新标题',
             packageItemGroupId: 100033,
             packageItemGroupName: '视听会员5选1',
             payChannelList: [
@@ -1316,6 +1332,7 @@ module.exports = (req) => {
             listImg:
               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/10755/18864/productImg.png',
             logoImg: '',
+            marketingSkuTitle: '新标题',
             packageItemGroupId: 100033,
             packageItemGroupName: '视听会员5选1',
             payChannelList: [

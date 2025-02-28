@@ -21,8 +21,6 @@ module.exports = (req) => {
     return defaultPath;
   };
 
-  // return {"code":200,"data":{"dataList":[],"dataMap":{"categoryPackageList":[],"hasProduct":true,"marketingFlag":true,"msg":"有商品","noProduct":false,"operatorCode":1,"phoneNumber":"156hjdhbi30","provinceId":36,"provinceName":"江西","provinceOperatorName":"江西联通","showPackageInfo":null,"showPackageList":[{"categoryId":1,"detailImg":"","firstPriority":99999999,"frontExtInfo":{"isIframe":1,"excludeProvinces":[12,13,21,22,41,44],"excludeCitys":[130200]},"headerImg":"","mutexGroups":"","packageGroup":"","packageId":1003408,"priority":50,"productAttributes":0,"productEntryId":0,"productId":"","quotaLimit":1,"routeGroup":"","sendSms":false,"showItemList":[{"detailImg":"","formInfo":null,"hideType":0,"indexImg":"","itemId":103238,"listImg":"","maxShowSkuNum":10,"optional":true,"packagerId":0,"skuRanks":0,"skus":[{"agreementName":"","buttonText":"立即办理","category":"","categoryId":0,"channelProductMainTitle":"","channelProductSubTitle":"","cnId":10015,"confInfo":null,"detailImgs":["https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/10472/19051/ruleImg.png"],"externalLinkUrl":"","failurePrompt":"提交异常，请重试","frontExtInfo":{"tips":""},"headerImg":"https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/10472/19051/headImg.png","iconImg":"","isReadOnly":0,"itemId":103238,"listImg":"https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/10472/19051/productImg.png","logoImg":"","packageItemGroupId":0,"packageItemGroupName":"","payChannelList":[{"browserType":"","channelGroup":"","cnId":10016,"cnName":"存量小程序无需支付","createTime":"2022-11-01 09:44:23","dateParams":null,"delFlag":false,"extendData":{},"iconImg":"","id":77,"payType":0,"searchValue":"","showName":"话费支付","timeParams":null,"updateTime":"2022-11-01 10:33:06"}],"payType":0,"pluginBackgroundImg":"","pluginProductImg":"","pocTitle":"","pocTitleTwo":"","price":30.00,"productAttributes":19,"productAttributesName":"流量充值","productEntryId":28,"productEntryName":"定向包","promoteScore":0.0,"ranks":1,"skuId":10472,"skuImg":"","skuProps":{"合约":"1"},"skuUserAgreements":[],"tabId":0,"taobaoProductId":"","taobaoProducts":[],"templateType":0,"tip":"","tipTemplate":null,"title":"联通-全国30元10GB权益月包-红包"}],"title":"联通-全国30元10GB权益月包-红包"}],"smsLength":6,"success":true,"tabId":1}],"status":1,"tabPackageList":[]}},"msg":"成功","success":true}
-
   return {
     code: 200,
     data: {
@@ -72,7 +70,7 @@ module.exports = (req) => {
                 // packageId: 1001470, // 山东电信
                 // packageId: 1001166, // 电信集团喜马拉雅
                 // packageId: 1001214, // 学军
-                packageId: 1003603, // 广西电信
+                packageId: 1004503, // 广西电信
                 // packageId: 1000967, // 电信集团增加协议
                 // packageId: 1001183, // 河南电信
                 // packageId: 1001589, // 湖北电信
@@ -115,13 +113,14 @@ module.exports = (req) => {
                           cornerIcon: '啊啊',
                           subTitle: '送视频会员',
                           mainTitle: '15GB',
-                          range: '这是什么'
+                          range: '这是什么',
                         },
                         // headerImg: getFileByEnv('headImg', 'https://img.temp.im/750x400/666/EEE'),
                         headerImg: 'https://img.temp.im/750x500/fe5039/fe5039',
                         itemId: 100689,
                         // listImg: getFileByEnv('listImg', 'https://img.temp.im/700x320/888/EEE'),
                         listImg: 'https://img.temp.im/700x460/ffad66/ffad66',
+                        marketingSkuTitle: '新标题1',
                         payType: 1,
                         payChannelList: [
                           {
@@ -157,15 +156,61 @@ module.exports = (req) => {
                         pocTitleTwo: '5折抢10G',
                         price: 15,
                         ranks: 1,
-                        skuId: 5818,
+                        skuId: 11994,
                         skuImg: '',
                         skuProps: {
                           合约: '合约30',
                         },
+                        // skuUserAgreements: [
+                        //   {
+                        //     agreement: '',
+                        //     agreementName: '业务受理协议',
+                        //     agreementNameSuffix: '及页面规则',
+                        //     cnId: 0,
+                        //     createTime: null,
+                        //     dateParams: null,
+                        //     defaultChoose: 0,
+                        //     delFlag: false,
+                        //     enable: false,
+                        //     enterId: 0,
+                        //     extendData: {},
+                        //     id: 11184,
+                        //     isAsc: '',
+                        //     orderByColumn: '',
+                        //     searchValue: '',
+                        //     showLimit: 0,
+                        //     skuId: 0,
+                        //     templateType: 1,
+                        //     timeParams: null,
+                        //     updateTime: null,
+                        //   },
+                        //   {
+                        //     agreement: '',
+                        //     agreementName: '隐私协议、服务协议',
+                        //     agreementNameSuffix: '及页面规则',
+                        //     cnId: 0,
+                        //     createTime: null,
+                        //     dateParams: null,
+                        //     defaultChoose: 0,
+                        //     delFlag: false,
+                        //     enable: false,
+                        //     enterId: 0,
+                        //     extendData: {},
+                        //     id: 11185,
+                        //     isAsc: '',
+                        //     orderByColumn: '',
+                        //     searchValue: '',
+                        //     showLimit: 0,
+                        //     skuId: 0,
+                        //     templateType: 1,
+                        //     timeParams: null,
+                        //     updateTime: null,
+                        //   },
+                        // ],
                         taobaoProductId: '',
                         taobaoProducts: [],
                         title: '电信-集团10G流量包29元/月升5G，升白金会员（畅享）',
-                        tip: '产品资费\r\n名称：20GB国内流量+互联网视听会员N选2\r\n价格：30元/月\r\n国内流量：20GB\r\n有效期：订购立即生效，首月资费全额计扣，次月自动续订。只能抵扣订购成功后使用的流量。\r\n使用规则\r\n变更/退订：退订次月生效\r\n重复订购：不可重复订购\r\n权益说明：权益需每月手动领取，月底前未领取视为放弃当月权益。\r\n领取方式：翼支付APP-权益专区领取。\r\n合约说明\r\n合约期：12个月， 此产品的费用不算在套餐保底消费内\r\n<RED>违约金：合约期12个月，允许退订，退订次月生效。登录"中国电信"APP可自助办理退订（查询办理>基础业务>业务退订）。\r\n协议期内提前退订，需缴纳违约金，即违约金为：30元*已订购月份。</RED>',
+                        // tip: '产品资费\r\n名称：20GB国内流量+互联网视听会员N选2\r\n价格：30元/月\r\n国内流量：20GB\r\n有效期：订购立即生效，首月资费全额计扣，次月自动续订。只能抵扣订购成功后使用的流量。\r\n使用规则\r\n变更/退订：退订次月生效\r\n重复订购：不可重复订购\r\n权益说明：权益需每月手动领取，月底前未领取视为放弃当月权益。\r\n领取方式：翼支付APP-权益专区领取。\r\n合约说明\r\n合约期：12个月， 此产品的费用不算在套餐保底消费内\r\n<RED>违约金：合约期12个月，允许退订，退订次月生效。登录"中国电信"APP可自助办理退订（查询办理>基础业务>业务退订）。\r\n协议期内提前退订，需缴纳违约金，即违约金为：30元*已订购月份。</RED>',
                       },
                     ],
                     title: '电信-集团4升5（融升套入口）',
@@ -216,11 +261,12 @@ module.exports = (req) => {
                           cornerIcon: '啊啊啊啊',
                           subTitle: '送视频会员',
                           mainTitle: '15GB',
-                          range: '这是什么'
+                          range: '这是什么',
                         },
                         headerImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5531/3559/top.png',
                         itemId: 100690,
                         listImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5531/3559/icon.png',
+                        marketingSkuTitle: '新标题2',
                         payType: 0,
                         pocTitle: '5折抢10G',
                         pocTitleTwo: '5折抢10G',
@@ -234,7 +280,7 @@ module.exports = (req) => {
                         taobaoProductId: '',
                         taobaoProducts: [],
                         title: '电信-集团10G流量包29元/月升5G，升白金会员（畅享）',
-                        tip: '您即将办理 99元10G流量合约包，如需继续办理请仔细阅读以下信息，请点击确认\r\n<RED>1. 30元/月  10GB流</RED>量合约包\r\n2. 协议期：12个月 。\r\n3. 主副卡分享：仅限订购号码使用，套餐不共享。\r\n4. 退订： 合约期内不可退订，第12个月可以退订。若提前退订，需要到本地自有营业厅办理，并按已享受的权益价值缴纳违约金，即30元*已订购月份。',
+                        // tip: '您即将办理 99元10G流量合约包，如需继续办理请仔细阅读以下信息，请点击确认\r\n<RED>1. 30元/月  10GB流</RED>量合约包\r\n2. 协议期：12个月 。\r\n3. 主副卡分享：仅限订购号码使用，套餐不共享。\r\n4. 退订： 合约期内不可退订，第12个月可以退订。若提前退订，需要到本地自有营业厅办理，并按已享受的权益价值缴纳违约金，即30元*已订购月份。',
                         // tip: '您即将办理 99元10G流量合约包，如需继续办理请仔细阅读以下信息，请点击确认\r\n1. 30元/月  10GB流量合约包\r\n2. 协议期：12个月 。\r\n3. 主副卡分享：仅限订购号码使用，套餐不共享。\r\n4. 退订： 合约期内不可退订，第12个月可以退订。若提前退订，需要到本地自有营业厅办理，并按已享受的权益价值缴纳违约金，即30元*已订购月份。',
                       },
                     ],
@@ -286,11 +332,12 @@ module.exports = (req) => {
                           cornerIcon: '啊啊啊啊啊啊',
                           subTitle: '送视频会员',
                           mainTitle: '15GB',
-                          range: '这是什么'
+                          range: '这是什么',
                         },
                         headerImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5531/3559/top.png',
                         itemId: 100691,
                         listImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/5531/3559/icon.png',
+                        marketingSkuTitle: '新标题3',
                         payType: 1,
                         payChannelList: [
                           {
