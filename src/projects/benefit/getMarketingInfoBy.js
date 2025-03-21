@@ -15,6 +15,13 @@ module.exports = (req) => {
       dataMap: {
         headImg: getFileByEnv('headImg'),
         holderImg: getFileByEnv('holderImg'),
+        errorToast: {
+          authErrorToast: '鉴权失败文案覆盖',
+          orderErrorToast: '下单失败文案覆盖',
+          sendShortMessageErrorToast: '发送验证码失败文案',
+          tradeErrorToast: '',
+        },
+        errorToast: null,
         marketingTitle: '广东联通畅享包',
         msg: '获取成功',
         ruleImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/enterPackage/100378/1001149/rule_img.png',

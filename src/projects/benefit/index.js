@@ -297,4 +297,12 @@ module.exports = [
     description: '获取彩铃信息',
     delay: 0,
   },
+  {
+    name: 'reportPage',
+    method: 'post',
+    url: `${URI}report-page`,
+    response: require('./reportPage'),
+    description: '获取彩铃信息',
+    delay: 0,
+  },
 ];

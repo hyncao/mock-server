@@ -70,7 +70,7 @@ module.exports = (req) => {
                 // packageId: 1001470, // 山东电信
                 // packageId: 1001166, // 电信集团喜马拉雅
                 // packageId: 1001214, // 学军
-                packageId: 1004503, // 广西电信
+                packageId: 1004383, // 广西电信
                 // packageId: 1000967, // 电信集团增加协议
                 // packageId: 1001183, // 河南电信
                 // packageId: 1001589, // 湖北电信
@@ -104,6 +104,12 @@ module.exports = (req) => {
                         cnId: 10005,
                         // detailImgs: [getFileByEnv('ruleImg', 'https://img.temp.im/750x400/AAA/EEE')],
                         detailImgs: ['https://img.temp.im/750x1500/ff935b/ff935b'],
+                        errorToast: {
+                          authErrorToast: '鉴权失败文案覆盖',
+                          orderErrorToast: '下单失败啊啊啊啊',
+                          sendShortMessageErrorToast: '发送验证码失败啊啊啊啊啊',
+                          tradeErrorToast: '',
+                        },
                         failurePrompt: '如有欠费将不能办理',
                         frontExtInfo: {
                           tips: '',
@@ -137,20 +143,20 @@ module.exports = (req) => {
                             timeParams: null,
                             updateTime: '2022-10-28 11:03:46',
                           },
-                          {
-                            cnId: 10005,
-                            cnName: '支付宝话费宝',
-                            createTime: '2022-10-28 10:53:16',
-                            dateParams: null,
-                            delFlag: false,
-                            extendData: {},
-                            iconImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/comm/logo/alipay.png',
-                            id: 47,
-                            searchValue: '',
-                            showName: '支付宝',
-                            timeParams: null,
-                            updateTime: '2022-10-28 11:03:31',
-                          },
+                          // {
+                          //   cnId: 10005,
+                          //   cnName: '支付宝话费宝',
+                          //   createTime: '2022-10-28 10:53:16',
+                          //   dateParams: null,
+                          //   delFlag: false,
+                          //   extendData: {},
+                          //   iconImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/comm/logo/alipay.png',
+                          //   id: 47,
+                          //   searchValue: '',
+                          //   showName: '支付宝',
+                          //   timeParams: null,
+                          //   updateTime: '2022-10-28 11:03:31',
+                          // },
                         ],
                         pocTitle: '5折抢10G',
                         pocTitleTwo: '5折抢10G',
@@ -210,7 +216,14 @@ module.exports = (req) => {
                         taobaoProductId: '',
                         taobaoProducts: [],
                         title: '电信-集团10G流量包29元/月升5G，升白金会员（畅享）',
-                        // tip: '产品资费\r\n名称：20GB国内流量+互联网视听会员N选2\r\n价格：30元/月\r\n国内流量：20GB\r\n有效期：订购立即生效，首月资费全额计扣，次月自动续订。只能抵扣订购成功后使用的流量。\r\n使用规则\r\n变更/退订：退订次月生效\r\n重复订购：不可重复订购\r\n权益说明：权益需每月手动领取，月底前未领取视为放弃当月权益。\r\n领取方式：翼支付APP-权益专区领取。\r\n合约说明\r\n合约期：12个月， 此产品的费用不算在套餐保底消费内\r\n<RED>违约金：合约期12个月，允许退订，退订次月生效。登录"中国电信"APP可自助办理退订（查询办理>基础业务>业务退订）。\r\n协议期内提前退订，需缴纳违约金，即违约金为：30元*已订购月份。</RED>',
+                        tip: '产品资费\r\n名称：20GB国内流量+互联网视听会员N选2\r\n价格：30元/月\r\n国内流量：20GB\r\n有效期：订购立即生效，首月资费全额计扣，次月自动续订。只能抵扣订购成功后使用的流量。\r\n使用规则\r\n变更/退订：退订次月生效\r\n重复订购：不可重复订购\r\n权益说明：权益需每月手动领取，月底前未领取视为放弃当月权益。\r\n领取方式：翼支付APP-权益专区领取。\r\n合约说明\r\n合约期：12个月， 此产品的费用不算在套餐保底消费内\r\n<RED>违约金：合约期12个月，允许退订，退订次月生效。登录"中国电信"APP可自助办理退订（查询办理>基础业务>业务退订）。\r\n协议期内提前退订，需缴纳违约金，即违约金为：30元*已订购月份。</RED>',
+                        tipTemplate: {
+                          picUrl:
+                            'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/11926/tipTemplate/10035/tipPic.png',
+                          tipTemplateFormTitle: '广西20元综合出行权益',
+                          showPhoneNumber: 1,
+                          ejectTiming: 1,
+                        },
                       },
                     ],
                     title: '电信-集团4升5（融升套入口）',

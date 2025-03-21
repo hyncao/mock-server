@@ -13,9 +13,45 @@ module.exports = (req) => {
     data: {
       dataList: [],
       dataMap: {
+        buttonImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/metas/marketing/101051/buttonImg999.png',
+        categoryPackageList: [],
+        data: null,
+        errorToast: null,
+        frontExtInfo: null,
+        headImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/metas/marketing/101051/headImg.png',
+        holderImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/metas/marketing/101051/holderImgnull.png',
+        llgAccount: 'chijin',
+        marketingTitle: '福利任意选',
+        msg: '获取成功',
+        operatorCode: 0,
+        oppoServiceTypeNo: '',
+        provinceId: 0,
+        ruleImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/metas/marketing/101051/ruleImgnull.png',
+        skuItem: null,
+        skuItemList: [],
+        status: 1,
+        subSkuItemList: [],
+        tabPackageList: [],
+      },
+    },
+    msg: '成功',
+    success: true,
+  };
+  return {
+    code: 200,
+    data: {
+      dataList: [],
+      dataMap: {
         buttonImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/marketing/100001/skus/11926/101049/buttonImg.png',
         categoryPackageList: [],
         data: null,
+        errorToast: {
+          authErrorToast: '鉴权失败文案覆盖',
+          orderErrorToast: '下单失败文案覆盖',
+          sendShortMessageErrorToast: '发送验证码失败文案',
+          tradeErrorToast: '',
+        },
+        errorToast: null,
         frontExtInfo: null,
         headImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/marketing/100001/skus/11926/101049/headImg.png',
         holderImg:

@@ -1,7 +1,44 @@
 const Mock = require('mockjs');
 
-module.exports = (req) =>
-  Mock.mock({
+module.exports = (req) => {
+  return {
+    code: 200,
+    data: [
+      {
+        adList: [
+          {
+            adId: 100321,
+            adImg: 'https://tempim-1256796114.cos.ap-shanghai.myqcloud.com/480x600/333/EEE',
+            adSize: '620*200',
+            adUrl: 'https://benefit.jujienet.com/benefit/indexP/20236/1001165',
+            align: 'L',
+            createTime: '2024-03-07 10:29:53',
+            dateParams: null,
+            delFlag: false,
+            extendData: {},
+            id: 293,
+            isAsc: '',
+            orderByColumn: '',
+            searchValue: '',
+            showType: 1,
+            subTitle: '支付宝小程序办理失败弹框测试',
+            timeParams: null,
+            title: '支付宝小程序办理失败弹框测试',
+            updateTime: '2024-03-07 10:29:53',
+          },
+        ],
+        adSize: '',
+        adType: '',
+        align: 'L',
+        positionId: 100014,
+        priority: 1,
+        showCount: 999999,
+        title: '流量果广告控制广告-入口控制',
+      },
+    ],
+    msg: '成功',
+  };
+  return Mock.mock({
     code: 200,
     data: [
       {
@@ -115,3 +152,4 @@ module.exports = (req) =>
     data: [],
     msg: '成功',
   });
+};
