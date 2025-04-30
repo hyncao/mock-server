@@ -1,7 +1,12 @@
 const Mock = require('mockjs');
+const moment = require('moment');
 
-module.exports = (req) =>
-  Mock.mock({
+module.exports = (req) => {
+  // console.log('=======');
+  // console.log(moment().format('YYYY-MM-DD HH:mm:ss'));
+  // console.log(req.body);
+  // console.log('=======');
+  return Mock.mock({
     code: 200,
     data: {
       dataList: [],
@@ -15,3 +20,4 @@ module.exports = (req) =>
     },
     msg: '成功',
   });
+};

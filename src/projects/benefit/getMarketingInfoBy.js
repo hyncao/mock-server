@@ -26,6 +26,8 @@ module.exports = (req) => {
         msg: '获取成功',
         ruleImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/enterPackage/100378/1001149/rule_img.png',
         skuItem: {
+          isvTitle: '我是运营商商品名称',
+          enterLocation: '来源编码',
           agreementName: '',
           agreementNameSuffix: '',
           agreementShowLimit: 0,
@@ -99,7 +101,7 @@ module.exports = (req) => {
           productEntryId: 24,
           productEntryName: '短期包',
           promoteScore: 0.0,
-          ranks: 1,
+          ranks: 10,
           skuId: 11926,
           skuImg: '',
           skuProps: {
@@ -125,6 +127,8 @@ module.exports = (req) => {
         },
         skuItemList: [
           {
+            isvTitle: '我是运营商商品名称',
+            enterLocation: '来源编码',
             cnId: 10005,
             detailImgs: ['https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/100001/skus/6640/4615/rule.png'],
             failurePrompt: '充值享好礼',
@@ -160,7 +164,7 @@ module.exports = (req) => {
             pocTitle: '',
             pocTitleTwo: '',
             price: 0.0,
-            ranks: 1,
+            ranks: 10,
             skuId: 6220,
             skuImg: '',
             skuProps: {
@@ -183,7 +187,7 @@ module.exports = (req) => {
             pocTitle: '',
             pocTitleTwo: '',
             price: 0.0,
-            ranks: 1,
+            ranks: 10,
             skuId: 6152,
             skuImg: '',
             skuProps: {
@@ -206,7 +210,7 @@ module.exports = (req) => {
             pocTitle: '',
             pocTitleTwo: '',
             price: 0.0,
-            ranks: 1,
+            ranks: 10,
             skuId: 6153,
             skuImg: '',
             skuProps: {
@@ -229,7 +233,7 @@ module.exports = (req) => {
             pocTitle: '',
             pocTitleTwo: '',
             price: 0.0,
-            ranks: 1,
+            ranks: 10,
             skuId: 6154,
             skuImg: '',
             skuProps: {
@@ -252,7 +256,7 @@ module.exports = (req) => {
             pocTitle: '',
             pocTitleTwo: '',
             price: 0.0,
-            ranks: 1,
+            ranks: 10,
             skuId: 6221,
             skuImg: '',
             skuProps: {
@@ -275,7 +279,7 @@ module.exports = (req) => {
             pocTitle: '',
             pocTitleTwo: '',
             price: 0.0,
-            ranks: 1,
+            ranks: 10,
             skuId: 6492,
             skuImg: '',
             skuProps: {
@@ -298,7 +302,7 @@ module.exports = (req) => {
             pocTitle: '',
             pocTitleTwo: '',
             price: 0.0,
-            ranks: 1,
+            ranks: 10,
             skuId: 6429,
             skuImg: '',
             skuProps: {
@@ -321,7 +325,7 @@ module.exports = (req) => {
             pocTitle: '',
             pocTitleTwo: '',
             price: 0.0,
-            ranks: 1,
+            ranks: 10,
             skuId: 6493,
             skuImg: '',
             skuProps: {
@@ -344,7 +348,7 @@ module.exports = (req) => {
             pocTitle: '',
             pocTitleTwo: '',
             price: 0.0,
-            ranks: 1,
+            ranks: 10,
             skuId: 6494,
             skuImg: '',
             skuProps: {
@@ -367,7 +371,7 @@ module.exports = (req) => {
             pocTitle: '',
             pocTitleTwo: '',
             price: 0.0,
-            ranks: 1,
+            ranks: 10,
             skuId: 6392,
             skuImg: '',
             skuProps: {
@@ -390,7 +394,7 @@ module.exports = (req) => {
             pocTitle: '',
             pocTitleTwo: '',
             price: 0.0,
-            ranks: 1,
+            ranks: 10,
             skuId: 6393,
             skuImg: '',
             skuProps: {
@@ -413,7 +417,7 @@ module.exports = (req) => {
             pocTitle: '',
             pocTitleTwo: '',
             price: 0.0,
-            ranks: 1,
+            ranks: 10,
             skuId: 6391,
             skuImg: '',
             skuProps: {

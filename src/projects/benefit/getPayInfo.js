@@ -14,6 +14,7 @@ module.exports = (req) => ({
       urlParam: '',
       // confirmUrl: 'http://www.bing.com',
       // confirmType: 'iframe',
+      tradeStatus: 2,
     },
   },
   msg: '成功',

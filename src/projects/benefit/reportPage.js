@@ -7,21 +7,22 @@ module.exports = (req) => ({
   data: {
     dataList: [],
     dataMap: {
-      pageUrl: '/teddybearsteps',
-      phoneNumber: '13455568806',
+      pageUrl: '/mobileOppo',
+      phoneNumber: '13812344321',
       skuReportItem: {
         buttonImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/marketing/100001/skus/10051/101081/buttonImg.png',
         detailImgs: [
           'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/marketing/100001/skus/10051/101081/ruleImg.png',
         ],
         headerImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/marketing/100001/skus/10051/101081/headImg.png',
+        headerImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/12306/23106/headImg.png',
         iconImg: '',
-        listImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/marketing/100001/skus/10051/101081/productImg.png',
+        listImg: 'https://img.temp.im/750x780/ffad66/ffffff',
         logoImg: '',
         pluginBackgroundImg: '',
         pluginProductImg: '',
       },
-      smsCode: '666665',
+      smsCode: '123456',
       tradeCreateTime: '2024-12-27 16:12:53',
     },
   },

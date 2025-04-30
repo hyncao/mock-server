@@ -1,6 +1,12 @@
 const Mock = require('mockjs');
 
 module.exports = (req) => {
+  if (req.body.pageId === '聚杰H5-5s弹框广告') {
+    return {
+      code: 200,
+      data: [],
+    };
+  }
   return {
     code: 200,
     data: [

@@ -44,6 +44,7 @@ const responseVip = {
   code: 1000,
   msg: '响应信息:调用成功',
   response: {
+    isSpecialClose: true, // 业务下线通知
     closeActivitySwitch: true,
     toBindUserUrl: 'https://litevip.jujienet.com/apsu-api-test/index/100078',
     status: tradeStatusMap.monthFee,
@@ -1444,6 +1445,6 @@ module.exports = (req) => {
 
   // 在这里切换尊享版还是免费版
   const memberType = MemberTypeMap.vip;
-  // return memberType === MemberTypeMap.vip ? responseVip : responseBasic;
-  return error;
+  return memberType === MemberTypeMap.vip ? responseVip : responseBasic;
+  // return error;
 };

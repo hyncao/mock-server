@@ -6,22 +6,26 @@ module.exports = (req) =>
     data: {
       dataList: [],
       dataMap: {
-        'operatorCode|1': [1, 2, 3],
-        provinceId: 31,
-        'payment|1-2.2': 99.0,
-        phoneNumber: /1\d{2}\*{4}\d{4}/,
-        provinceOperatorName: '@province@pick(["联通", "电信", "移动"])',
-        servicePhoneNumber: /\d{9}/,
-        skuTitle: '@province@pick(["联通", "电信", "移动"])@cword(3, 5)',
-        tradeCreateTime: '@datetime',
-        // 'tradeStatus|1': [0, 1, 2, -2],
-        tradeStatus: 1,
-        // 'tradeStatusMsg|1': ['受理中', '生效中', '已退款'],
-        tradeStatusMsg: '受理中',
-        packageId: 1004383,
-        // outBenefitUrl: 'https://www.bing.com'
-        unsubscribe: 'true',
-        providerOrderId: '1e994ecf872442f4bc192efc34b91e1f',
+        opCommId: '运营商商品ID', // 运营商商品ID
+        operatorCode: 1,
+        outBenefitUrl: '',
+        packageId: 1004503,
+        payment: 0,
+        phMiddle: '5663', // 脱敏四位
+        phoneNumber: '130****0510',
+        providerOrderId: '运营商单号', // 运营商单号
+        provinceId: 33,
+        provinceOperatorName: '浙江联通',
+        servicePhoneNumber: '4000002967',
+        skuTitle: '电信权益',
+        sourceAdvertisingPlatform: '来源平台', // 来源平台
+        sourceApp: 'app名称', // app名称
+        sourceAppPackage: '包名', // app包名
+        isvTitle: '1111', // 运营商商品名称
+        tradeCreateTime: '2023-12-27 15:16:51',
+        tradeStatus: 2,
+        tradeStatusMsg: '办理成功',
+        unsubscribe: false,
       },
     },
     msg: '成功',

@@ -5,17 +5,25 @@ module.exports = (req) => Mock.mock({
   data: {
     dataList: [],
     dataMap: {
-      'payment|1-2.2': 99.0,
-      phoneNumber: /1\d{2}\*{4}\d{4}/,
-      provinceOperatorName: '@province@pick(["联通", "电信", "移动"])',
-      servicePhoneNumber: /\d{9}/,
-      skuTitle: '@province@pick(["联通", "电信", "移动"])@cword(3, 5)',
-      tradeCreateTime: '@datetime',
-      // 'tradeStatus|1': [0, 1, 2, -2],
+      opCommId: '', // 运营商商品ID
+      operatorCode: 1,
+      outBenefitUrl: '',
+      packageId: 1003608,
+      payment: 0,
+      phMiddle: '5663', // 脱敏四位
+      phoneNumber: '130****0510',
+      providerOrderId: '',
+      provinceId: 33,
+      provinceOperatorName: '浙江联通',
+      servicePhoneNumber: '4000002967',
+      skuTitle: '电信权益',
+      sourceAdvertisingPlatform: '来源平台', // 来源平台
+      sourceApp: 'app名称', // app名称
+      sourceAppPackage: '包名', // app包名
+      tradeCreateTime: '2023-12-27 15:16:51',
       tradeStatus: 2,
-      'tradeStatusMsg|1': ['受理中', '生效中', '已退款'],
-      packageId: 1000967,
-      outBenefitUrl: 'https://www.bing.com'
+      tradeStatusMsg: '办理成功',
+      unsubscribe: false,
     },
   },
   msg: '成功',

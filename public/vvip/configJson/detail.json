@@ -63,5 +63,14 @@
   "navigationBarTitleVip": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/navigationLogoVip.png",
   "navigationBarTitleVip2": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/navigationLogoVip2.png",
   "navigationBarTitleBasic": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/navigationLogoBasic.png",
-  "navigationBarTitleBasic2": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/navigationLogoBasic2.png"
+  "navigationBarTitleBasic2": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/navigationLogoBasic2.png",
+  "offlineNoticeTitle": "会员风采版业务下线通知",
+  "offlineModalTitle": "VV会员风采版业务下线通知",
+  "offlineModalText": [
+    "尊敬的VV会员用户",
+    "您好，由于业务调整，即日起下线风采版会员。",
+    "系统会陆续终止全体会员用户的会员扣费合约及服务，已完成扣费当月仍可享受会员权益与服务，次月起将不再收取会员费用并且关闭您会员身份。敬请关注和谅解。",
+    "如有疑问，请咨询在线客服。"
+  ],
+  "offlineModalBtn": "我知道了"
 }
