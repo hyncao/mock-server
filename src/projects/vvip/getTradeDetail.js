@@ -1445,6 +1445,6 @@ module.exports = (req) => {
 
   // 在这里切换尊享版还是免费版
   const memberType = MemberTypeMap.vip;
-  return memberType === MemberTypeMap.vip ? responseVip : responseBasic;
-  // return error;
+  // return memberType === MemberTypeMap.vip ? responseVip : responseBasic;
+  return error;
 };

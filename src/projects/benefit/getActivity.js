@@ -1,4 +1,1836 @@
-module.exports = () => {
+module.exports = (req) => {
+  return {
+    code: 200,
+    data: {
+      dataList: [],
+      dataMap: {
+        goodsList: [
+          {
+            benefitList: [],
+            groupList: [
+              {
+                benefitList: [
+                  {
+                    activityId: 8,
+                    benefitId: 9,
+                    benefitTitle: '生活缴费',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/9/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 10,
+                    benefitTitle: '电费红包券2元',
+                    detailButton: {
+                      orderId: '',
+                      style: 2,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/10/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 11,
+                    benefitTitle: '饿了么红包',
+                    detailButton: {
+                      orderId: '',
+                      style: 0,
+                      subTitle: '去使用',
+                      title: '去使用',
+                      type: 6,
+                    },
+                    getType: 1,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/11/20250519/iconImg.png',
+                    linkUrl: 'http://www.baidu.com',
+                  },
+                ],
+                groupId: 10007,
+                groupTitle: '生活权益',
+                groupName: '111111',
+              },
+              {
+                benefitList: [
+                  {
+                    activityId: 8,
+                    benefitId: 12,
+                    benefitTitle: '腾讯会员',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/12/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 13,
+                    benefitTitle: 'b站会员',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/13/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 14,
+                    benefitTitle: '爱奇艺会员',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/14/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                ],
+                groupId: 10008,
+                groupTitle: '视频会员',
+                groupName: '2222222',
+              },
+              {
+                benefitList: [
+                  {
+                    activityId: 8,
+                    benefitId: 15,
+                    benefitTitle: '1G流量',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/15/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 16,
+                    benefitTitle: '50条短信',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/16/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 17,
+                    benefitTitle: '1元话费红包',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/17/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                ],
+                groupId: 10009,
+                groupTitle: '通信权益',
+                groupName: '3333333',
+              },
+            ],
+            packageTitle: '聚合页-话费测试（联通10元）',
+            tradeId: 202505142004471256,
+          },
+          {
+            benefitList: [],
+            groupList: [
+              {
+                benefitList: [
+                  {
+                    activityId: 8,
+                    benefitId: 9,
+                    benefitTitle: '生活缴费',
+                    detailButton: {
+                      orderId: '',
+                      style: 2,
+                      subTitle: '已领取',
+                      title: '已领取',
+                      type: 5,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/9/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 10,
+                    benefitTitle: '电费红包券2元',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/10/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 11,
+                    benefitTitle: '饿了么红包',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '去使用',
+                      title: '去使用',
+                      type: 6,
+                    },
+                    getType: 1,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/11/20250519/iconImg.png',
+                    linkUrl: 'http://www.baidu.com',
+                  },
+                ],
+                groupId: 10007,
+                groupTitle: '生活权益',
+                groupName: '111111',
+              },
+              {
+                benefitList: [
+                  {
+                    activityId: 8,
+                    benefitId: 12,
+                    benefitTitle: '腾讯会员',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/12/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 13,
+                    benefitTitle: 'b站会员',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/13/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 14,
+                    benefitTitle: '爱奇艺会员',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/14/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                ],
+                groupId: 10008,
+                groupTitle: '视频会员',
+                groupName: '2222222',
+              },
+              {
+                benefitList: [
+                  {
+                    activityId: 8,
+                    benefitId: 15,
+                    benefitTitle: '1G流量',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/15/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 16,
+                    benefitTitle: '50条短信',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/16/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 17,
+                    benefitTitle: '1元话费红包',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/17/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                ],
+                groupId: 10009,
+                groupTitle: '通信权益',
+                groupName: '3333333',
+              },
+            ],
+            packageTitle: '聚合页-话费测试（联通10元）',
+            tradeId: 202505132004471254,
+          },
+          {
+            benefitList: [],
+            groupList: [
+              {
+                benefitList: [
+                  {
+                    activityId: 8,
+                    benefitId: 9,
+                    benefitTitle: '生活缴费',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/9/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 10,
+                    benefitTitle: '电费红包券2元',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/10/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 11,
+                    benefitTitle: '饿了么红包',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '去使用',
+                      title: '去使用',
+                      type: 6,
+                    },
+                    getType: 1,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/11/20250519/iconImg.png',
+                    linkUrl: 'http://www.baidu.com',
+                  },
+                ],
+                groupId: 10007,
+                groupTitle: '生活权益',
+                groupName: '111111',
+              },
+              {
+                benefitList: [
+                  {
+                    activityId: 8,
+                    benefitId: 12,
+                    benefitTitle: '腾讯会员',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/12/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 13,
+                    benefitTitle: 'b站会员',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/13/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 14,
+                    benefitTitle: '爱奇艺会员',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/14/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                ],
+                groupId: 10008,
+                groupTitle: '视频会员',
+                groupName: '2222222',
+              },
+              {
+                benefitList: [
+                  {
+                    activityId: 8,
+                    benefitId: 15,
+                    benefitTitle: '1G流量',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/15/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 16,
+                    benefitTitle: '50条短信',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/16/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 17,
+                    benefitTitle: '1元话费红包',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/17/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                ],
+                groupId: 10009,
+                groupTitle: '通信权益',
+                groupName: '3333333',
+              },
+            ],
+            packageTitle: '聚合页-话费测试（联通10元）',
+            tradeId: 202505132004471253,
+          },
+          {
+            benefitList: [],
+            groupList: [
+              {
+                benefitList: [
+                  {
+                    activityId: 8,
+                    benefitId: 9,
+                    benefitTitle: '生活缴费',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/9/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 10,
+                    benefitTitle: '电费红包券2元',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/10/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 11,
+                    benefitTitle: '饿了么红包',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '去使用',
+                      title: '去使用',
+                      type: 6,
+                    },
+                    getType: 1,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/11/20250519/iconImg.png',
+                    linkUrl: 'http://www.baidu.com',
+                  },
+                ],
+                groupId: 10007,
+                groupTitle: '生活权益',
+              },
+              {
+                benefitList: [
+                  {
+                    activityId: 8,
+                    benefitId: 12,
+                    benefitTitle: '腾讯会员',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/12/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 13,
+                    benefitTitle: 'b站会员',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/13/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 14,
+                    benefitTitle: '爱奇艺会员',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/14/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                ],
+                groupId: 10008,
+                groupTitle: '视频会员',
+              },
+              {
+                benefitList: [
+                  {
+                    activityId: 8,
+                    benefitId: 15,
+                    benefitTitle: '1G流量',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/15/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 16,
+                    benefitTitle: '50条短信',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/16/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 17,
+                    benefitTitle: '1元话费红包',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/17/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                ],
+                groupId: 10009,
+                groupTitle: '通信权益',
+              },
+            ],
+            packageTitle: '聚合页-话费测试（联通10元）',
+            tradeId: 202505132004471252,
+          },
+        ],
+        ruleImg: 'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/8/20250519/rule.png',
+        topImg: 'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/8/20250519/top.png',
+      },
+    },
+    msg: '成功',
+    noOrderPlace: false,
+    success: true,
+  };
+  return {
+    code: 200,
+    data: {
+      dataList: [],
+      dataMap: {
+        goodsList: [
+          {
+            benefitList: [],
+            groupList: [
+              {
+                benefitList: [
+                  {
+                    activityId: 8,
+                    benefitId: 9,
+                    benefitTitle: '生活缴费',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/9/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 10,
+                    benefitTitle: '电费红包券2元',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/10/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 11,
+                    benefitTitle: '饿了么红包',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '去使用',
+                      title: '去使用',
+                      type: 6,
+                    },
+                    getType: 1,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/11/20250519/iconImg.png',
+                    linkUrl: 'http://www.baidu.com',
+                  },
+                ],
+                groupId: 10007,
+                groupTitle: '生活权益',
+              },
+              {
+                benefitList: [
+                  {
+                    activityId: 8,
+                    benefitId: 12,
+                    benefitTitle: '腾讯会员',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/12/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 13,
+                    benefitTitle: 'b站会员',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/13/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 14,
+                    benefitTitle: '爱奇艺会员',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/14/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                ],
+                groupId: 10008,
+                groupTitle: '视频会员',
+              },
+              {
+                benefitList: [
+                  {
+                    activityId: 8,
+                    benefitId: 15,
+                    benefitTitle: '1G流量',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/15/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 16,
+                    benefitTitle: '50条短信',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/16/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 17,
+                    benefitTitle: '1元话费红包',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/17/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                ],
+                groupId: 10009,
+                groupTitle: '通信权益',
+              },
+            ],
+            packageTitle: '聚合页-话费测试（联通10元）',
+            tradeId: 202505142004471256,
+          },
+          {
+            benefitList: [],
+            groupList: [
+              {
+                benefitList: [
+                  {
+                    activityId: 8,
+                    benefitId: 9,
+                    benefitTitle: '生活缴费',
+                    detailButton: {
+                      orderId: '',
+                      style: 2,
+                      subTitle: '已领取',
+                      title: '已领取',
+                      type: 5,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/9/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 10,
+                    benefitTitle: '电费红包券2元',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/10/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 11,
+                    benefitTitle: '饿了么红包',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '去使用',
+                      title: '去使用',
+                      type: 6,
+                    },
+                    getType: 1,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/11/20250519/iconImg.png',
+                    linkUrl: 'http://www.baidu.com',
+                  },
+                ],
+                groupId: 10007,
+                groupTitle: '生活权益',
+              },
+              {
+                benefitList: [
+                  {
+                    activityId: 8,
+                    benefitId: 12,
+                    benefitTitle: '腾讯会员',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/12/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 13,
+                    benefitTitle: 'b站会员',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/13/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 14,
+                    benefitTitle: '爱奇艺会员',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/14/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                ],
+                groupId: 10008,
+                groupTitle: '视频会员',
+              },
+              {
+                benefitList: [
+                  {
+                    activityId: 8,
+                    benefitId: 15,
+                    benefitTitle: '1G流量',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/15/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 16,
+                    benefitTitle: '50条短信',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/16/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 17,
+                    benefitTitle: '1元话费红包',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/17/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                ],
+                groupId: 10009,
+                groupTitle: '通信权益',
+              },
+            ],
+            packageTitle: '聚合页-话费测试（联通10元）',
+            tradeId: 202505132004471254,
+          },
+          {
+            benefitList: [],
+            groupList: [
+              {
+                benefitList: [
+                  {
+                    activityId: 8,
+                    benefitId: 9,
+                    benefitTitle: '生活缴费',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/9/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 10,
+                    benefitTitle: '电费红包券2元',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/10/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 11,
+                    benefitTitle: '饿了么红包',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '去使用',
+                      title: '去使用',
+                      type: 6,
+                    },
+                    getType: 1,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/11/20250519/iconImg.png',
+                    linkUrl: 'http://www.baidu.com',
+                  },
+                ],
+                groupId: 10007,
+                groupTitle: '生活权益',
+              },
+              {
+                benefitList: [
+                  {
+                    activityId: 8,
+                    benefitId: 12,
+                    benefitTitle: '腾讯会员',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/12/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 13,
+                    benefitTitle: 'b站会员',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/13/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 14,
+                    benefitTitle: '爱奇艺会员',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/14/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                ],
+                groupId: 10008,
+                groupTitle: '视频会员',
+              },
+              {
+                benefitList: [
+                  {
+                    activityId: 8,
+                    benefitId: 15,
+                    benefitTitle: '1G流量',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/15/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 16,
+                    benefitTitle: '50条短信',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/16/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 17,
+                    benefitTitle: '1元话费红包',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/17/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                ],
+                groupId: 10009,
+                groupTitle: '通信权益',
+              },
+            ],
+            packageTitle: '聚合页-话费测试（联通10元）',
+            tradeId: 202505132004471253,
+          },
+          {
+            benefitList: [],
+            groupList: [
+              {
+                benefitList: [
+                  {
+                    activityId: 8,
+                    benefitId: 9,
+                    benefitTitle: '生活缴费',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/9/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 10,
+                    benefitTitle: '电费红包券2元',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/10/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 11,
+                    benefitTitle: '饿了么红包',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '去使用',
+                      title: '去使用',
+                      type: 6,
+                    },
+                    getType: 1,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/11/20250519/iconImg.png',
+                    linkUrl: 'http://www.baidu.com',
+                  },
+                ],
+                groupId: 10007,
+                groupTitle: '生活权益',
+              },
+              {
+                benefitList: [
+                  {
+                    activityId: 8,
+                    benefitId: 12,
+                    benefitTitle: '腾讯会员',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/12/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 13,
+                    benefitTitle: 'b站会员',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/13/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 14,
+                    benefitTitle: '爱奇艺会员',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/14/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                ],
+                groupId: 10008,
+                groupTitle: '视频会员',
+              },
+              {
+                benefitList: [
+                  {
+                    activityId: 8,
+                    benefitId: 15,
+                    benefitTitle: '1G流量',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/15/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 16,
+                    benefitTitle: '50条短信',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/16/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 17,
+                    benefitTitle: '1元话费红包',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/17/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                ],
+                groupId: 10009,
+                groupTitle: '通信权益',
+              },
+            ],
+            packageTitle: '聚合页-话费测试（联通10元）',
+            tradeId: 202505132004471252,
+          },
+        ],
+        ruleImg: 'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/8/20250519/rule.png',
+        topImg: 'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/8/20250519/top.png',
+      },
+    },
+    msg: '成功',
+    noOrderPlace: false,
+    success: true,
+  };
+  if (req.body.version === 2) {
+    return {
+      code: 200,
+      data: {
+        dataList: [],
+        dataMap: {
+          goodsList: [
+            {
+              benefitList: [],
+              groupList: [
+                {
+                  benefitList: [
+                    {
+                      activityId: 8,
+                      benefitId: 9,
+                      benefitTitle: '生活缴费',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                    {
+                      activityId: 8,
+                      benefitId: 10,
+                      benefitTitle: '话费红包券0.2元',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                    {
+                      activityId: 8,
+                      benefitId: 11,
+                      benefitTitle: '饿了么红包',
+                      detailButton: { orderId: '', style: 1, subTitle: '去使用', title: '去使用', type: 6 },
+                      getType: 1,
+                      iconImg: '',
+                      linkUrl: 'http://www.baidu.com',
+                    },
+                  ],
+                  groupId: 10007,
+                  groupTitle: '生活权益',
+                },
+                {
+                  benefitList: [
+                    {
+                      activityId: 8,
+                      benefitId: 12,
+                      benefitTitle: '腾讯会员',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                    {
+                      activityId: 8,
+                      benefitId: 13,
+                      benefitTitle: '优酷会员',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                    {
+                      activityId: 8,
+                      benefitId: 14,
+                      benefitTitle: '爱奇艺会员',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                  ],
+                  groupId: 10008,
+                  groupTitle: '视频会员',
+                },
+                {
+                  benefitList: [
+                    {
+                      activityId: 8,
+                      benefitId: 15,
+                      benefitTitle: '1G流量',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                    {
+                      activityId: 8,
+                      benefitId: 16,
+                      benefitTitle: '50条短信',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                    {
+                      activityId: 8,
+                      benefitId: 17,
+                      benefitTitle: '1元话费红包',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                  ],
+                  groupId: 10009,
+                  groupTitle: '通信权益',
+                },
+              ],
+              packageTitle: '聚合页-话费测试（联通10元）',
+              tradeId: 202505142004471256,
+            },
+            {
+              benefitList: [],
+              groupList: [
+                {
+                  benefitList: [
+                    {
+                      activityId: 8,
+                      benefitId: 9,
+                      benefitTitle: '生活缴费',
+                      detailButton: { orderId: '', style: 2, subTitle: '已领取', title: '已领取', type: 5 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                    {
+                      activityId: 8,
+                      benefitId: 10,
+                      benefitTitle: '话费红包券0.2元',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                    {
+                      activityId: 8,
+                      benefitId: 11,
+                      benefitTitle: '饿了么红包',
+                      detailButton: { orderId: '', style: 1, subTitle: '去使用', title: '去使用', type: 6 },
+                      getType: 1,
+                      iconImg: '',
+                      linkUrl: 'http://www.baidu.com',
+                    },
+                  ],
+                  groupId: 10007,
+                  groupTitle: '生活权益',
+                },
+                {
+                  benefitList: [
+                    {
+                      activityId: 8,
+                      benefitId: 12,
+                      benefitTitle: '腾讯会员',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                    {
+                      activityId: 8,
+                      benefitId: 13,
+                      benefitTitle: '优酷会员',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                    {
+                      activityId: 8,
+                      benefitId: 14,
+                      benefitTitle: '爱奇艺会员',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                  ],
+                  groupId: 10008,
+                  groupTitle: '视频会员',
+                },
+                {
+                  benefitList: [
+                    {
+                      activityId: 8,
+                      benefitId: 15,
+                      benefitTitle: '1G流量',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                    {
+                      activityId: 8,
+                      benefitId: 16,
+                      benefitTitle: '50条短信',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                    {
+                      activityId: 8,
+                      benefitId: 17,
+                      benefitTitle: '1元话费红包',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                  ],
+                  groupId: 10009,
+                  groupTitle: '通信权益',
+                },
+              ],
+              packageTitle: '聚合页-话费测试（联通10元）',
+              tradeId: 202505132004471254,
+            },
+            {
+              benefitList: [],
+              groupList: [
+                {
+                  benefitList: [
+                    {
+                      activityId: 8,
+                      benefitId: 9,
+                      benefitTitle: '生活缴费',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                    {
+                      activityId: 8,
+                      benefitId: 10,
+                      benefitTitle: '话费红包券0.2元',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                    {
+                      activityId: 8,
+                      benefitId: 11,
+                      benefitTitle: '饿了么红包',
+                      detailButton: { orderId: '', style: 1, subTitle: '去使用', title: '去使用', type: 6 },
+                      getType: 1,
+                      iconImg: '',
+                      linkUrl: 'http://www.baidu.com',
+                    },
+                  ],
+                  groupId: 10007,
+                  groupTitle: '生活权益',
+                },
+                {
+                  benefitList: [
+                    {
+                      activityId: 8,
+                      benefitId: 12,
+                      benefitTitle: '腾讯会员',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                    {
+                      activityId: 8,
+                      benefitId: 13,
+                      benefitTitle: '优酷会员',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                    {
+                      activityId: 8,
+                      benefitId: 14,
+                      benefitTitle: '爱奇艺会员',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                  ],
+                  groupId: 10008,
+                  groupTitle: '视频会员',
+                },
+                {
+                  benefitList: [
+                    {
+                      activityId: 8,
+                      benefitId: 15,
+                      benefitTitle: '1G流量',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                    {
+                      activityId: 8,
+                      benefitId: 16,
+                      benefitTitle: '50条短信',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                    {
+                      activityId: 8,
+                      benefitId: 17,
+                      benefitTitle: '1元话费红包',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                  ],
+                  groupId: 10009,
+                  groupTitle: '通信权益',
+                },
+              ],
+              packageTitle: '聚合页-话费测试（联通10元）',
+              tradeId: 202505132004471253,
+            },
+            {
+              benefitList: [],
+              groupList: [
+                {
+                  benefitList: [
+                    {
+                      activityId: 8,
+                      benefitId: 9,
+                      benefitTitle: '生活缴费',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                    {
+                      activityId: 8,
+                      benefitId: 10,
+                      benefitTitle: '话费红包券0.2元',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                    {
+                      activityId: 8,
+                      benefitId: 11,
+                      benefitTitle: '饿了么红包',
+                      detailButton: { orderId: '', style: 1, subTitle: '去使用', title: '去使用', type: 6 },
+                      getType: 1,
+                      iconImg: '',
+                      linkUrl: 'http://www.baidu.com',
+                    },
+                  ],
+                  groupId: 10007,
+                  groupTitle: '生活权益',
+                },
+                {
+                  benefitList: [
+                    {
+                      activityId: 8,
+                      benefitId: 12,
+                      benefitTitle: '腾讯会员',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                    {
+                      activityId: 8,
+                      benefitId: 13,
+                      benefitTitle: '优酷会员',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                    {
+                      activityId: 8,
+                      benefitId: 14,
+                      benefitTitle: '爱奇艺会员',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                  ],
+                  groupId: 10008,
+                  groupTitle: '视频会员',
+                },
+                {
+                  benefitList: [
+                    {
+                      activityId: 8,
+                      benefitId: 15,
+                      benefitTitle: '1G流量',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                    {
+                      activityId: 8,
+                      benefitId: 16,
+                      benefitTitle: '50条短信',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                    {
+                      activityId: 8,
+                      benefitId: 17,
+                      benefitTitle: '1元话费红包',
+                      detailButton: { orderId: '', style: 1, subTitle: '领取', title: '点击领取', type: 3 },
+                      getType: 0,
+                      iconImg: '',
+                      linkUrl: '',
+                    },
+                  ],
+                  groupId: 10009,
+                  groupTitle: '通信权益',
+                },
+              ],
+              packageTitle: '聚合页-话费测试（联通10元）',
+              tradeId: 202505132004471252,
+            },
+          ],
+          ruleImg: '',
+          topImg: '',
+        },
+      },
+      msg: '成功',
+      noOrderPlace: false,
+      success: true,
+    };
+  }
   return {
     code: 200,
     data: {
