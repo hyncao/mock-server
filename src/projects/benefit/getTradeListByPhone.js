@@ -11,7 +11,7 @@ module.exports = (req) =>
           provinceOperatorName: '@province@pick(["联通", "电信", "移动"])',
           skuTitle: '@province@pick(["联通", "电信", "移动"])@cword(3, 5)',
           tradeId: /\d{10}/,
-          'tradeStatus|1': [0, 1, 2, -2],
+          'tradeStatus|1': [1, 2],
           'tradeStatusMsg|1': ['受理中', '生效中', '已退款'],
           tradeTime: '@datetime',
         },

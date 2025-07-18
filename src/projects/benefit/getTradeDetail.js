@@ -9,7 +9,7 @@ module.exports = (req) =>
         opCommId: '运营商商品ID', // 运营商商品ID
         operatorCode: 1,
         outBenefitUrl: '',
-        packageId: 1004503,
+        packageId: 1004785,
         payment: 0,
         phMiddle: '5663', // 脱敏四位
         phoneNumber: '130****0510',
@@ -23,7 +23,7 @@ module.exports = (req) =>
         sourceAppPackage: '包名', // app包名
         isvTitle: '1111', // 运营商商品名称
         tradeCreateTime: '2023-12-27 15:16:51',
-        tradeStatus: 2,
+        tradeStatus: -2,
         tradeStatusMsg: '办理成功',
         unsubscribe: false,
       },

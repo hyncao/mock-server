@@ -25,6 +25,11 @@ module.exports = (req) => {
           itemid: 'AP-12b897df74634a99ae896e914fd19634',
           sign: 'a38c234a108220473690d19bc3b91154',
           profile: 'rel',
+          ayyToken: '1112222',
+
+          // 四川电信
+          csbSessionID: '5e6b63e666794d55ab0b84cbe19036c6',
+          threeDesKey: '9E742754EEBC4AF39EFFEFE3',
         },
       },
     },

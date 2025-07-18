@@ -7,7 +7,7 @@ module.exports = (req) =>
       {
         allCount: 1,
         cycleOrderRecordId: '',
-        detailButton: { orderId: '', style: 1, title: '去领取', type: 6 },
+        detailButton: { orderId: '', style: 1, title: '去领取', type: 3 },
         detailImgs: null,
         frontExtInfo: { equityTitle: '标题', equityTips: 'tips' },
         groupType: null,
@@ -28,7 +28,7 @@ module.exports = (req) =>
       {
         allCount: 1260,
         cycleOrderRecordId: '',
-        detailButton: { orderId: '', style: 1, title: '去领取', type: 6 },
+        detailButton: { orderId: '', style: 1, title: '去领取', type: 3 },
         detailImgs: null,
         frontExtInfo: { equityTitle: '标题', equityTips: 'tips' },
         groupType: null,

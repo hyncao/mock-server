@@ -82,6 +82,8 @@ module.exports = (req) => {
                             agreementName: '',
                             categoryId: 0,
                             cnId: 10015,
+                            channelBrand:
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/channelSupplier/channelBrand/1000275/2/519.png',
                             detailImgs: [''],
                             externalLinkUrl: '',
                             failurePrompt: '提交异常，请重试',
@@ -169,6 +171,8 @@ module.exports = (req) => {
                             agreementName: '',
                             categoryId: 0,
                             cnId: 10015,
+                            channelBrand:
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/channelSupplier/channelBrand/1000275/2/519.png',
                             detailImgs: [''],
                             externalLinkUrl: '',
                             failurePrompt: '提交异常，请重试',
@@ -256,6 +260,8 @@ module.exports = (req) => {
                             agreementName: '',
                             categoryId: 0,
                             cnId: 10015,
+                            channelBrand:
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/channelSupplier/channelBrand/1000275/2/519.png',
                             detailImgs: [''],
                             externalLinkUrl: '',
                             failurePrompt: '提交异常，请重试',
@@ -354,6 +360,8 @@ module.exports = (req) => {
                             agreementName: '订购须知',
                             categoryId: 0,
                             cnId: 10015,
+                            channelBrand:
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/channelSupplier/channelBrand/1000275/2/519.png',
                             detailImgs: [
                               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/7867/8254/rule.png',
                             ],
@@ -465,6 +473,8 @@ module.exports = (req) => {
                             agreementName: '',
                             categoryId: 0,
                             cnId: 10015,
+                            channelBrand:
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/channelSupplier/channelBrand/1000275/2/519.png',
                             detailImgs: [
                               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/9443/12567/rule.png',
                             ],
@@ -571,6 +581,8 @@ module.exports = (req) => {
                             agreementName: '',
                             categoryId: 0,
                             cnId: 10015,
+                            channelBrand:
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/channelSupplier/channelBrand/1000275/2/519.png',
                             detailImgs: [
                               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/8137/9277/rule.png',
                             ],
@@ -698,6 +710,8 @@ module.exports = (req) => {
                             agreementName: '',
                             categoryId: 0,
                             cnId: 10015,
+                            channelBrand:
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/channelSupplier/channelBrand/1000275/2/519.png',
                             detailImgs: [
                               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/9443/12567/rule.png',
                             ],
@@ -804,6 +818,8 @@ module.exports = (req) => {
                             agreementName: '',
                             categoryId: 0,
                             cnId: 10015,
+                            channelBrand:
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/channelSupplier/channelBrand/1000275/2/519.png',
                             detailImgs: [
                               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/8137/9277/rule.png',
                             ],
@@ -910,6 +926,8 @@ module.exports = (req) => {
                             agreementName: '',
                             categoryId: 0,
                             cnId: 10015,
+                            channelBrand:
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/channelSupplier/channelBrand/1000275/2/519.png',
                             detailImgs: [
                               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/9534/12891/rule.png',
                             ],
@@ -1016,6 +1034,8 @@ module.exports = (req) => {
                             agreementName: '',
                             categoryId: 0,
                             cnId: 10015,
+                            channelBrand:
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/channelSupplier/channelBrand/1000275/2/519.png',
                             detailImgs: [
                               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/9536/12893/rule.png',
                             ],
@@ -1122,6 +1142,8 @@ module.exports = (req) => {
                             agreementName: '',
                             categoryId: 0,
                             cnId: 10015,
+                            channelBrand:
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/channelSupplier/channelBrand/1000275/2/519.png',
                             detailImgs: [
                               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/6131/4735/rule.png',
                             ],
@@ -1227,6 +1249,8 @@ module.exports = (req) => {
                             agreementName: '',
                             categoryId: 0,
                             cnId: 10015,
+                            channelBrand:
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/channelSupplier/channelBrand/1000275/2/519.png',
                             detailImgs: [
                               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/6244/4898/rule.png',
                             ],
@@ -1334,6 +1358,8 @@ module.exports = (req) => {
                             agreementName: '',
                             categoryId: 0,
                             cnId: 10015,
+                            channelBrand:
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/channelSupplier/channelBrand/1000275/2/519.png',
                             detailImgs: [
                               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/6243/4238/rule.png',
                             ],
@@ -1440,6 +1466,8 @@ module.exports = (req) => {
                             agreementName: '',
                             categoryId: 0,
                             cnId: 10015,
+                            channelBrand:
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/channelSupplier/channelBrand/1000275/2/519.png',
                             detailImgs: [
                               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/6130/4734/rule.png',
                             ],
@@ -1553,6 +1581,8 @@ module.exports = (req) => {
                             agreementName: '',
                             categoryId: 0,
                             cnId: 10015,
+                            channelBrand:
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/channelSupplier/channelBrand/1000275/2/519.png',
                             detailImgs: [
                               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/8145/9276/rule.png',
                             ],
@@ -1667,6 +1697,8 @@ module.exports = (req) => {
                             agreementName: '订购须知',
                             categoryId: 0,
                             cnId: 10015,
+                            channelBrand:
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/channelSupplier/channelBrand/1000275/2/519.png',
                             detailImgs: [
                               'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/7867/8254/rule.png',
                             ],
@@ -1772,6 +1804,8 @@ module.exports = (req) => {
                             agreementName: '',
                             categoryId: 0,
                             cnId: 10015,
+                            channelBrand:
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/channelSupplier/channelBrand/1000275/2/519.png',
                             detailImgs: [''],
                             externalLinkUrl: '',
                             failurePrompt: '提交异常，请重试',
@@ -1874,6 +1908,8 @@ module.exports = (req) => {
                             agreementName: '',
                             categoryId: 0,
                             cnId: 10015,
+                            channelBrand:
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/channelSupplier/channelBrand/1000275/2/519.png',
                             detailImgs: [''],
                             externalLinkUrl: '',
                             failurePrompt: '提交异常，请重试',
@@ -1976,6 +2012,8 @@ module.exports = (req) => {
                             agreementName: '',
                             categoryId: 0,
                             cnId: 10015,
+                            channelBrand:
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/channelSupplier/channelBrand/1000275/2/519.png',
                             detailImgs: [''],
                             externalLinkUrl: '',
                             failurePrompt: '提交异常，请重试',
@@ -2078,6 +2116,8 @@ module.exports = (req) => {
                             agreementName: '',
                             categoryId: 0,
                             cnId: 10015,
+                            channelBrand:
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/channelSupplier/channelBrand/1000275/2/519.png',
                             detailImgs: [''],
                             externalLinkUrl: '',
                             failurePrompt: '提交异常，请重试',
@@ -2180,6 +2220,8 @@ module.exports = (req) => {
                             agreementName: '',
                             categoryId: 0,
                             cnId: 10015,
+                            channelBrand:
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/channelSupplier/channelBrand/1000275/2/519.png',
                             detailImgs: [''],
                             externalLinkUrl: '',
                             failurePrompt: '提交异常，请重试',
@@ -2282,6 +2324,8 @@ module.exports = (req) => {
                             agreementName: '',
                             categoryId: 0,
                             cnId: 10015,
+                            channelBrand:
+                              'https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/channelSupplier/channelBrand/1000275/2/519.png',
                             detailImgs: [''],
                             externalLinkUrl: '',
                             failurePrompt: '提交异常，请重试',
