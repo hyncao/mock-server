@@ -201,6 +201,7 @@ module.exports = (req) => {
         marketingTitle: '小程序测试',
         msg: '获取成功',
         ruleImg: 'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketing/100186/rule_img.png',
+        skuItem: {},
         skuItemList: [
           {
             categoryId: 3,

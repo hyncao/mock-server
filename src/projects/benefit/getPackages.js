@@ -20,6 +20,221 @@ module.exports = (req) => {
     }
     return defaultPath;
   };
+  return {
+    "code": 200,
+    "data": {
+        "dataList": [],
+        "dataMap": {
+            "blackList": false,
+            "categoryPackageList": [],
+            "hasProduct": true,
+            "marketingFlag": true,
+            "msg": "有商品",
+            "noProduct": false,
+            "operatorCode": 3,
+            "phoneNumber": "181hdjfad22",
+            "provinceId": 43,
+            "provinceName": "湖南",
+            "provinceOperatorName": "湖南电信",
+            "showPackageInfo": null,
+            "showPackageList": [
+                {
+                    "categoryId": 1,
+                    "detailImg": "",
+                    "firstPriority": -10000,
+                    "frontExtInfo": {},
+                    "headerImg": "",
+                    "marketingFlag": true,
+                    "marketingTitle": "30元20GB月包202404",
+                    "packageId": 1003927,
+                    "packageMutexGroups": "",
+                    "priority": 4,
+                    "productAttributes": 0,
+                    "productEntryId": 0,
+                    "productId": "",
+                    "quotaLimit": 3,
+                    "routeGroup": "",
+                    "sendSms": true,
+                    "showItemList": [
+                        {
+                            "detailImg": "",
+                            "formInfo": null,
+                            "hideType": 0,
+                            "indexImg": "",
+                            "itemId": 103774,
+                            "listImg": "",
+                            "maxShowSkuNum": 10,
+                            "optional": true,
+                            "packagerId": 0,
+                            "skuRanks": 0,
+                            "skus": [
+                                {
+                                    "agreementName": "订购须知",
+                                    "agreementNameSuffix": "。",
+                                    "agreementShowLimit": 1,
+                                    "buttonImg": "https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/marketing/100001/skus/11208/101024/buttonImg.png",
+                                    "buttonText": "立即办理",
+                                    "category": "",
+                                    "categoryId": 0,
+                                    "channelBrand": "https://chaac.oss-cn-hangzhou.aliyuncs.com/564c80e7270ffd840dea7334b63655b942e_20250725222628.jpg",
+                                    "channelProductMainTitle": "",
+                                    "channelProductSubTitle": "",
+                                    "cnId": 10080,
+                                    "confInfo": null,
+                                    "defaultChoose": 0,
+                                    "detailImgs": [
+                                        "https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/marketing/100001/skus/11208/101024/ruleImg.png"
+                                    ],
+                                    "dialType": 0,
+                                    "enterLocation": "",
+                                    "errorToast": {
+                                        "authErrorToast": "",
+                                        "orderErrorToast": "",
+                                        "sendShortMessageErrorToast": "",
+                                        "tradeErrorToast": ""
+                                    },
+                                    "externalLinkUrl": "",
+                                    "extraConfig": {
+                                        "autoSendSmsCode": false,
+                                        "autoSubmitOrder": false,
+                                        "bulletComment": false
+                                    },
+                                    "failurePrompt": "提交异常，请重试",
+                                    "frontExtInfo": {
+                                        "exit": "可退订，次月生效",
+                                        "flowNum": "20GB",
+                                        "subTitle": "仅需30元",
+                                        "enableType": "立即生效",
+                                        "mainTitle": "20GB 月包",
+                                        "enableTime": "可结转至次月继续使用（退订后不可结转）",
+                                        "renewDesc": "自动续订",
+                                        "detail": "1、全国通用流量30元20G月包（主副卡共享），月基本费30元，含全国流量20GB。\r\n2、主副卡均可订购，包内流量主副卡共享，同一档位包月包不可重复订购。该流量包不具备提速功能。\r\n3、订购立即生效，按月自动续订，订购当月功能费全额计扣，流量全额提供，变更、退订、次月生效，退订后再次订购次月生效。\r\n4、包内当月剩余流量可结转至次月继续使用（退订后不可结转），次月底未使用完的结转流量清零。\r\n5、流量包内流量为国内流量，限在中国大陆境内（不含港澳台地区）使用，不含WLAN（Wi-Fi）上网。",
+                                        "flowName": "月包",
+                                        "crossMonth": "0",
+                                        "tips": "",
+                                        "flowPrice": "30元"
+                                    },
+                                    "headerImg": "https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/marketing/100001/skus/11208/101024/headImg.png",
+                                    "iconImg": "",
+                                    "isReadOnly": 0,
+                                    "isvTitle": "",
+                                    "itemId": 103774,
+                                    "listImg": "https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/marketing/100001/skus/11208/101024/productImg.png",
+                                    "logoImg": "",
+                                    "marketingSkuTip": null,
+                                    "marketingSkuTitle": "30元20GB月包202404",
+                                    "packageItemGroupId": 0,
+                                    "packageItemGroupName": "",
+                                    "payChannelList": [
+                                        {
+                                            "browserType": "",
+                                            "channelGroup": "",
+                                            "cnId": 10080,
+                                            "cnName": "信息流H5",
+                                            "createTime": "2024-11-19 15:45:45",
+                                            "dateParams": null,
+                                            "delFlag": false,
+                                            "extendData": {},
+                                            "iconImg": "",
+                                            "id": 130,
+                                            "isAsc": "",
+                                            "orderByColumn": "",
+                                            "payType": 0,
+                                            "searchValue": "",
+                                            "showName": "话费支付",
+                                            "timeParams": null,
+                                            "updateTime": "2024-11-19 15:45:51"
+                                        }
+                                    ],
+                                    "payType": 0,
+                                    "pluginBackgroundImg": "",
+                                    "pluginProductImg": "",
+                                    "pocTitle": "",
+                                    "pocTitleTwo": "",
+                                    "price": 30.00,
+                                    "productAttributes": 19,
+                                    "productAttributesName": "充流量",
+                                    "productEntryId": 25,
+                                    "productEntryName": "月包",
+                                    "promoteScore": 0.0,
+                                    "ranks": -10000,
+                                    "servicePhoneType": 0,
+                                    "skuId": 11208,
+                                    "skuImg": "",
+                                    "skuProps": {
+                                        "合约": "11111111111111111111"
+                                    },
+                                    "skuUserAgreements": [
+                                        {
+                                            "agreement": "",
+                                            "agreementName": "订购须知",
+                                            "agreementNameSuffix": "。",
+                                            "cnId": 0,
+                                            "createTime": null,
+                                            "dateParams": null,
+                                            "defaultChoose": 0,
+                                            "delFlag": false,
+                                            "enable": false,
+                                            "enterId": 0,
+                                            "extendData": {},
+                                            "id": 11377,
+                                            "isAsc": "",
+                                            "orderByColumn": "",
+                                            "searchValue": "",
+                                            "showLimit": 0,
+                                            "skuId": 0,
+                                            "templateType": 0,
+                                            "timeParams": null,
+                                            "updateTime": null
+                                        }
+                                    ],
+                                    "submitOrderLinkConfigLinkType": 0,
+                                    "submitOrderLinkConfigLinkUrl": "",
+                                    "submitOrderLinkConfigWindowText": "",
+                                    "supplierServicePhone": "4000002967",
+                                    "tabId": 0,
+                                    "taobaoProductId": "",
+                                    "taobaoProducts": [
+                                        {
+                                            "productId": "794570378277",
+                                            "enterName": "czjgy"
+                                        },
+                                        {
+                                            "productId": "30000001147001",
+                                            "enterName": "tbhd"
+                                        },
+                                        {
+                                            "productId": "30000001142002",
+                                            "enterName": "tbhd2"
+                                        }
+                                    ],
+                                    "templateType": 0,
+                                    "tip": "",
+                                    "tipTemplate": {
+                                        "picUrl": "https://chaac.oss-cn-hangzhou.aliyuncs.com/upload/temporary/100001/skus/11208/tipTemplate/10080/tipPic.png",
+                                        "tipTemplateFormTitle": "30元20G月包",
+                                        "showPhoneNumber": 0,
+                                        "ejectTiming": 1
+                                    },
+                                    "title": "电信-湖南30元20GB月包202404"
+                                }
+                            ],
+                            "title": "电信-湖南30元20GB月包202404"
+                        }
+                    ],
+                    "smsLength": 4,
+                    "success": true,
+                    "tabId": 1
+                }
+            ],
+            "status": 1,
+            "tabPackageList": []
+        }
+    },
+    "msg": "成功",
+    "noOrderPlace": false,
+    "success": true
+}
   
   // return {
   //   code: 200,
@@ -396,7 +611,7 @@ module.exports = (req) => {
                       createTime: '2025-04-01 14:07:29',
                       dateParams: null,
                       delFlag: false,
-                      ejectTiming: 0,
+                      ejectTiming: 1,
                       enterId: 0,
                       extendData: {},
                       id: 174,

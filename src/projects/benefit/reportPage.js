@@ -8,7 +8,7 @@ module.exports = (req) => {
     "data": {
         "dataList": [],
         "dataMap": {
-            "pageUrl": "/newsfeed",
+            "pageUrl": "/proxyInvestShowVerify",
             "phoneNumber": "15679371830",
             "skuReportItem": {
                 "agreementName": "业务受理协议",

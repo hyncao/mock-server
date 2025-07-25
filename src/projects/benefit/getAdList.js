@@ -139,6 +139,7 @@ module.exports = (req) => {
             updateTime: '2025-07-09 14:10:13',
           },
         ],
+        adList: [],
         adSize: '',
         adType: '',
         align: 'L',

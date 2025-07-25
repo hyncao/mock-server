@@ -4,7 +4,8 @@ module.exports = (req) => ({
     dataList: [],
     dataMap: {
       msg: '领取中',
-      status: 1,
+      status: 2,
+      // cardNumber: '1'
     },
   },
   msg: '成功',
