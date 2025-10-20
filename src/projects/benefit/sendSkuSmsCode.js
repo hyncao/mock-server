@@ -9,6 +9,7 @@ module.exports = (req) => ({
       success: Random.boolean(),
       success: true,
       pageUrl: 'http://gx.189.cn/accept/p/1dqGrAuxQov33C',
+      smsSerialNum: '111222',
     },
   },
   msg: '成功',

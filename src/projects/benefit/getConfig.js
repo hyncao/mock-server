@@ -5,6 +5,7 @@ module.exports = (req) => {
       dataList: [],
       dataMap: {
         category: '',
+        timestamp: '1709194547490',
         confInfo: {
           // clienttype: '3',
           // getTokenUrl: 'https://live.bol.wo.cn/cap/CAP-AUTH.html',

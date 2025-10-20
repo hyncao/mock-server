@@ -385,4 +385,20 @@ module.exports = [
     description: '获取抽奖结果',
     delay: 0,
   },
+  {
+    name: 'getHubOrderId',
+    method: 'post',
+    url: `${URI}getHubOrderId`,
+    response: require('./getHubOrderId'),
+    description: '获取HUB单号',
+    delay: 0,
+  },
+  {
+    name: 'logSls',
+    method: 'post',
+    url: `${URI}frontend-sdk/log-sls`,
+    response: require('./logSls'),
+    description: '埋点',
+    delay: 0,
+  },
 ];

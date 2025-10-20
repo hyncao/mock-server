@@ -95,5 +95,25 @@
       "url": ""
     }
   ],
-  "lifeSlogan": "关注VV生活号轻松省钱惠生活"
+  "lifeSlogan": "关注VV生活号轻松省钱惠生活",
+  "v3ManageListQingxiang": [
+    {
+      "id": "service",
+      "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/2025-09/manage-service.png",
+      "text": "在线客服",
+      "url": "https://cschat.antcloud.com.cn/index.htm?tntInstId=Bdg_Yapf&scene=SCE01218963"
+    },
+    {
+      "id": "memberRule",
+      "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/2025-09/manage-icon-rule.png",
+      "text": "会员规则",
+      "url": ""
+    },
+    {
+      "id": "exit",
+      "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/2025-09/manage-ext.png",
+      "text": "会员退订",
+      "url": ""
+    }
+  ]
 }

@@ -9,7 +9,7 @@ module.exports = (req) =>
         opCommId: '运营商商品ID', // 运营商商品ID
         operatorCode: 1,
         outBenefitUrl: '',
-        packageId: 1004785,
+        packageId: 1005744,
         payment: 0,
         phMiddle: '5663', // 脱敏四位
         phoneNumber: '130****0510',

@@ -11,7 +11,7 @@ module.exports = (req) => {
     data: {
       dataList: [],
       dataMap: {
-        msg: '交易创建成功',
+        msg: '交易创建成功11',
         status: Random.integer(1, 2),
         status: 1,
         tradeId: '202002180200319748',

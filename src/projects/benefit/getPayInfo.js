@@ -5,8 +5,8 @@ module.exports = (req) => {
       dataList: [],
       dataMap: {
         confirmParams: '',
-        // confirmType: 'iframe',
-        // confirmUrl: 'http://127.0.0.1:8888/test/index.html',
+        confirmType: 'sdk',
+        confirmUrl: '',
         linkeUrl: '',
         msg: '请支付',
         openMode: 'nopay',
