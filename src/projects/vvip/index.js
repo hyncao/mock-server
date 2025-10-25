@@ -474,4 +474,12 @@ module.exports = [
     description: '简化版getTradeDetail',
     delay: 0,
   },
+  {
+    name: 'getPhoneNumber',
+    method: 'post',
+    url: `${URIV3}get.phone.number`,
+    response: require('./v3GetPhoneNumber'),
+    description: '获取手机号',
+    delay: 0,
+  },
 ];

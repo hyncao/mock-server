@@ -691,6 +691,7 @@ module.exports = (req) => {
             tradeId: 202505132004471252,
           },
         ],
+        goodsList: [],
         ruleImg: 'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/8/20250519/rule.png',
         topImg: 'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/8/20250519/top.png',
       },

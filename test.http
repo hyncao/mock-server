@@ -30,3 +30,13 @@ x-request-id: undefined
   "password": "12345678",
   "username": "65955299@qq.com"
 }
+
+###
+curl 'http://172.16.57.97:159/vvip/tiamat-api/openApi/get.package' \
+  -H 'content-type: application/x-www-form-urlencoded' \
+  -H 'accept-charset: utf-8' \
+  -H 'referer: https://2021002152610059.hybrid.alipay-eco.com/2021002152610059/dev/index.html#pages/vvip-v3/index?__appxPageId=1&type=vip&key=202510221621019961' \
+  -H 'user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 12_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 ChannelId(0) LyraVM Nebula  AlipayDefined(nt:WIFI,ws:360|0|undefined.0) AliApp(AP/10.5.62.0000) AlipayClient/10.5.62.0000 Language/zh-Hans AlipayIDE' \
+  -H 'connection: keep-alive' \
+  --data-raw 'appId=1220800091&appVersion=0.1.72&charset=UTF-8&memberType=2&method=tiamat.app.get.package.request&sign=98ae2ba248f47712c106224c072f4d60&signType=MD5&timestamp=2025-10-22%2016%3A21%3A02&token=231c5dd28437cd1a8ba7cad29fb0911f1000000009&version=1.0' \
+  --compressed

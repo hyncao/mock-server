@@ -64,7 +64,7 @@ module.exports = (req) => {
               'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/package/100008/10/100008/detailImg_153937515.png',
             headImg:
               'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/package/100001/10/100001/headImg_151357454.png',
-            headerImg:
+            headImg:
               'https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/mock/2025-09/headerImg.png',
             memberRule:
               'https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/mock/2025-09/memberRule.png',
