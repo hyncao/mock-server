@@ -1,119 +1,120 @@
 {
   "comments": "manageListVip 和 manageListBasic 字段是为了兼容老版本的, 找个时间可以干掉",
-  "backgroundColorVip": "#e2aa6a",
-  "backgroundColorBasic": "#1677ff",
-  "defaultUserName": "会员用户",
+  "lifeSlogan": "关注VV生活号轻松省钱惠生活",
   "defaultAvatar": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/default-avatar.png",
-  "manageCardBasic": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageCardBasic.png",
   "manageCardVip": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageCardVip.png",
   "manageListVip": [
     {
+      "url": "memberRule",
       "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconVip0.png",
-      "text": "会员规则",
-      "url": "memberRule"
+      "text": "会员规则"
     },
     {
+      "url": "billList",
       "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconVip3.png",
-      "text": "会员账单",
-      "url": "billList"
+      "text": "会员账单"
     },
     {
+      "url": "exit",
       "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconVip1.png",
-      "text": "会员退订",
-      "url": "exit"
+      "text": "会员退订"
     },
     {
+      "url": "https://cschat.antcloud.com.cn/index.htm?tntInstId=Bdg_Yapf&scene=SCE01218964",
       "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconVip2.png",
-      "text": "在线客服",
-      "url": "https://cschat.antcloud.com.cn/index.htm?tntInstId=Bdg_Yapf&scene=SCE01218964"
+      "text": "在线客服"
     }
-  ],
-  "manageListBasic": [
-    [
-      {
-        "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconBasic0.png",
-        "text": "会员规则",
-        "url": "memberRule"
-      },
-      {
-        "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconBasic1.png",
-        "text": "会员升级",
-        "url": "index"
-      }
-    ],
-    [
-      {
-        "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconBasic3.png",
-        "text": "在线客服",
-        "url": "https://cschat.antcloud.com.cn/index.htm?tntInstId=Bdg_Yapf&scene=SCE01218963"
-      }
-    ]
   ],
   "manageListVip2": [
     {
       "id": "service",
+      "url": "https://cschat.antcloud.com.cn/index.htm?tntInstId=Bdg_Yapf&scene=SCE01218964",
       "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconService.png",
-      "text": "在线客服",
-      "url": "https://cschat.antcloud.com.cn/index.htm?tntInstId=Bdg_Yapf&scene=SCE01218964"
+      "text": "在线客服"
     },
     {
       "id": "billList",
+      "url": "",
       "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconBillList.png",
-      "text": "会员账单",
-      "url": ""
+      "text": "会员账单"
     },
     {
       "id": "memberRule",
+      "url": "",
       "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconMemberRule.png",
-      "text": "会员规则",
-      "url": ""
+      "text": "会员规则"
     },
     {
       "id": "exit",
+      "url": "",
       "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconExit.png",
-      "text": "会员退订",
-      "url": ""
+      "text": "会员退订"
     }
+  ],
+  "defaultUserName": "会员用户",
+  "manageCardBasic": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageCardBasic.png",
+  "manageListBasic": [
+    [
+      {
+        "url": "memberRule",
+        "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconBasic0.png",
+        "text": "会员规则"
+      },
+      {
+        "url": "index",
+        "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconBasic1.png",
+        "text": "会员升级"
+      }
+    ],
+    [
+      {
+        "url": "https://cschat.antcloud.com.cn/index.htm?tntInstId=Bdg_Yapf&scene=SCE01218963",
+        "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconBasic3.png",
+        "text": "在线客服"
+      }
+    ]
   ],
   "manageListBasic2": [
     {
       "id": "upgrade",
+      "url": "",
       "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconUpgrade.png",
-      "text": "会员升级",
-      "url": ""
+      "text": "会员升级"
     },
     {
       "id": "service",
+      "url": "https://cschat.antcloud.com.cn/index.htm?tntInstId=Bdg_Yapf&scene=SCE01218963",
       "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconService.png",
-      "text": "在线客服",
-      "url": "https://cschat.antcloud.com.cn/index.htm?tntInstId=Bdg_Yapf&scene=SCE01218963"
+      "text": "在线客服"
     },
     {
       "id": "memberRule",
+      "url": "",
       "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/manageIconMemberRule.png",
-      "text": "会员规则",
-      "url": ""
+      "text": "会员规则"
     }
   ],
-  "lifeSlogan": "关注VV生活号轻松省钱惠生活",
+  "backgroundColorVip": "#e2aa6a",
+  "backgroundColorBasic": "#1677ff",
   "v3ManageListQingxiang": [
     {
       "id": "service",
+      "url": "https://cschat.antcloud.com.cn/index.htm?tntInstId=Bdg_Yapf&scene=SCE01218964",
       "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/2025-09/manage-service.png",
-      "text": "在线客服",
-      "url": "https://cschat.antcloud.com.cn/index.htm?tntInstId=Bdg_Yapf&scene=SCE01218963"
+      "text": "在线客服"
     },
     {
       "id": "memberRule",
+      "url": "",
       "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/2025-09/manage-icon-rule.png",
-      "text": "会员规则",
-      "url": ""
+      "text": "会员规则"
     },
     {
       "id": "exit",
+      "url": "",
       "icon": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/2025-09/manage-ext.png",
-      "text": "会员退订",
-      "url": ""
+      "text": "会员退订"
     }
-  ]
+  ],
+  "v3DefaultAvatar": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/2025-10/defaultAvatar.png"
 }

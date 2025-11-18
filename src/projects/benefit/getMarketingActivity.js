@@ -6,7 +6,56 @@ module.exports = (req) => {
       dataMap: {
         goodsList: [
           {
-            benefitList: [],
+            benefitList: [
+                  {
+                    activityId: 8,
+                    benefitId: 9,
+                    benefitTitle: '生活缴费',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/9/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 10,
+                    benefitTitle: '电费红包券2元',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '领取',
+                      title: '点击领取',
+                      type: 3,
+                    },
+                    getType: 0,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/10/20250519/iconImg.png',
+                    linkUrl: '',
+                  },
+                  {
+                    activityId: 8,
+                    benefitId: 11,
+                    benefitTitle: '饿了么红包',
+                    detailButton: {
+                      orderId: '',
+                      style: 1,
+                      subTitle: '去使用',
+                      title: '去使用',
+                      type: 6,
+                    },
+                    getType: 1,
+                    iconImg:
+                      'https://jujie-test.oss-cn-hangzhou.aliyuncs.com/upload/marketingActivityBenefit/11/20250519/iconImg.png',
+                    linkUrl: 'http://www.baidu.com',
+                  },
+                ],
             packageTitle: '123',
             tradeId: '',
           },
