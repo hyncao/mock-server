@@ -9,7 +9,7 @@ module.exports = (req) => {
       status: null,
       msg: '',
       isNew: false,
-      token: '231c5dd28437cd1a8ba7cad29fb0911f1000000009',
+      token: 'v3token',
       tokenValidityTime: moment().add(1, 'days').format('x'),
       nickName: '海纳百川',
       avatar: 'https://tfs.alipayobjects.com/images/partner/TB1LH3aXBWiDuNjmeUwXXap2XXa',

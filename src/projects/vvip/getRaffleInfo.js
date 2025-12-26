@@ -1,9 +1,14 @@
+const { validToken, validTokenResponse } = require('../../utils');
+
 const raffleGroupType = {
   end: 0, // 月末活动
   middle: 1, // 月中活动
 };
 
 module.exports = (req) => {
+  if (!validToken(req, 'v2')) {
+    return validTokenResponse;
+  }
   // 大转盘
   // return {
   //   code: 1000,

@@ -1,4 +1,5 @@
 const Mock = require('mockjs');
+const { validToken, validTokenResponse } = require('../../utils');
 
 const UserSigningStatusMap = {
   exiting: 0,
@@ -12,12 +13,15 @@ const MemberTypeMap = {
   basic: 1,
 };
 
-module.exports = (req) =>
-  Mock.mock({
+module.exports = (req) => {
+  if (!validToken(req)) {
+    return validTokenResponse;
+  }
+  return Mock.mock({
     code: 1000,
     msg: '响应信息:调用成功',
     response: {
-      status: UserSigningStatusMap.notSign,
+      status: UserSigningStatusMap.signed,
       msg: '被其他用户签约',
       tradeId: 123,
       memberType: MemberTypeMap.vip,
@@ -28,3 +32,4 @@ module.exports = (req) =>
       signed: false,
     },
   });
+};

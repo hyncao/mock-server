@@ -14,9 +14,20 @@ const utils = {
     const emptyList = required.filter((i) => !body[i]);
     if (emptyList.length) {
       result = false;
-      msg = emptyList.reduce((prev, next) => `${prev}${next}, `, `${path} 接口缺少参数: `);
+      msg = emptyList.reduce((prev, next) => `${prev}${next}, `, `接口缺少参数: `);
     }
     return { result, msg };
+  },
+
+  validToken: (req, version = 'v3') => {
+    const { token } = req.body;
+    if (token && token === `${version}token`) return true;
+    return false;
+  },
+
+  validTokenResponse: {
+    code: 500,
+    msg: 'token 无效',
   },
 };
 

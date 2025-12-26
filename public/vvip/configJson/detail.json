@@ -6,91 +6,39 @@
       "comments": "===== 注释: title 为新增字段, 是为该权益组的标题, title 以下字段暂时无用, 考虑到小程序版本更新延迟, 以后再移除 =====",
       "extraText": "领取后话费自动到账 每月仅限领取一张（二选一）",
       "itemGroup": [
-        {
-          "display": "flex",
-          "displayCount": 3
-        },
-        {
-          "display": "flex",
-          "displayCount": 2
-        }
+        { "display": "flex", "displayCount": 3 },
+        { "display": "flex", "displayCount": 2 }
       ]
     },
     {
       "title": "生活权益",
       "comments": "===== 注释: title 为新增字段, 是为该权益组的标题, title 以下字段暂时无用, 考虑到小程序版本更新延迟, 以后再移除 =====",
-      "itemGroup": [
-        {
-          "display": "flex",
-          "displayCount": 2
-        }
-      ]
+      "itemGroup": [{ "display": "flex", "displayCount": 2 }]
     }
   ],
   "cardBasic": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/detailCardBasic.png",
   "groupBasic": [
     {
       "itemGroup": [
-        {
-          "display": "flex",
-          "displayCount": 3
-        },
-        {
-          "display": "flex",
-          "displayCount": 2
-        }
+        { "display": "flex", "displayCount": 3 },
+        { "display": "flex", "displayCount": 2 }
       ]
     },
-    {
-      "itemGroup": [
-        {
-          "display": "flex",
-          "displayCount": 2
-        }
-      ]
-    }
+    { "itemGroup": [{ "display": "flex", "displayCount": 2 }] }
   ],
   "messageList": {
     "vip": [
-      {
-        "btn": "去支付",
-        "title": "月费未支付",
-        "subTitle": "权益已失效，支付会员费继续享权益"
-      },
-      {
-        "btn": "去领取",
-        "title": "会员卡待领取",
-        "subTitle": "加入卡包 快速领取话费"
-      },
-      {
-        "btn": "去关注",
-        "title": "关注生活号",
-        "subTitle": "关注生活号，第一时间接收动态资讯"
-      }
+      { "btn": "去支付", "title": "月费未支付", "subTitle": "权益已失效，支付会员费继续享权益" },
+      { "btn": "去领取", "title": "会员卡待领取", "subTitle": "加入卡包 快速领取话费" },
+      { "btn": "去关注", "title": "关注生活号", "subTitle": "关注生活号，第一时间接收动态资讯" }
     ],
     "basic": [
-      {
-        "btn": "去升级",
-        "title": "1.99元享5GB",
-        "subTitle": "2GB流量{n}个月后失效，1.99元升级5GB"
-      },
-      {
-        "btn": "去升级",
-        "title": "1.99元享5GB",
-        "subTitle": "2GB流量权益已到期，1.99元升级5GB"
-      },
+      { "btn": "去升级", "title": "1.99元享5GB", "subTitle": "2GB流量{n}个月后失效，1.99元升级5GB" },
+      { "btn": "去升级", "title": "1.99元享5GB", "subTitle": "2GB流量权益已到期，1.99元升级5GB" },
       {},
       {},
-      {
-        "btn": "去领取",
-        "title": "会员卡待领取",
-        "subTitle": "加入卡包 快速领取流量话费"
-      },
-      {
-        "btn": "去关注",
-        "title": "关注生活号",
-        "subTitle": "关注生活号，第一时间接收动态资讯"
-      }
+      { "btn": "去领取", "title": "会员卡待领取", "subTitle": "加入卡包 快速领取流量话费" },
+      { "btn": "去关注", "title": "关注生活号", "subTitle": "关注生活号，第一时间接收动态资讯" }
     ],
     "comments": "===== 注释: 付费和免费分别有自己的数组, 数组的顺序即为展示优先级, 按序遍历, 顺序极其重要 ====="
   },
@@ -107,14 +55,52 @@
   ],
   "basicEquityAd": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/basicEquityAd.png",
   "defaultAvatar": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/default-avatar.png",
-  "v3DefaultAvatar": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/2025-10/defaultAvatar.png",
   "defaultUserName": "会员用户",
+  "offlineModalBtn": "我知道了",
+  "offlineModalText": [
+    "尊敬的VV会员用户：",
+    "您好，由于业务调整，即日起下线风采版会员。",
+    "系统会陆续终止全体会员用户的会员扣费合约及服务，已完成扣费当月仍可享受会员权益与服务，次月起将不再收取会员费用并且关闭您会员身份。敬请关注和谅解。",
+    "如有疑问，请咨询在线客服。"
+  ],
   "detailBasicBottom": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/detailBasicBottom.png",
+  "offlineModalTitle": "VV会员风采版业务下线通知",
   "backgroundColorVip": "#e2aa6a",
+  "offlineNoticeTitle": "会员风采版业务下线通知",
   "messageAuthDateList": [1, 4, 25, 28],
   "backgroundColorBasic": "#ebf0f8",
   "navigationBarTitleVip": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/navigationLogoVip.png",
   "navigationBarTitleVip2": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/navigationLogoVip2.png",
   "navigationBarTitleBasic": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/navigationLogoBasic.png",
-  "navigationBarTitleBasic2": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/navigationLogoBasic2.png"
+  "navigationBarTitleBasic2": "https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/static/navigationLogoBasic2.png",
+  "offlineNoticeJson": {
+    "1": {
+      "title": "尊敬的会员，您办理的VV会员基础版业务即将于2025年12月18日下线。",
+      "content": [
+        "尊敬的会员：",
+        "您办理的VV会员基础版业务即将于2025年12月18日下线。下线后我们将关闭会员权益的供给，次月起将关闭您会员身份。",
+        "为避免临近期限领取通道拥堵，请您务必于2025年12月17日24:00前领取您12月的当月权益，敬请关注和谅解。若有其他疑问，请咨询在线客服。"
+      ],
+      "buttonText": "我知道了"
+    },
+    "2": {
+      "title": "尊敬的会员，您当前办理的VV会员尊享版即将进行全面升级，12月17日前，您仍可正常领取当月流量和话费等会员权益。",
+      "content": [
+        "尊敬的会员：",
+        "您当前办理的VV会员尊享版即将进行全面升级，12月17日前，您仍可正常领取当月流量和话费等会员权益，为避免临近期限领取通道拥堵，请及时领取。",
+        "12月18日至12月31日，流量和话费权益维护升级，暂不可领取。2026年1月起，您的会员身份将自动升级为耀享版会员。",
+        "若您无需会员服务，可随时发起会员服务退订。感谢您一直以来的支持，我们期待在新会员体系中继续为您服务。若有其他疑问，请咨询在线客服。"
+      ],
+      "buttonText": "我知道了"
+    },
+    "3": {
+      "title": "尊敬的会员，您办理的VV会员尊享版业务即将于2025年12月18日下线。下线后我们将关闭会员权益的供给，次月起将关闭您会员身份。",
+      "content": [
+        "尊敬的会员：",
+        "您办理的VV会员尊享版业务即将于2025年12月18日下线。下线后我们将关闭会员权益的供给，次月起将关闭您会员身份。",
+        "为避免临近期限领取通道拥堵，请您务必于2025年12月17日24:00前领取您12月的当月权益，敬请关注和谅解。若有其他疑问，请咨询在线客服。"
+      ],
+      "buttonText": "我知道了"
+    }
+  }
 }

@@ -1,12 +1,16 @@
 const Mock = require('mockjs');
+const { validToken, validTokenResponse } = require('../../utils');
 
 const statusMap = {
   success: 1,
   fail: -1,
 };
 
-module.exports = (req) =>
-  Mock.mock({
+module.exports = (req) => {
+  if (!validToken(req, 'v2')) {
+    return validTokenResponse;
+  }
+  return Mock.mock({
     code: 1000,
     msg: '响应信息:调用成功',
     response: {
@@ -22,3 +26,4 @@ module.exports = (req) =>
       ],
     },
   });
+};

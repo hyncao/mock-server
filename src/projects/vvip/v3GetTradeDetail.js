@@ -1,3 +1,5 @@
+const { validToken, validTokenResponse } = require('../../utils');
+
 const MemberTypeMap = {
   vip: 2,
   basic: 1,
@@ -306,7 +308,7 @@ responseVip = {
     msg: '已开通2天',
     tradeId: '202511060000000099',
     currentCycleNum: 1,
-    memberType: 4,
+    memberType: 1,
     packageInfo: {
       title: '黑金会员',
       packageId: 100017,
@@ -2147,6 +2149,9 @@ const error = {
 };
 
 module.exports = (req) => {
+  if (!validToken(req)) {
+    return validTokenResponse;
+  }
   // 如果是开发模式, 则读取public文件夹下的素材
   const isDevelopment = true;
   // const isDevelopment = false;

@@ -1,17 +1,16 @@
 const { validToken, validTokenResponse } = require('../../utils');
 
 module.exports = (req) => {
-  if (!validToken(req, 'v2')) {
+  if (!validToken(req)) {
     return validTokenResponse;
   }
   return {
     code: 1000,
     msg: '响应信息:调用成功',
     response: {
-      status: 1,
-      msg: '参加成功',
-      closeActivityAwardType: 3,
-      closeActivityRaffleId: '202401250000042677',
+      status: null,
+      msg: '',
+      isFollow: false,
     },
   };
 };

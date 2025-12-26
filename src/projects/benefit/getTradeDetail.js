@@ -6,10 +6,11 @@ module.exports = (req) =>
     data: {
       dataList: [],
       dataMap: {
-        opCommId: '运营商商品ID', // 运营商商品ID
+        skuExtInfo: "{\"extInfo\":{\"itemid\":\"AP-f82f2249b3d04cb888957e5ea09d3ee2\"},\"returnProduct\":{\"returnProductId\":\"\"}}",
+        opCommId: 'GD-eac3012ade26487ba123cbc357bb6e47', // 运营商商品ID
         operatorCode: 1,
         outBenefitUrl: '',
-        packageId: 10045033,
+        packageId: 1005449,
         payment: 0,
         phMiddle: '5663', // 脱敏四位
         phoneNumber: '130****0510',
@@ -17,13 +18,13 @@ module.exports = (req) =>
         provinceId: 33,
         provinceOperatorName: '浙江联通',
         servicePhoneNumber: '4000002967',
-        skuTitle: '电信权益',
+        skuTitle: '湖北生活会员（每天惠）25元月包',
         sourceAdvertisingPlatform: '来源平台', // 来源平台
         sourceApp: 'app名称', // app名称
         sourceAppPackage: '包名', // app包名
-        isvTitle: '1111', // 运营商商品名称
+        isvTitle: '湖北生活会员（每天惠）25元月包', // 运营商商品名称
         tradeCreateTime: '2023-12-27 15:16:51',
-        tradeStatus: 1,
+        tradeStatus: 2,
         tradeStatusMsg: '办理成功',
         unsubscribe: false,
       },

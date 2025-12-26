@@ -1,3 +1,5 @@
+const { validToken, validTokenResponse } = require('../../utils');
+
 const getList = (column) => {
   if (column == 2) {
     return [
@@ -67,15 +69,20 @@ const getList = (column) => {
   ];
 };
 
-module.exports = (req) => ({
-  code: 1000,
-  msg: '响应信息:调用成功',
-  response: {
-    status: 0,
-    msg: '调用成功',
-    columnId: 1,
-    showType: null,
-    adEntityList: getList(req.body.column),
-    adEntityList: []
-  },
-});
+module.exports = (req) => {
+  if (!validToken(req, 'v2')) {
+    return validTokenResponse;
+  }
+  return {
+    code: 1000,
+    msg: '响应信息:调用成功',
+    response: {
+      status: 0,
+      msg: '调用成功',
+      columnId: 1,
+      showType: null,
+      adEntityList: getList(req.body.column),
+      adEntityList: [],
+    },
+  };
+};

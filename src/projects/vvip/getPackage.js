@@ -1,5 +1,6 @@
 const address = require('address');
 const { port } = require('../../config');
+const { validToken, validTokenResponse } = require('../../utils');
 
 const FileNameMap = {
   // 头图
@@ -37,6 +38,10 @@ module.exports = (req) => {
     return defaultPath;
   };
 
+  if (!validToken(req, 'v2')) {
+    return validTokenResponse;
+  }
+
   return {
     code: 1000,
     msg: '响应信息:调用成功',
@@ -64,16 +69,13 @@ module.exports = (req) => {
               'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/package/100008/10/100008/detailImg_153937515.png',
             headImg:
               'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/package/100001/10/100001/headImg_151357454.png',
-            headerImg:
-              'https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/mock/2025-09/headerImg.png',
-            memberRule:
-              'https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/mock/2025-09/memberRule.png',
+            headerImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/mock/2025-09/headerImg.png',
+            memberRule: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/mock/2025-09/memberRule.png',
             navigationBarTitle:
               'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/package/100001/10/100001/navigationBarTitle_105451153.png',
             strategyGuide:
               'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/package/100008/10/100008/strategyGuide_112349127.png',
-            submitBtnImg:
-              'https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/mock/2025-09/submitBtnImg.png',
+            submitBtnImg: 'https://chaac.oss-cn-hangzhou.aliyuncs.com/vvip/mock/2025-09/submitBtnImg.png',
             submitMarketingImg:
               'https://chaac.oss-cn-hangzhou.aliyuncs.com/metaValue/1021/package/100008/10/100008/submitMarketingImg_152645335.png',
             tabImg:

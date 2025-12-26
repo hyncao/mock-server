@@ -1,5 +1,6 @@
 const address = require('address');
 const { port } = require('../../config');
+const { validToken, validTokenResponse } = require('../../utils');
 
 const FileNameMap = {
   // 头图
@@ -36,6 +37,10 @@ module.exports = (req) => {
     }
     return defaultPath;
   };
+
+  if (!validToken(req)) {
+    return validTokenResponse;
+  }
 
   return {
     code: 1000,
