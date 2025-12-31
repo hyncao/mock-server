@@ -849,7 +849,7 @@ const responseBasic = {
   msg: '响应信息:调用成功',
   response: {
     specialCloseType: 1, // 0:不弹窗，1:基础版会员解约，2:不活跃尊享版用户，3:活沃尊享版用户
-    status: tradeStatusMap.timeout,
+    status: tradeStatusMap.success,
     // status: tradeStatusMap.monthFee,
     msg: '连续包月，已开通7天',
     tradeId: '202207010000000305',

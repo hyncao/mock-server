@@ -46,7 +46,7 @@ let responseVip = {
   code: 1000,
   msg: '响应信息:调用成功',
   response: {
-    status: 1,
+    status: 0,
     msg: '连续包月，已开通4天',
     tradeId: '202509250000000031',
     currentCycleNum: 1,

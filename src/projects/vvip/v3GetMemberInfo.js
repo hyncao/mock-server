@@ -13,7 +13,7 @@ module.exports = (req) => {
     code: 1000,
     msg: '响应信息:调用成功',
     response: {
-      status: -3,
+      status: 0,
       msg: '连续包月，已开通2天',
       tradeId: '202510130000000056',
       currentCycleNum: 1,

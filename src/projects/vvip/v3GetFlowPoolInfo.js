@@ -37,7 +37,7 @@ module.exports = (req) => {
           subtitle: null,
           taskRecordId: '202512050000000338',
           operation: { productCode: '104208320105', providerAppId: '1278100099' },
-          status: 3,
+          status: 0,
           msg: '收取',
           params: {
             flowPool:
@@ -52,7 +52,7 @@ module.exports = (req) => {
           subtitle: null,
           taskRecordId: '202512050000000339',
           operation: { productCode: '104208320109', providerAppId: '1278100099' },
-          status: 3,
+          status: 0,
           msg: '收取',
           params: {
             flowPool:
@@ -67,7 +67,7 @@ module.exports = (req) => {
           subtitle: null,
           taskRecordId: null,
           operation: { productCode: '104208320108', providerAppId: '1278100099' },
-          status: 1,
+          status: 0,
           msg: '去完成',
           params: {
             flowPool:
